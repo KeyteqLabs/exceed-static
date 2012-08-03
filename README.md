@@ -1,7 +1,12 @@
 Exceed Static
 =============
 
-Static front end for Exceed
+Static front end for Exceed which uses Bootstrap from the ground up, and has alot cleaner and D.R.Y markup.
+
+
+View separate elements
+---------------------
+This prototype uses php include, so if you browse /raw/table.php you will see an include of raw-table.php (just markup) with CSS applied. This is to make it easier to work focused on single elements.
 
 
 Stack animations
