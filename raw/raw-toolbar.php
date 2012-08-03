@@ -1,0 +1,23 @@
+<nav id="toolbar">
+    <ul>
+        <li><a href="#"><b class="eze-home"></b>Dashboard</a></li>
+        <li><a href="#"><b class="eze-create"></b>Create</a>
+        <li><a href="#"><b class="eze-document"></b><span class="eze-status published"></span>Edit</a>
+            <div class="slide-in group">
+                    <a href="#"><b class="eze-document"></b>Edit page</a>
+                    <a href="#"><b class="eze-document"></b>Publish…</a>
+                    <a href="#"><b class="eze-document"></b>Layout…</a>
+            </div>
+        </li>
+        <li><a href="#"><b class="eze-search"></b>Find</a>
+            <div class="slide-in quick-action">
+                    Search here yo, and a button
+            </div>
+        </li>
+        <li><a href="#"><b class="eze-activity"></b>Activity</a></li>
+        <li><a href="#eze-mediabase"><b class="eze-media"></b>Media</a></li>
+        <li><a href="#"><b class="eze-sitemap"></b>Sitemap</a></li>
+        <li><a href="#"><b class="eze-settings"></b>Settings</a></li>
+        <li><a href="#"><b class="eze-more"></b>More</a></li>
+    </ul>
+</nav>

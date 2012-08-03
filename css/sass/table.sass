@@ -1,0 +1,111 @@
+@import mixins
+
+.eze
+
+    .eze-table-filters
+        height: 32px
+
+        p
+            font-size: 12px
+            line-height: 30px
+            float: left
+            margin: 0
+
+            a
+                color: #ff7200
+                text-decoration: underline
+
+        form
+            float: right
+            margin: 0
+
+            i
+                font-size: 20px
+                height: 20px
+                width: 20px
+
+    
+    table
+        border: 1px solid #ccc
+        text-align: left
+        width: 100%
+        //border-collapse: separate
+        border-bottom-left-radius: 4px
+        border-bottom-right-radius: 4px
+
+        thead tr
+            font-size: 11px
+            height: 25px
+            @include gradient(#fff, #ebebeb)
+
+            th
+                border: 0
+                border-bottom: 1px solid rgba(0,0,0,0.25)
+                padding: 6px 0
+
+        tbody tr
+            background: rgba(0,0,0,0.02)
+            height: 30px
+            font: normal 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+            @include transition(background, 0.2s)
+        
+            &:nth-child(even)
+                background: transparent
+        
+            &:hover
+                background: rgba(255,220,0,0.1)
+                cursor: pointer
+                
+            &.active
+                background: rgba(255,220,0,0.2)
+            &.publishing
+                background: rgba(118, 212, 31, 0.2)
+            &.deleting
+                background: rgba(255, 0, 0, 0.2)
+            
+            td
+                border-bottom: 1px solid #ccc
+                
+            &:last-child td
+                border-bottom: 0
+                
+            a
+                line-height: 30px
+                display: block
+        
+        .eze-table-check // Specific Cell Styles
+            padding: 0
+            width: 30px
+            vertical-align: middle
+                
+            label
+                height: 30px
+                width: 30px
+                padding: 10px
+                display: inline
+                
+            input
+                margin: 2px 8px 0 -3px
+        
+        
+        .eze-table-icon // Icons with information
+            width: 16px
+            padding: 0 10px
+            border-left: 1px solid #d4d4d4
+            text-align: center
+
+            i
+                font-size: 14px
+                
+
+        .eze-table-no-hits // Empty table
+            td
+                text-align: center
+                padding: 40px
+                font: normal 28px/28px 'Helvetica Neue UltraLight', 'HelveticaNeue-UltraLight', 'Helvetica Neue', 'HelveticaNeue', Helvetica, Arial, sans-serif
+            
+            &:hover
+                background: rgba(0,0,0,0.02)
+                cursor: default
+
+                

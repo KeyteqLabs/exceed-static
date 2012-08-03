@@ -1,0 +1,169 @@
+
+.eze
+
+
+	//	Attributes
+
+
+	.eze-object-translations
+		background: #fff
+		float: left
+		width: 100%
+
+		h1
+			font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+			margin: 20px 20px 10px 20px
+
+		ul
+			float: left
+			list-style: none
+			margin: 0 10px 0 20px
+
+			li
+				float: left
+				font: normal 12px/12px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin: 0 10px 10px 0
+
+				input
+					margin: -1px 5px 0 0
+
+
+	.eze-object-attributes
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		width: 60%
+		overflow-y: scroll
+		-webkit-overflow-scrolling: touch
+		z-index: 1
+		box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.1)
+		border-right: 1px solid #ccc
+
+		.eze-object-attribute-wrap  // Two and two attributes forms a grid
+			float: left
+			width: 100%
+			border-top: 1px solid #eee
+
+			.eze-object-attribute // One attribute
+				width: 49%
+				float: left
+				-moz-box-sizing: border-box
+				box-sizing: border-box
+				padding: 15px
+				border-left: 1px solid #eee
+
+				&.full-width
+					width: 100%
+
+				&:first-child
+					margin-right: -1px
+					border-left: 0
+					border-right: 1px solid #eee
+
+
+				// Default attribute elements ——————————————————————————
+
+				.heading
+					font: normal 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+					color: #444
+					margin-bottom: 10px
+
+				.description
+					font: normal 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+					margin: -5px 0 10px 0
+
+				.alert
+					font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+					margin: 0 0 15px 0
+
+				.language
+					font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+					margin: 0 0 10px 0
+
+					img
+						margin: -1px 5px 0 0
+
+
+		// All attributes ——————————————————————————
+		
+		.eze-string
+			input
+				width: 90%
+
+		.eze-select
+			select
+				width: 100%
+
+		.eze-date
+			input
+				width: 110px
+
+		.eze-image, .eze-dam
+			.thumbnail
+				margin: 0 0 10px 0
+				background: #fff
+
+
+
+
+
+
+
+
+
+	//	Sidebar
+
+	.eze-object-sidebar
+		background: #eee
+		position: absolute
+		top: 0
+		bottom: 0
+		right: 0
+		width: 40%
+		overflow-y: scroll
+		-webkit-overflow-scrolling: touch
+		padding: 10px
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+		.eze-container // For each sections inside the sidebar
+			border-top: 1px solid #fff
+			border-bottom: 1px solid #ccc
+			padding: 20px
+			margin: 0 -10px
+
+			&:first-child
+				border-top: 0
+				padding-top: 0
+
+			&.last
+				border-bottom: 0
+
+			h1
+				font: normal 15px/15px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin-bottom: 5px
+
+				i
+					margin: 0 5px 0 0
+
+			.description
+				font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+
+
+		.eze-state-container // For settings
+			border-top: 1px solid #ccc
+			padding: 9px 0 0 0
+
+			&:first-child
+				border: 0
+
+			h2
+				font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+
+			p
+				font: normal 11px/15px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+
+
+
+

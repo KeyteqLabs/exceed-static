@@ -1,0 +1,25 @@
+@mixin gradient($top, $bottom)
+    background-color: $bottom
+    background-image: -webkit-gradient(linear, left top, left bottom, from($top), to($bottom))
+    background-image: -webkit-linear-gradient(top, $top, $bottom)
+    background-image: -moz-linear-gradient(top, $top, $bottom)
+    background-image: -ms-linear-gradient(top, $top, $bottom)
+    background-image: -o-linear-gradient(top, $top, $bottom)
+    background-image: linear-gradient(top, $top, $bottom)
+
+@mixin gradient-horizontal($left, $right)
+    background-color: $left
+    background-image: -o-linear-gradient(left , $left 0%, $right 100%)
+    background-image: -moz-linear-gradient(left , $left 0%, $right 100%)
+    background-image: -webkit-linear-gradient(left , $left 0%, $right 100%)
+    background-image: -ms-linear-gradient(left , $left 0%, $right 100%)
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(0, $left),color-stop(1, $right))
+    background-image: linear-gradient(left , $left 0%, $right 100%)
+
+
+
+@mixin transition($style: all, $time: 0.2s, $type: ease-out)
+    -webkit-transition: $style $time $type
+    -moz-transition: $style $time $type
+    -o-transition: $style $time $type
+    transition: $style $time $type

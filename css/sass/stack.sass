@@ -1,0 +1,70 @@
+
+.eze
+
+
+	//	Stack
+
+	.eze-stack
+		margin: 0
+		list-style-type: none
+		position: fixed
+		right: 44px
+		left: 64px
+		min-width: 650px
+		max-width: 1100px
+
+		li
+			background: #ffd5a1
+			height: 30px
+			border-bottom: 1px solid #fff
+			padding: 0 0 0 15px
+			font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+
+			img
+				margin: 0 5px 0 0
+
+			&:nth-last-child(2)
+				background: #ffb365
+
+			&:nth-last-child(3)
+				background: #ffd5a1
+
+			&.last
+				height: 44px
+				margin-right: -44px
+				font: normal 16px/46px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				background: #ff8500
+				border-bottom: 0
+
+				img
+					margin-top: -2px
+
+			&.move-in
+				-moz-animation: stack-header-move-in 0.7s ease 1 normal
+				-webkit-animation: stack-header-move-in 0.7s ease 1 normal
+				-webkit-animation-delay: 2s
+
+			&.move-out
+				-moz-animation: stack-header-move-out 0.7s ease 1 normal
+				-webkit-animation: stack-header-move-out 0.7s ease 1 normal
+
+			.go-back
+				float: right
+				height: 44px
+				width: 44px
+				text-align: center
+
+	.eze-stack-content
+		position: absolute
+		left: 0
+		bottom: 0
+		min-width: 650px
+		right: 44px
+		max-width: 1100px
+		-moz-animation: fade-in 0.5s ease 1 normal
+		-webkit-animation: fade-in 0.9s ease 1 normal
+		-webkit-animation-delay: 2s
+
+		&.move-out
+			-moz-animation: stack-content-move-out 0.5s ease 1 normal
+			-webkit-animation: stack-content-move-out 1s ease 1 normal
