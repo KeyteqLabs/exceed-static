@@ -232,6 +232,85 @@
     box-shadow: 3px 0 0 0 rgba(0, 0, 0, 0.3);
     -webkit-animation: fade-in 0s ease-in 1;
     min-height: 100%; }
+.eze .eze-smallmodal {
+  position: absolute;
+  top: 50px;
+  left: 87px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  max-height: 600px;
+  width: 350px;
+  z-index: 60000;
+  padding: 15px; }
+  .eze .eze-smallmodal .arrow {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    bottom: 50%;
+    margin-top: -8px;
+    background: black; }
+  .eze .eze-smallmodal h1 {
+    font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    margin: 0 0 10px 0; }
+    .eze .eze-smallmodal h1 i {
+      margin: 0 5px 0 0; }
+  .eze .eze-smallmodal h2 {
+    font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    margin: 0 0 10px 0; }
+.eze .eze-activity-modal .btn-group {
+  margin: 0 0 10px 0; }
+.eze .eze-activity-modal .write-comment {
+  margin: 0 0 10px 0; }
+  .eze .eze-activity-modal .write-comment input {
+    width: 270px; }
+.eze .eze-publish-modal label.checkbox {
+  margin: 0 0 10px 0; }
+.eze .eze-publish-modal li i {
+  float: right; }
+.eze .eze-add-content-modal {
+  width: 580px; }
+.eze .eze-layout-modal {
+  width: 580px; }
+  .eze .eze-layout-modal .active-layout {
+    border: 3px solid orange; }
+  .eze .eze-layout-modal h2 {
+    margin: 20px 0 10px 0; }
+  .eze .eze-layout-modal .nav-pills {
+    margin: 0; }
+    .eze .eze-layout-modal .nav-pills li a {
+      background: white;
+      margin-right: 10px; }
+    .eze .eze-layout-modal .nav-pills li.active a {
+      background: black; }
+  .eze .eze-layout-modal .tab-content {
+    overflow: visible;
+    padding: 5px 0 0 0; }
+    .eze .eze-layout-modal .tab-content ul li .wrap {
+      height: 36px;
+      line-height: 36px; }
+      .eze .eze-layout-modal .tab-content ul li .wrap p {
+        width: 320px;
+        height: 36px;
+        float: left;
+        margin: 0;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+    .eze .eze-layout-modal .tab-content ul li .name {
+      width: 150px;
+      margin: 0 10px 0 0; }
+    .eze .eze-layout-modal .tab-content ul li select, .eze .eze-layout-modal .tab-content ul li .chzn-container {
+      width: 140px;
+      float: right;
+      margin: 5px 80px 0 0; }
+    .eze .eze-layout-modal .tab-content .add-new {
+      margin: 0; }
+      .eze .eze-layout-modal .tab-content .add-new select, .eze .eze-layout-modal .tab-content .add-new .chzn-container {
+        margin: 0; }
+      .eze .eze-layout-modal .tab-content .add-new .btn {
+        margin-top: -4px; }
 
 .eze .eze-stack {
   margin: 0;
@@ -287,6 +366,10 @@
     -moz-animation: stack-content-move-out 0.5s ease 1 normal;
     -webkit-animation: stack-content-move-out 1s ease 1 normal; }
 
+.eze a {
+  color: black; }
+  .eze a:hover {
+    text-decoration: none; }
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0; }
@@ -294,34 +377,82 @@
     margin: 0 0 5px 0;
     width: 100%;
     border-radius: 4px;
-    background: #cccccc;
-    height: 26px; }
+    background: #cccccc; }
     .eze .eze-items li .wrap {
       background: white;
       border: 1px solid #cccccc;
       border-radius: 4px;
       padding: 0 4px;
-      position: relative; }
+      position: relative;
+      height: 26px;
+      line-height: 26px; }
       .eze .eze-items li .wrap p {
         margin: 0 30px 0 0;
+        font-size: 12px;
         height: 26px;
-        line-height: 26px;
-        overflow: hidden;
-        font-size: 12px; }
-        .eze .eze-items li .wrap p small {
-          font-size: 11px; }
-        .eze .eze-items li .wrap p i {
-          margin: 0 3px 0 0; }
-        .eze .eze-items li .wrap p img {
-          margin: -1px 3px 0 0; }
+        overflow: hidden; }
+      .eze .eze-items li .wrap small {
+        font-size: 11px; }
+      .eze .eze-items li .wrap i {
+        margin: 0 3px 0 0; }
+      .eze .eze-items li .wrap img {
+        margin: -1px 3px 0 0; }
       .eze .eze-items li .wrap .btn {
         position: absolute;
-        top: 3px;
-        right: 4px; }
+        top: 50%;
+        margin-top: -11px;
+        right: 3px; }
         .eze .eze-items li .wrap .btn.edit-btn {
-          right: 28px; }
+          right: 34px; }
+.eze .eze-content-types {
+  list-style: none;
+  margin: 0; }
+  .eze .eze-content-types li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 160px;
+    border: 1px solid #d9d9d9;
+    background-color: #eeeeee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#eeeeee));
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #eeeeee);
+    background-image: -moz-linear-gradient(top, #f8f8f8, #eeeeee);
+    background-image: -ms-linear-gradient(top, #f8f8f8, #eeeeee);
+    background-image: -o-linear-gradient(top, #f8f8f8, #eeeeee);
+    background-image: linear-gradient(top, #f8f8f8, #eeeeee);
+    height: 24px;
+    font: normal 12px/26px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+    padding: 0 15px 0 5px; }
+    .eze .eze-content-types li img {
+      margin: -4px 4px 0 0; }
+    .eze .eze-content-types li:hover {
+      background: white; }
 .eze .chzn-container {
   margin-bottom: 9px; }
+.eze .eze-comments {
+  list-style: none;
+  margin: 0 0 10px 0; }
+  .eze .eze-comments li {
+    border-top: 1px solid white;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 6px 15px;
+    margin: 0 -15px; }
+    .eze .eze-comments li:first-child {
+      border-top: 0; }
+    .eze .eze-comments li:hover {
+      background: white; }
+    .eze .eze-comments li img {
+      height: 34px;
+      width: 34px;
+      border-radius: 34px;
+      float: left; }
+    .eze .eze-comments li p {
+      margin: 0 0 0 40px;
+      font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+      .eze .eze-comments li p .date {
+        font-size: 11px; }
 
 @-webkit-keyframes fade-in {
   0% {
@@ -506,6 +637,15 @@
       font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
     .eze .eze-object-sidebar .eze-state-container p {
       font: normal 11px/15px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+
+label, input, button, select, textarea, .btn {
+  font-size: 12px; }
+
+.btn-mini {
+  font-size: 11pxa; }
+
+.btn {
+  padding: 3px 10px; }
 
 .btn-primary {
   background-color: #ff9c00;

@@ -8,6 +8,9 @@ View separate elements
 ---------------------
 This prototype uses php include, so if you browse /raw/table.php you will see an include of raw-table.php (just markup) with CSS applied. This is to make it easier to work focused on single elements.
 
+### Modals
+To view different modals, just comment / uncomment inside index.php
+
 
 Stack animations
 ---------------------

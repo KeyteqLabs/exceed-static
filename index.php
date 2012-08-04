@@ -16,7 +16,6 @@
         <link rel="stylesheet" href="css/eze.css" />
         <link rel="stylesheet" href="/css/lib/font-awesome.css">
         <link rel="stylesheet" href="/css/lib/chosen.css">
-
 	</head>
     <body class="eze" style="background: url(gfx/site.jpg) top center no-repeat">
         <?php include_once('raw/raw-toolbar.php'); ?> 
@@ -30,6 +29,15 @@
         		</section>
         	</section>
         </section>
+
+
+            <!--
+            <?php include_once('raw/raw-modal-activity.php'); ?>
+            <?php include_once('raw/raw-modal-add-content.php'); ?>
+            <?php include_once('raw/raw-modal-publish.php'); ?>
+            
+            -->
+            <?php include_once('raw/raw-modal-layout.php'); ?>
 
         <?php include_once('raw/raw-dam.php'); ?>
 		
