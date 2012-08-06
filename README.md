@@ -15,3 +15,14 @@ To view different modals, just comment / uncomment inside index.php
 Stack animations
 ---------------------
 Set the class "move-in" / "move out" on the last list item in the stack-list to animate. The stack-content will animate itself on load, when going back it should get the class "move-out" and it will animate out.
+
+
+Missing bits
+---------------------
+Activity stream inside content edit
+Search quick hits
+On page pencils
+User settings modal
+Devices modal
+KeyMedia scale view with jCrop
+Sitemap (use as is)
