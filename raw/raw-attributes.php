@@ -19,6 +19,7 @@
 		<section class="eze-object-attribute eze-string">
 			<!-- <div class="alert fade in"><button type="button" class="close" data-dismiss="alert">×</button><strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.</div>-->
 			<div class="language"><img class="flag" src="http://ezexceed.no/extension/ezexceed/design/ezexceed/images/flags/eng-US.gif"> English (American)</div>
+			<span class="label label-required">Required</span>
 			<label class="heading">String of text</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<input type="text" class="span3" placeholder="Type something…">
@@ -56,16 +57,17 @@
 	<div class="eze-object-attribute-wrap">
 
 		<section class="eze-object-attribute eze-image">
+			<span class="label label-required">Required</span>
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<a href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""></a>
+				<div href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""><button class="btn btn-inverse">Edit image</button></div>
 				<p><a href="#" class="btn">Upload new image</a></p>
 		</section>
 
 		<section class="eze-object-attribute eze-dam last">
 			<label class="heading">DAM Asset</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<a href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""></a>
+				<div href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""><button class="btn btn-inverse">Scale versions</button></div>
 				<p><a href="#" class="btn">Browse media library</a></p>
 		</section>
 		
@@ -152,33 +154,4 @@
 				<button class="btn">Add rows</button></p>
 			
 	</section>
-
-	<!--
-	<div class="eze-object-attribute-wrap">
-
-		<section class="eze-object-attribute">
-			<label class="heading">Media attribute</label>
-				<span class="help-block description">Example block-level help text here.</span>
-				<a href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""></a>
-				<p><a href="#" class="btn btn-primary">Upload new</a> <a href="#" class="btn">Remove current</a></p>
-		</section>
-
-		<section class="eze-object-attribute last">
-			<label class="heading">Media attribute</label>
-				<span class="help-block description">Example block-level help text here.</span>
-				<a href="#" class="thumbnail"><img src="http://placehold.it/260x180" alt=""></a>
-				<p><a href="#" class="btn btn-primary">Upload new</a> <a href="#" class="btn">Remove current</a></p>
-		</section>
-
-	</div>
-
-
-	<div class="eze-object-attribute-wrap">
-
-		<section class="eze-object-attribute">
-			<a href="#" class="btn">Yo!</a>
-		</section>
-
-	</div>
-	-->
 </section>

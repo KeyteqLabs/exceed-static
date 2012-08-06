@@ -1,17 +1,11 @@
 @import mixins
 .eze
 
-	a
-		color: #000
-
-		&:hover
-			text-decoration: none
+	// Custom Exceed Interface elements, besides what ships with bootstrap
 
 
-	// Custom Interface elements, besides Bootstrappin
-
-
-	// Custom generic list
+	// Custom generic list, with drag and drop
+	// ----------------------------------------------
 	.eze-items
 		list-style-type: none
 		margin: 0 0 10px 0
@@ -58,7 +52,9 @@
 
 
 
-	// List of content classes
+	// List of content types (article, image, page, etc..)
+	// -------------------------------------------------------
+
 	.eze-content-types
 		list-style: none
 		margin: 0
@@ -85,15 +81,11 @@
 
 
 
-	select, .chzn-container // The same as the standard select
-		margin-bottom: 10px
-		height: 25px
-		font-size: 12px
 
+	// List of comments, with avatars and actions
+	// -----------------------------------------------
 
-
-
-	.eze-comments // With avatars and the works
+	.eze-comments
 		list-style: none
 		margin: 0 0 10px 0
 
@@ -106,9 +98,6 @@
 			&:first-child
 				border-top: 0
 
-			&:hover
-				background: #fff
-
 			img
 				height: 34px
 				width: 34px
@@ -120,3 +109,25 @@
 
 				.date
 					font-size: 11px
+
+			.add-comment-button
+				float: right
+
+			.add-comment
+				margin: 5px 0 0 0
+				padding: 0 10px 0 40px
+				-moz-box-sizing: border-box
+				box-sizing: border-box
+				width: 100%
+				position: relative
+
+				.btn
+					position: absolute
+					top: 0
+					right: 0
+
+				input
+					margin: 0 0 0 0
+					font: normal 11px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+					height: 12px
+					width: 100%

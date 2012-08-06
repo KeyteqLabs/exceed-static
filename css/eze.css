@@ -151,10 +151,10 @@
       .eze nav#toolbar ul li div.slide-in {
         position: absolute;
         top: 0;
-        left: -300px;
+        left: -400px;
         visibility: hidden;
         height: 60px;
-        width: 300px;
+        width: 400px;
         -webkit-transition: left 0.3s ease-out;
         -moz-transition: left 0.3s ease-out;
         -o-transition: left 0.3s ease-out;
@@ -170,7 +170,10 @@
         .eze nav#toolbar ul li .group a:last-child {
           border-right: 0; }
       .eze nav#toolbar ul li .quick-action {
-        background: rgba(0, 100, 0, 0.8); }
+        padding: 15px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.8); }
   .eze nav#toolbar b {
     background: url(../gfx/sprite.png);
     display: block;
@@ -371,10 +374,6 @@
     -moz-animation: stack-content-move-out 0.5s ease 1 normal;
     -webkit-animation: stack-content-move-out 1s ease 1 normal; }
 
-.eze a {
-  color: black; }
-  .eze a:hover {
-    text-decoration: none; }
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0; }
@@ -435,10 +434,6 @@
       margin: -4px 4px 0 0; }
     .eze .eze-content-types li:hover {
       background: white; }
-.eze select, .eze .chzn-container {
-  margin-bottom: 10px;
-  height: 25px;
-  font-size: 12px; }
 .eze .eze-comments {
   list-style: none;
   margin: 0 0 10px 0; }
@@ -449,8 +444,6 @@
     margin: 0 -15px; }
     .eze .eze-comments li:first-child {
       border-top: 0; }
-    .eze .eze-comments li:hover {
-      background: white; }
     .eze .eze-comments li img {
       height: 34px;
       width: 34px;
@@ -461,6 +454,24 @@
       font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
       .eze .eze-comments li p .date {
         font-size: 11px; }
+    .eze .eze-comments li .add-comment-button {
+      float: right; }
+    .eze .eze-comments li .add-comment {
+      margin: 5px 0 0 0;
+      padding: 0 10px 0 40px;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative; }
+      .eze .eze-comments li .add-comment .btn {
+        position: absolute;
+        top: 0;
+        right: 0; }
+      .eze .eze-comments li .add-comment input {
+        margin: 0 0 0 0;
+        font: normal 11px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+        height: 12px;
+        width: 100%; }
 
 @-webkit-keyframes fade-in {
   0% {
@@ -549,6 +560,10 @@
     max-width: 100%;
     border: 1px solid white; }
 
+.eze .label-required {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
 .eze .eze-object-translations {
   background: white;
   float: left;
@@ -594,6 +609,7 @@
   .eze .eze-object-attributes .eze-object-attribute {
     width: 49%;
     float: left;
+    position: relative;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 15px;
@@ -629,12 +645,18 @@
   .eze .eze-object-attributes .eze-image .thumbnail, .eze .eze-object-attributes .eze-dam .thumbnail {
     margin: 0 0 10px 0;
     background: white; }
+  .eze .eze-object-attributes .eze-image .thumbnail, .eze .eze-object-attributes .eze-dam .thumbnail {
+    position: relative; }
+    .eze .eze-object-attributes .eze-image .thumbnail .btn, .eze .eze-object-attributes .eze-dam .thumbnail .btn {
+      position: absolute;
+      bottom: 10px;
+      left: 10px; }
   .eze .eze-object-attributes .eze-matrix table {
     margin: 0 0 10px 0; }
   .eze .eze-object-attributes .eze-matrix th {
     font: bold 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
     .eze .eze-object-attributes .eze-matrix th input[type="checkbox"] {
-      margin: 5px 5px 2px 5pxSomething; }
+      margin: 5px 5px 2px 5px; }
   .eze .eze-object-attributes .eze-matrix td {
     padding: 0; }
     .eze .eze-object-attributes .eze-matrix td input[type="checkbox"] {
@@ -681,6 +703,10 @@
       font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
     .eze .eze-object-sidebar .eze-container p {
       font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .eze .eze-object-sidebar .eze-comments {
+    margin: 0 -5px; }
+    .eze .eze-object-sidebar .eze-comments li:last-child {
+      border-bottom: 0; }
 
 label, input, button, select, textarea, .btn {
   font-size: 12px; }
@@ -710,6 +736,27 @@ label, input, button, select, textarea, .btn {
     background: #ff9c00;
     color: #332100;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+
+.btn-inverse {
+  border: 1px solid black; }
+
+.label, .badge {
+  text-shadow: none; }
+
+.label {
+  font-weight: normal; }
+  .label.label-required {
+    color: #777777;
+    background: #cccccc; }
+
+.eze a {
+  color: black; }
+  .eze a:hover {
+    text-decoration: none; }
+.eze select, .eze .chzn-container {
+  margin-bottom: 10px;
+  height: 25px;
+  font-size: 12px; }
 
 input[type="text"], input[type="password"],
 input[type="datetime"], input[type="datetime-local"],

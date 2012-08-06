@@ -14,25 +14,25 @@
         <ol class="eze-comments">
             <li>
                 <a href="/all_content/home#activity/47">
-                    <img src="http://ez.raymond.keyteq.no/extension/ezexceed/design/ezexceed/images/default-user.jpg">
+                    <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Mutley, you snickering, floppy eared hound. When courage is needed, you're never around. Those medals you wear on your moth-eaten chest should be there for bungling at which you are best.</p>
                 </a>
             </li>
             <li>
                 <a href="/all_content/home#activity/47">
-                    <img src="http://ez.raymond.keyteq.no/extension/ezexceed/design/ezexceed/images/default-user.jpg">
+                    <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
                 </a>
             </li>
             <li>
                 <a href="/all_content/home#activity/47">
-                    <img src="http://ez.raymond.keyteq.no/extension/ezexceed/design/ezexceed/images/default-user.jpg">
+                    <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
                 </a>
             </li>
             <li>
                 <a href="/all_content/home#activity/47">
-                    <img src="http://ez.raymond.keyteq.no/extension/ezexceed/design/ezexceed/images/default-user.jpg">
+                    <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
                 </a>
             </li>

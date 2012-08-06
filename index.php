@@ -51,14 +51,14 @@
 
             <?php 
                 /*
-                include_once('raw/raw-modal-activity.php');
                 
                 include_once('raw/raw-modal-publish.php');
                 include_once('raw/raw-modal-layout.php');
+                include_once('raw/raw-modal-add-content.php');
+                include_once('raw/raw-modal-activity.php');
 
                 */
 
-                include_once('raw/raw-modal-add-content.php');
             ?>
 
 

@@ -2,6 +2,9 @@
 
 // Create a distinctive style, no default Boostrap – that looks bland
 
+
+
+
 label, input, button, select, textarea, .btn
 	font-size: 12px
 
@@ -26,9 +29,33 @@ label, input, button, select, textarea, .btn
 		color: #332100
 		text-shadow: 0 1px 0 rgba(255,255,255,0.5)
 
+.btn-inverse
+	border: 1px solid #000
+
+.label, .badge
+	text-shadow: none
+
+.label
+	font-weight: normal
+	&.label-required
+		color: #777
+		background: #ccc
+
 
 
 // Size adjustments etc.
+
+.eze
+	a
+		color: #000
+
+		&:hover
+			text-decoration: none
+
+	select, .chzn-container
+		margin-bottom: 10px
+		height: 25px
+		font-size: 12px
 
 input[type="text"], input[type="password"], 
 input[type="datetime"], input[type="datetime-local"], 

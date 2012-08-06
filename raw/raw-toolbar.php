@@ -11,7 +11,9 @@
         </li>
         <li><a href="#"><b class="eze-search"></b>Find</a>
             <div class="slide-in quick-action">
-                    Search here yo, and a button
+                <div class="input-prepend">
+                <span class="add-on"><i class="icon-search"></i></span><input id="prependedInput" placeholder="Type to search…" size="16" type="text"> <button class="btn btn-inverse">View all content</button>
+              </div>
             </div>
         </li>
         <li><a href="#"><b class="eze-activity"></b>Activity</a></li>

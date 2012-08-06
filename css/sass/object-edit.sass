@@ -4,6 +4,11 @@
 
 	//	Attributes
 
+	.label-required
+		position: absolute
+		top: 5px
+		right: 5px
+
 
 	.eze-object-translations
 		background: #fff
@@ -60,6 +65,7 @@
 		.eze-object-attribute // One attribute
 			width: 49%
 			float: left
+			position: relative
 			-moz-box-sizing: border-box
 			box-sizing: border-box
 			padding: 15px
@@ -117,6 +123,16 @@
 				margin: 0 0 10px 0
 				background: #fff
 
+		.eze-image, .eze-dam
+
+			.thumbnail
+				position: relative
+				
+				.btn
+					position: absolute
+					bottom: 10px
+					left: 10px
+
 		.eze-matrix
 
 			table
@@ -126,7 +142,7 @@
 				font: bold 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 
 				input[type="checkbox"]
-					margin: 5px 5px 2px 5pxSomething
+					margin: 5px 5px 2px 5px
 
 			td
 				padding: 0
@@ -195,6 +211,12 @@
 
 			p
 				font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+
+		.eze-comments
+			margin: 0 -5px
+
+			li:last-child
+				border-bottom: 0
 
 				
 
