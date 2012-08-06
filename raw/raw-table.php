@@ -1,3 +1,7 @@
+<section class="eze-table-actions">
+    <button class="btn btn-primary">Create new…</button>
+</section>
+
 <section class="eze-table-filters">
     <p>Showing <a href="#">all content</a> from <a href="#">all pages</a> edited <a href="#">2. feb 2011—4. feb 2012</a> by  <a href="#">all users</a> with status <a href="#">unpublished</a></p>
     <form class="form-search">
@@ -9,7 +13,7 @@
     </form>
 </section>
 
-<table>
+<table class="eze-datatable">
     <thead>
         <th class="eze-table-check"><label class="eze-tap"><input type="checkbox" name="gridCheckCell[]"></label></th>
         <th>▼ Name</th>

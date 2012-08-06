@@ -27,15 +27,16 @@
 				border: 1px solid #ccc
 				border-radius: 4px
 				padding: 0 4px
+				-webkit-transform: translateZ(0)
 				position: relative
 				height: 26px
 				line-height: 26px
 				
 				p
 					margin: 0 30px 0 0
-					font-size: 12px
 					height: 26px
 					overflow: hidden
+					font: normal 12px/26px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
 
 				small
 					font-size: 11px
@@ -50,7 +51,7 @@
 					position: absolute
 					top: 50%
 					margin-top: -11px
-					right: 3px
+					right: 5px
 
 					&.edit-btn
 						right: 34px
@@ -84,8 +85,10 @@
 
 
 
-	.chzn-container // The same as the standard select
-		margin-bottom: 9px
+	select, .chzn-container // The same as the standard select
+		margin-bottom: 10px
+		height: 25px
+		font-size: 12px
 
 
 

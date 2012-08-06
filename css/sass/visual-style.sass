@@ -6,10 +6,14 @@ label, input, button, select, textarea, .btn
 	font-size: 12px
 
 .btn-mini
-	font-size: 11pxa
+	font-size: 11px
 
 .btn
-	padding: 3px 10px
+	padding: 3px 10px 2px 10px
+	border: 1px solid #bbb
+
+.remove-btn
+	padding: 3px 8px
 
 .btn-primary
 	@include gradient(#ffac00,#ff9c00)
@@ -21,3 +25,25 @@ label, input, button, select, textarea, .btn
 		background: #ff9c00
 		color: #332100
 		text-shadow: 0 1px 0 rgba(255,255,255,0.5)
+
+
+
+// Size adjustments etc.
+
+input[type="text"], input[type="password"], 
+input[type="datetime"], input[type="datetime-local"], 
+input[type="date"], input[type="month"], input[type="time"], 
+input[type="week"], input[type="number"], input[type="email"], 
+input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+	-webkit-appearance: none
+	font-size: 12px
+	line-height: 16px
+	height: 16px
+	padding: 5px 4px 2px 4px
+
+select, input[type="file"]
+	height: 24px
+	line-height: 24px
+
+.input-prepend .add-on, .input-append .add-on
+	height: 15px

@@ -1,5 +1,5 @@
 <section class="eze-smallmodal eze-activity-modal">
-<span class="arrow"></span>
+<span class="arrow"><i class="icon-caret-left"></i></span>
     <h1>Activity</h1>
         <div class="btn-group" data-toggle="buttons-radio">
             <button class="btn">This page</button>

@@ -17,16 +17,11 @@
 	<div class="eze-object-attribute-wrap">
 
 		<section class="eze-object-attribute eze-string">
-			<!-- <div class="alert fade in">
-            	<button type="button" class="close" data-dismiss="alert">×</button>
-            	<strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.
-          	</div> -->
+			<!-- <div class="alert fade in"><button type="button" class="close" data-dismiss="alert">×</button><strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.</div>-->
 			<div class="language"><img class="flag" src="http://ezexceed.no/extension/ezexceed/design/ezexceed/images/flags/eng-US.gif"> English (American)</div>
 			<label class="heading">String of text</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<input type="text" class="span3" placeholder="Type something…">
-			  
-
 		</section>
 
 		<section class="eze-object-attribute eze-select last">
@@ -76,36 +71,87 @@
 		
 	</div>
 
-	<div class="eze-object-attribute-wrap">
 
-		<section class="eze-object-attribute full-width">
-			<label class="heading">Related content</label>
-				<span class="help-block description">Example block-level help text here.</span>
-				<ul class="eze-items">
-					<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-					<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-					<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-					<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				</ul>
-				<p><a href="#" class="btn">Add relations to other content…</a></p>
-		</section>
+	<div data-toggle="collapse" class="attr-group" data-target="#group"><i class="icon-caret-right"></i>View attribute group</div>
+	<div id="group" class="collapse">
+
+	<section class="eze-object-attribute full-width">
+		<label class="heading">Related content</label>
+			<span class="help-block description">Example block-level help text here.</span>
+			<ul class="eze-items">
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+			</ul>
+			<p><a href="#" class="btn">Add relations to other content…</a></p>
+	</section>
+	
+	<section class="eze-object-attribute full-width">
+		<label class="heading">Authors</label>
+			<span class="help-block description">Example block-level help text here.</span>
+			<ul class="eze-items">
+				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+			</ul>
+			<p><a href="#" class="btn">Add new user</a></p>
+	</section>
 		
 	</div>
 
-	<div class="eze-object-attribute-wrap">
 
-		<section class="eze-object-attribute full-width">
-			<label class="heading">Authors</label>
-				<span class="help-block description">Example block-level help text here.</span>
-				<ul class="eze-items">
-					<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-					<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-					<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				</ul>
-				<p><a href="#" class="btn">Add new user</a></p>
-		</section>
-		
-	</div>
+
+	<section class="eze-object-attribute eze-matrix full-width">
+		<label class="heading">Matrix</label>
+			<span class="help-block description">Enter text into the matrix.</span>
+			<table class="table table-bordered table-striped table-condensed">
+				<thead>
+					<tr>
+						<th><input type="checkbox"></th>
+						<th>Column 1</th>
+						<th>Column 2</th>
+						<th>Column with long name</th>
+						<th>Col. 4</th>
+						<th>Column 5</th>
+						<th>Column 6</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="Type something…"></td>
+					</tr>
+				</tbody>
+			</table>
+			<button class="btn">Remove selected rows</button>
+			<p><select class="chzn-select"><option>5</option><option>10</option></select>
+				<button class="btn">Add rows</button></p>
+			
+	</section>
 
 	<!--
 	<div class="eze-object-attribute-wrap">

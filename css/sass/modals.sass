@@ -1,4 +1,4 @@
-
+@import mixins
 .eze
 
 
@@ -20,7 +20,7 @@
 			margin-right: 44px
 			max-width: 1100px
 			box-shadow: 3px 0 0 0 rgba(0,0,0,0.3)
-			-webkit-animation: fade-in 0s ease-in 1
+			-webkit-animation: fade-in 0.4s ease-in 1
 			min-height: 100%
 
 
@@ -31,23 +31,27 @@
 		position: absolute
 		top: 50px
 		left: 87px
-		background: #f5f5f5
+		background: #fafafa
 		border-radius: 4px
-		box-shadow: 0 0 10px 2px rgba(0,0,0,0.5)
+		box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3)
+		border: 1px solid #fff
 		max-height: 600px
 		width: 350px
 		z-index: 60000
 		padding: 15px
 
 		.arrow
-			height: 16px
-			width: 16px
+			height: 24px
+			width: 15px
 			position: absolute
-			left: -16px
+			left: -14px
 			top: 50%
 			bottom: 50%
 			margin-top: -8px
-			background: #000
+			color: #fafafa
+			text-shadow: -2px 0 3px rgba(0,0,0,0.6)
+			font-size: 36px
+			text-align: right
 
 		h1
 			font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
@@ -81,6 +85,12 @@
 				width: 270px
 
 
+
+
+
+
+
+
 	.eze-publish-modal
 		label.checkbox
 			margin: 0 0 10px 0
@@ -89,8 +99,21 @@
 			float: right
 
 
+
+
+
+
+
+
+
 	.eze-add-content-modal
 		width: 580px
+
+
+
+
+
+
 
 
 	.eze-layout-modal
@@ -102,17 +125,8 @@
 		h2
 			margin: 20px 0 10px 0
 
-		.nav-pills
-			margin: 0
-
-			li
-
-				a
-					background: #fff
-					margin-right: 10px
-
-				&.active a
-					background: #000
+		.nav
+			margin: 0 0 5px 0
 
 		.tab-content
 			overflow: visible
@@ -131,6 +145,7 @@
 						margin: 0
 						text-overflow: ellipsis
 						white-space: nowrap
+						font: normal 12px/36px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
 
 				.name
 					width: 150px
@@ -145,9 +160,7 @@
 				margin: 0
 
 				select, .chzn-container
-					margin: 0
-				.btn
-					margin-top: -4px
+					margin: 0 10px 0 0	
 
 
 

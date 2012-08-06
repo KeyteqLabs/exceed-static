@@ -27,6 +27,17 @@
 				input
 					margin: -1px 5px 0 0
 
+	.attr-group
+		background: #eee
+		border-top: 1px solid #ccc
+		padding: 10px 15px
+		font: normal 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+		clear: both
+		cursor: pointer
+
+		i
+			margin-right: 10px
+
 
 	.eze-object-attributes
 		position: absolute
@@ -36,6 +47,7 @@
 		width: 60%
 		overflow-y: scroll
 		-webkit-overflow-scrolling: touch
+		webkit-transform: translate3d(0,0,0)
 		z-index: 1
 		box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.1)
 		border-right: 1px solid #ccc
@@ -45,44 +57,45 @@
 			width: 100%
 			border-top: 1px solid #eee
 
-			.eze-object-attribute // One attribute
-				width: 49%
-				float: left
-				-moz-box-sizing: border-box
-				box-sizing: border-box
-				padding: 15px
-				border-left: 1px solid #eee
+		.eze-object-attribute // One attribute
+			width: 49%
+			float: left
+			-moz-box-sizing: border-box
+			box-sizing: border-box
+			padding: 15px
+			border-left: 1px solid #eee
 
-				&.full-width
-					width: 100%
+			&.full-width
+				border-top: 1px solid #eee
+				width: 100%
 
-				&:first-child
-					margin-right: -1px
-					border-left: 0
-					border-right: 1px solid #eee
+			&:first-child
+				margin-right: -1px
+				border-left: 0
+				border-right: 1px solid #eee
 
 
-				// Default attribute elements ——————————————————————————
+			// Default attribute elements ——————————————————————————
 
-				.heading
-					font: normal 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
-					color: #444
-					margin-bottom: 10px
+			.heading
+				font: normal 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				color: #444
+				margin-bottom: 10px
 
-				.description
-					font: normal 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
-					margin: -5px 0 10px 0
+			.description
+				font: normal 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin: -5px 0 10px 0
 
-				.alert
-					font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
-					margin: 0 0 15px 0
+			.alert
+				font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin: 0 0 15px 0
 
-				.language
-					font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
-					margin: 0 0 10px 0
+			.language
+				font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin: 0 0 10px 0
 
-					img
-						margin: -1px 5px 0 0
+				img
+					margin: -1px 5px 0 0
 
 
 		// All attributes ——————————————————————————
@@ -103,6 +116,37 @@
 			.thumbnail
 				margin: 0 0 10px 0
 				background: #fff
+
+		.eze-matrix
+
+			table
+				margin: 0 0 10px 0
+
+			th
+				font: bold 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+
+				input[type="checkbox"]
+					margin: 5px 5px 2px 5pxSomething
+
+			td
+				padding: 0
+
+				input[type="checkbox"]
+					margin: 7px 10px 5px 10px
+
+			input[type="text"]
+				-moz-box-sizing: border-box
+				box-sizing: border-box
+				margin: 0
+				border: 0
+				padding: 15px 5px 10px 5px
+				width: 100%
+
+			p
+				float: right
+
+				select
+					width: 50px
 
 
 
@@ -146,23 +190,15 @@
 
 				i
 					margin: 0 5px 0 0
-
-			.description
-				font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
-
-
-		.eze-state-container // For settings
-			border-top: 1px solid #ccc
-			padding: 9px 0 0 0
-
-			&:first-child
-				border: 0
-
 			h2
 				font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 
 			p
-				font: normal 11px/15px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+
+				
+
+				
 
 
 

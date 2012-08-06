@@ -15,13 +15,13 @@
       font-size: 20px;
       height: 20px;
       width: 20px; }
-.eze table {
+.eze .eze-datatable {
   border: 1px solid #cccccc;
   text-align: left;
   width: 100%;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
-  .eze table thead tr {
+  .eze .eze-datatable thead tr {
     font-size: 11px;
     height: 25px;
     background-color: #ebebeb;
@@ -31,11 +31,11 @@
     background-image: -ms-linear-gradient(top, white, #ebebeb);
     background-image: -o-linear-gradient(top, white, #ebebeb);
     background-image: linear-gradient(top, white, #ebebeb); }
-    .eze table thead tr th {
+    .eze .eze-datatable thead tr th {
       border: 0;
       border-bottom: 1px solid rgba(0, 0, 0, 0.25);
       padding: 6px 0; }
-  .eze table tbody tr {
+  .eze .eze-datatable tbody tr {
     background: rgba(0, 0, 0, 0.02);
     height: 30px;
     font: normal 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -43,47 +43,47 @@
     -moz-transition: background 0.2s ease-out;
     -o-transition: background 0.2s ease-out;
     transition: background 0.2s ease-out; }
-    .eze table tbody tr:nth-child(even) {
+    .eze .eze-datatable tbody tr:nth-child(even) {
       background: transparent; }
-    .eze table tbody tr:hover {
+    .eze .eze-datatable tbody tr:hover {
       background: rgba(255, 220, 0, 0.1);
       cursor: pointer; }
-    .eze table tbody tr.active {
+    .eze .eze-datatable tbody tr.active {
       background: rgba(255, 220, 0, 0.2); }
-    .eze table tbody tr.publishing {
+    .eze .eze-datatable tbody tr.publishing {
       background: rgba(118, 212, 31, 0.2); }
-    .eze table tbody tr.deleting {
+    .eze .eze-datatable tbody tr.deleting {
       background: rgba(255, 0, 0, 0.2); }
-    .eze table tbody tr td {
+    .eze .eze-datatable tbody tr td {
       border-bottom: 1px solid #cccccc; }
-    .eze table tbody tr:last-child td {
+    .eze .eze-datatable tbody tr:last-child td {
       border-bottom: 0; }
-    .eze table tbody tr a {
+    .eze .eze-datatable tbody tr a {
       line-height: 30px;
       display: block; }
-  .eze table .eze-table-check {
+  .eze .eze-datatable .eze-table-check {
     padding: 0;
     width: 30px;
     vertical-align: middle; }
-    .eze table .eze-table-check label {
+    .eze .eze-datatable .eze-table-check label {
       height: 30px;
       width: 30px;
       padding: 10px;
       display: inline; }
-    .eze table .eze-table-check input {
+    .eze .eze-datatable .eze-table-check input {
       margin: 2px 8px 0 -3px; }
-  .eze table .eze-table-icon {
+  .eze .eze-datatable .eze-table-icon {
     width: 16px;
     padding: 0 10px;
     border-left: 1px solid #d4d4d4;
     text-align: center; }
-    .eze table .eze-table-icon i {
+    .eze .eze-datatable .eze-table-icon i {
       font-size: 14px; }
-  .eze table .eze-table-no-hits td {
+  .eze .eze-datatable .eze-table-no-hits td {
     text-align: center;
     padding: 40px;
     font: normal 28px/28px "Helvetica Neue UltraLight", "HelveticaNeue-UltraLight", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-  .eze table .eze-table-no-hits:hover {
+  .eze .eze-datatable .eze-table-no-hits:hover {
     background: rgba(0, 0, 0, 0.02);
     cursor: default; }
 
@@ -230,28 +230,32 @@
     margin-right: 44px;
     max-width: 1100px;
     box-shadow: 3px 0 0 0 rgba(0, 0, 0, 0.3);
-    -webkit-animation: fade-in 0s ease-in 1;
+    -webkit-animation: fade-in 0.4s ease-in 1;
     min-height: 100%; }
 .eze .eze-smallmodal {
   position: absolute;
   top: 50px;
   left: 87px;
-  background: #f5f5f5;
+  background: #fafafa;
   border-radius: 4px;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
   max-height: 600px;
   width: 350px;
   z-index: 60000;
   padding: 15px; }
   .eze .eze-smallmodal .arrow {
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 15px;
     position: absolute;
-    left: -16px;
+    left: -14px;
     top: 50%;
     bottom: 50%;
     margin-top: -8px;
-    background: black; }
+    color: #fafafa;
+    text-shadow: -2px 0 3px rgba(0, 0, 0, 0.6);
+    font-size: 36px;
+    text-align: right; }
   .eze .eze-smallmodal h1 {
     font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -278,13 +282,8 @@
     border: 3px solid orange; }
   .eze .eze-layout-modal h2 {
     margin: 20px 0 10px 0; }
-  .eze .eze-layout-modal .nav-pills {
-    margin: 0; }
-    .eze .eze-layout-modal .nav-pills li a {
-      background: white;
-      margin-right: 10px; }
-    .eze .eze-layout-modal .nav-pills li.active a {
-      background: black; }
+  .eze .eze-layout-modal .nav {
+    margin: 0 0 5px 0; }
   .eze .eze-layout-modal .tab-content {
     overflow: visible;
     padding: 5px 0 0 0; }
@@ -297,7 +296,8 @@
         float: left;
         margin: 0;
         text-overflow: ellipsis;
-        white-space: nowrap; }
+        white-space: nowrap;
+        font: normal 12px/36px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .eze .eze-layout-modal .tab-content ul li .name {
       width: 150px;
       margin: 0 10px 0 0; }
@@ -308,14 +308,13 @@
     .eze .eze-layout-modal .tab-content .add-new {
       margin: 0; }
       .eze .eze-layout-modal .tab-content .add-new select, .eze .eze-layout-modal .tab-content .add-new .chzn-container {
-        margin: 0; }
-      .eze .eze-layout-modal .tab-content .add-new .btn {
-        margin-top: -4px; }
+        margin: 0 10px 0 0; }
 
 .eze .eze-stack {
   margin: 0;
   list-style-type: none;
   position: fixed;
+  z-index: 100;
   right: 44px;
   left: 64px;
   min-width: 650px;
@@ -337,13 +336,13 @@
       margin-right: -44px;
       font: normal 16px/46px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       background: #ff8500;
-      border-bottom: 0; }
+      border-bottom: 0;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
       .eze .eze-stack li.last img {
         margin-top: -2px; }
     .eze .eze-stack li.move-in {
       -moz-animation: stack-header-move-in 0.7s ease 1 normal;
-      -webkit-animation: stack-header-move-in 0.7s ease 1 normal;
-      -webkit-animation-delay: 2s; }
+      -webkit-animation: stack-header-move-in 0.7s ease 1 normal; }
     .eze .eze-stack li.move-out {
       -moz-animation: stack-header-move-out 0.7s ease 1 normal;
       -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
@@ -359,9 +358,15 @@
   min-width: 650px;
   right: 44px;
   max-width: 1100px;
+  padding: 15px;
+  overflow: auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -moz-animation: fade-in 0.5s ease 1 normal;
-  -webkit-animation: fade-in 0.9s ease 1 normal;
-  -webkit-animation-delay: 2s; }
+  -webkit-animation: fade-in 0.9s ease 1 normal; }
+  .eze .eze-stack-content.dark {
+    background: #222222;
+    color: white; }
   .eze .eze-stack-content.move-out {
     -moz-animation: stack-content-move-out 0.5s ease 1 normal;
     -webkit-animation: stack-content-move-out 1s ease 1 normal; }
@@ -383,14 +388,15 @@
       border: 1px solid #cccccc;
       border-radius: 4px;
       padding: 0 4px;
+      -webkit-transform: translateZ(0);
       position: relative;
       height: 26px;
       line-height: 26px; }
       .eze .eze-items li .wrap p {
         margin: 0 30px 0 0;
-        font-size: 12px;
         height: 26px;
-        overflow: hidden; }
+        overflow: hidden;
+        font: normal 12px/26px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
       .eze .eze-items li .wrap small {
         font-size: 11px; }
       .eze .eze-items li .wrap i {
@@ -401,7 +407,7 @@
         position: absolute;
         top: 50%;
         margin-top: -11px;
-        right: 3px; }
+        right: 5px; }
         .eze .eze-items li .wrap .btn.edit-btn {
           right: 34px; }
 .eze .eze-content-types {
@@ -429,8 +435,10 @@
       margin: -4px 4px 0 0; }
     .eze .eze-content-types li:hover {
       background: white; }
-.eze .chzn-container {
-  margin-bottom: 9px; }
+.eze select, .eze .chzn-container {
+  margin-bottom: 10px;
+  height: 25px;
+  font-size: 12px; }
 .eze .eze-comments {
   list-style: none;
   margin: 0 0 10px 0; }
@@ -530,6 +538,17 @@
     margin-top: 120px;
     opacity: 0; } }
 
+.keymedia-crop-container {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px; }
+  .keymedia-crop-container img {
+    max-height: 100%;
+    max-width: 100%;
+    border: 1px solid white; }
+
 .eze .eze-object-translations {
   background: white;
   float: left;
@@ -547,6 +566,15 @@
       margin: 0 10px 10px 0; }
       .eze .eze-object-translations ul li input {
         margin: -1px 5px 0 0; }
+.eze .attr-group {
+  background: #eeeeee;
+  border-top: 1px solid #cccccc;
+  padding: 10px 15px;
+  font: normal 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  clear: both;
+  cursor: pointer; }
+  .eze .attr-group i {
+    margin-right: 10px; }
 .eze .eze-object-attributes {
   position: absolute;
   top: 0;
@@ -555,6 +583,7 @@
   width: 60%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  webkit-transform: translate3d(0, 0, 0);
   z-index: 1;
   box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.1);
   border-right: 1px solid #cccccc; }
@@ -562,34 +591,35 @@
     float: left;
     width: 100%;
     border-top: 1px solid #eeeeee; }
-    .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute {
-      width: 49%;
-      float: left;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      padding: 15px;
-      border-left: 1px solid #eeeeee; }
-      .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute.full-width {
-        width: 100%; }
-      .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute:first-child {
-        margin-right: -1px;
-        border-left: 0;
-        border-right: 1px solid #eeeeee; }
-      .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute .heading {
-        font: normal 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-        color: #444444;
-        margin-bottom: 10px; }
-      .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute .description {
-        font: normal 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-        margin: -5px 0 10px 0; }
-      .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute .alert {
-        font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-        margin: 0 0 15px 0; }
-      .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute .language {
-        font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-        margin: 0 0 10px 0; }
-        .eze .eze-object-attributes .eze-object-attribute-wrap .eze-object-attribute .language img {
-          margin: -1px 5px 0 0; }
+  .eze .eze-object-attributes .eze-object-attribute {
+    width: 49%;
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+    border-left: 1px solid #eeeeee; }
+    .eze .eze-object-attributes .eze-object-attribute.full-width {
+      border-top: 1px solid #eeeeee;
+      width: 100%; }
+    .eze .eze-object-attributes .eze-object-attribute:first-child {
+      margin-right: -1px;
+      border-left: 0;
+      border-right: 1px solid #eeeeee; }
+    .eze .eze-object-attributes .eze-object-attribute .heading {
+      font: normal 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      color: #444444;
+      margin-bottom: 10px; }
+    .eze .eze-object-attributes .eze-object-attribute .description {
+      font: normal 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      margin: -5px 0 10px 0; }
+    .eze .eze-object-attributes .eze-object-attribute .alert {
+      font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      margin: 0 0 15px 0; }
+    .eze .eze-object-attributes .eze-object-attribute .language {
+      font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      margin: 0 0 10px 0; }
+      .eze .eze-object-attributes .eze-object-attribute .language img {
+        margin: -1px 5px 0 0; }
   .eze .eze-object-attributes .eze-string input {
     width: 90%; }
   .eze .eze-object-attributes .eze-select select {
@@ -599,6 +629,27 @@
   .eze .eze-object-attributes .eze-image .thumbnail, .eze .eze-object-attributes .eze-dam .thumbnail {
     margin: 0 0 10px 0;
     background: white; }
+  .eze .eze-object-attributes .eze-matrix table {
+    margin: 0 0 10px 0; }
+  .eze .eze-object-attributes .eze-matrix th {
+    font: bold 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+    .eze .eze-object-attributes .eze-matrix th input[type="checkbox"] {
+      margin: 5px 5px 2px 5pxSomething; }
+  .eze .eze-object-attributes .eze-matrix td {
+    padding: 0; }
+    .eze .eze-object-attributes .eze-matrix td input[type="checkbox"] {
+      margin: 7px 10px 5px 10px; }
+  .eze .eze-object-attributes .eze-matrix input[type="text"] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 15px 5px 10px 5px;
+    width: 100%; }
+  .eze .eze-object-attributes .eze-matrix p {
+    float: right; }
+    .eze .eze-object-attributes .eze-matrix p select {
+      width: 50px; }
 .eze .eze-object-sidebar {
   background: #eeeeee;
   position: absolute;
@@ -626,26 +677,23 @@
       margin-bottom: 5px; }
       .eze .eze-object-sidebar .eze-container h1 i {
         margin: 0 5px 0 0; }
-    .eze .eze-object-sidebar .eze-container .description {
-      font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .eze .eze-object-sidebar .eze-state-container {
-    border-top: 1px solid #cccccc;
-    padding: 9px 0 0 0; }
-    .eze .eze-object-sidebar .eze-state-container:first-child {
-      border: 0; }
-    .eze .eze-object-sidebar .eze-state-container h2 {
+    .eze .eze-object-sidebar .eze-container h2 {
       font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-    .eze .eze-object-sidebar .eze-state-container p {
-      font: normal 11px/15px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+    .eze .eze-object-sidebar .eze-container p {
+      font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 label, input, button, select, textarea, .btn {
   font-size: 12px; }
 
 .btn-mini {
-  font-size: 11pxa; }
+  font-size: 11px; }
 
 .btn {
-  padding: 3px 10px; }
+  padding: 3px 10px 2px 10px;
+  border: 1px solid #bbbbbb; }
+
+.remove-btn {
+  padding: 3px 8px; }
 
 .btn-primary {
   background-color: #ff9c00;
@@ -662,6 +710,24 @@ label, input, button, select, textarea, .btn {
     background: #ff9c00;
     color: #332100;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+
+input[type="text"], input[type="password"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"],
+input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  -webkit-appearance: none;
+  font-size: 12px;
+  line-height: 16px;
+  height: 16px;
+  padding: 5px 4px 2px 4px; }
+
+select, input[type="file"] {
+  height: 24px;
+  line-height: 24px; }
+
+.input-prepend .add-on, .input-append .add-on {
+  height: 15px; }
 
 .eze {
   text-rendering: optimizeLegibility;

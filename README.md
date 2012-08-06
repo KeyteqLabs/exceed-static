@@ -1,7 +1,7 @@
 Exceed Static
 =============
 
-Static front end for Exceed which uses Bootstrap from the ground up, and has alot cleaner and D.R.Y markup.
+Static front end for Exceed which is responsive, uses Bootstrap from the ground up and has alot cleaner and D.R.Y markup. Rigorously tested in modern browsers, IE8 and on the iPad.
 
 
 View separate elements

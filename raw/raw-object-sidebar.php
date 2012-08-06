@@ -1,5 +1,4 @@
 <section class="eze-object-sidebar">
-
 	<section class="eze-container">
 		<h1><i class="icon-certificate" style="color:#FFDE00;"></i>Publish this content</h1>
 			<p class="description">Last published: 02/08/2012 14:11</p>
@@ -41,22 +40,15 @@
 
 	<section class="eze-container last">
 		<h1>Settings</h1>
-			<p class="description">States and stuff</p>
-			<div class="eze-state-container">
-				<h2>Use this page as section front page</h2>
-					<p>This page and its content will be used as a front page for this topic, with article listings and sections.</p>
-					<select class="chzn-select"><option>Yes</option><option>2</option></select>
-			</div>
-			<div class="eze-state-container">
-				<h2>Activate RSS for page</h2>
-					<p>Will create a RSS feed for this page.</p>
-					<select class="chzn-select"><option>Yes</option><option>2</option></select>
-			</div>
-			<div class="eze-state-container">
-				<h2>This page, use for something</h2>
-					<p>This page and its content will be used as something in the grand scheme of things.</p>
-					<select class="chzn-select"><option>Yes</option><option>2</option></select>
-			</div>
+			<h2>Use this page as section front page</h2>
+				<p class="description">This page and its content will be used as a front page for this topic, with article listings and sections.</p>
+				<select class="chzn-select"><option>Yes</option><option>2</option></select>
+			<h2>Activate RSS for page</h2>
+				<p class="description">Will create a RSS feed for this page.</p>
+				<select class="chzn-select"><option>Yes</option><option>2</option></select>
+			<h2>This page, use for something</h2>
+				<p class="description">This page and its content will be used as something in the grand scheme of things.</p>
+				<select class="chzn-select"><option>Yes</option><option>2</option></select>
 	</section>
 
 </section>
