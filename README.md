@@ -40,10 +40,11 @@ Includes
     * Sitemap
     * Data table
 
+* On page pencils
+
 
 To-do
 ---------------------
 * Stack autosave indicator and go-back interaction
-* On page pencils
 * User settings modal
 * Devices modal

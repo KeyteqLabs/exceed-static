@@ -23,3 +23,8 @@
     -moz-transition: $style $time $type
     -o-transition: $style $time $type
     transition: $style $time $type
+
+@mixin box-shadow-both ($xaxis, $yaxsis, $blur, $color, $xaxis2, $yaxsis2, $blur2, $color2, $inset: inset)
+    -webkit-box-shadow: $xaxis $yaxsis $blur $color, $xaxis2 $yaxsis2 $blur2 $color2 $inset
+    -moz-box-shadow: $xaxis $yaxsis $blur $color, $xaxis2 $yaxsis2 $blur2 $color2 $inset
+    box-shadow: $xaxis $yaxsis $blur $color, $xaxis2 $yaxsis2 $blur2 $color2 $inset

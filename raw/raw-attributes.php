@@ -150,8 +150,7 @@
 				</tbody>
 			</table>
 			<button class="btn">Remove selected rows</button>
-			<p><select class="chzn-select"><option>5</option><option>10</option></select>
-				<button class="btn">Add rows</button></p>
+			<p><select class="chzn-select"><option>5</option><option>10</option></select><button class="btn">Add rows</button></p>
 			
 	</section>
 </section>

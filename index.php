@@ -19,6 +19,7 @@
 	</head>
     <body class="eze" style="background: url(img/site.jpg)">
         <?php include_once('raw/raw-toolbar.php'); ?> 
+        <?php include_once('raw/raw-pencils.php'); ?>
         <section class="eze-bigmodal">
             <section class="eze-modal-content">
                 <?php include_once('raw/raw-stack.php'); ?>
@@ -31,15 +32,15 @@
                         
                         include_once('raw/raw-table.php');
                         include_once('raw/raw-keymedia-browse.php');
-                        
-                        include_once('raw/raw-sitemap.php');
+                         
                         include_once('raw/raw-keymedia-crop.php');
+                                                include_once('raw/raw-sitemap.php');
+
                         */
                         
 
                         include_once('raw/raw-attributes.php');
                         include_once('raw/raw-object-sidebar.php');
-
                     ?>
 
                     
