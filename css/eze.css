@@ -374,6 +374,147 @@
     -moz-animation: stack-content-move-out 0.5s ease 1 normal;
     -webkit-animation: stack-content-move-out 1s ease 1 normal; }
 
+.eze .finder {
+  background: white;
+  margin: -15px -15px 0 -15px; }
+  .eze .finder .breadcrumbs {
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #f7f7f7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#f7f7f7));
+    background-image: -webkit-linear-gradient(top, #e1e1e1, #f7f7f7);
+    background-image: -moz-linear-gradient(top, #e1e1e1, #f7f7f7);
+    background-image: -ms-linear-gradient(top, #e1e1e1, #f7f7f7);
+    background-image: -o-linear-gradient(top, #e1e1e1, #f7f7f7);
+    background-image: linear-gradient(top, #e1e1e1, #f7f7f7);
+    height: 18px;
+    padding: 4px 10px; }
+    .eze .finder .breadcrumbs p {
+      margin: 0;
+      font: normal 11px/18px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .eze .finder .kp-columns-wrapper {
+    float: left;
+    overflow-x: auto;
+    overflow-y: hidden; }
+  .eze .finder .kp-finder-content {
+    clear: both;
+    float: left;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; }
+    .eze .finder .kp-finder-content ul {
+      margin: 0;
+      list-style: none; }
+    .eze .finder .kp-finder-content .column {
+      float: left;
+      border-right: 1px solid #d3d3d3;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch; }
+      .eze .finder .kp-finder-content .column li {
+        background-image: none;
+        display: block;
+        cursor: pointer; }
+        .eze .finder .kp-finder-content .column li a {
+          color: black;
+          display: block;
+          height: 24px;
+          min-width: 200px;
+          max-width: 200px;
+          font: normal 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+          padding: 0 10px 0 0;
+          -webkit-transition: all 0.1s ease-out;
+          -moz-transition: all 0.1s ease-out;
+          -o-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          border-top: 1px solid transparent;
+          border-bottom: 1px solid #ebebeb;
+          position: relative;
+          margin-top: -1px;
+          -webkit-transform: translate3d(0, 0, 0); }
+          .eze .finder .kp-finder-content .column li a:hover {
+            background: #fafafa;
+            border-color: #cccccc; }
+          .eze .finder .kp-finder-content .column li a .has-children-arrow {
+            background-color: #fafafa; }
+          .eze .finder .kp-finder-content .column li a span {
+            margin-left: 27px;
+            line-height: 24px; }
+          .eze .finder .kp-finder-content .column li a img {
+            position: absolute;
+            left: 6px;
+            top: 50%;
+            bottom: 50%;
+            margin-top: -8px; }
+          .eze .finder .kp-finder-content .column li a .has-children-arrow {
+            position: absolute;
+            right: 2px;
+            top: 50%;
+            bottom: 50%;
+            margin-top: -8px;
+            background-color: white;
+            -webkit-transition: all 0.1s ease-out;
+            -moz-transition: all 0.1s ease-out;
+            -o-transition: all 0.1s ease-out;
+            transition: all 0.1s ease-out;
+            opacity: 0.7; }
+        .eze .finder .kp-finder-content .column li.active a, .eze .finder .kp-finder-content .column li.active a:hover, .eze .finder .kp-finder-content .column li.dragover a {
+          background: #ffa500;
+          border-color: #ffa500; }
+          .eze .finder .kp-finder-content .column li.active a .has-children-arrow, .eze .finder .kp-finder-content .column li.active a:hover .has-children-arrow, .eze .finder .kp-finder-content .column li.dragover a .has-children-arrow {
+            opacity: 1;
+            background-color: #ffa500; }
+        .eze .finder .kp-finder-content .column li.dragged {
+          z-index: 999; }
+        .eze .finder .kp-finder-content .column li.clipboard a {
+          color: rgba(0, 0, 0, 0.3); }
+          .eze .finder .kp-finder-content .column li.clipboard a img {
+            opacity: 0.3; }
+        .eze .finder .kp-finder-content .column li.ui-draggable-dragging a {
+          background: #ffc27f;
+          opacity: 0.8;
+          border-color: #ffc27f; }
+          .eze .finder .kp-finder-content .column li.ui-draggable-dragging a .has-children-arrow {
+            background-color: #ffc27f;
+            opacity: 0.8; }
+  .eze .finder .actions {
+    width: 242px;
+    border-right: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    float: left;
+    padding: 0 10px;
+    margin-left: -2px; }
+    .eze .finder .actions .heading {
+      text-align: center;
+      margin-top: 20px; }
+      .eze .finder .actions .heading h2 {
+        font: normal 14px/22px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+      .eze .finder .actions .heading h3 {
+        font: normal 11px/11px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 5px 0; }
+    .eze .finder .actions .meta {
+      font-weight: bold;
+      text-align: left; }
+      .eze .finder .actions .meta ul {
+        margin: 10px 2px 20px; }
+        .eze .finder .actions .meta ul li {
+          margin: 0 0 10px 0;
+          font: bold 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .eze .finder .actions .meta span {
+        font: normal 11px/18px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        display: block;
+        width: 100%; }
+    .eze .finder .actions .action-buttons li button {
+      margin: 0 0 10px 0; }
+  @media screen and (max-width: 1024px) {
+    .eze .finder .kp-finder-content ul li a {
+      height: 32px; } }
+  @media screen and (max-width: 1024px) {
+    .eze .finder .kp-finder-content ul li a span {
+      line-height: 34px; } }
+
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0; }
@@ -549,13 +690,24 @@
     margin-top: 120px;
     opacity: 0; } }
 
-.keymedia-crop-container {
+.keymedia-crop .nav-pills.inverted li {
+  margin-right: 10px; }
+  .keymedia-crop .nav-pills.inverted li a {
+    font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    padding: 5px 15px 3px 5px;
+    border-style: dotted; }
+  .keymedia-crop .nav-pills.inverted li small {
+    font: normal 10px/10px "HelveticaNeue", Helvetica, Arial, sans-serif; }
+  .keymedia-crop .nav-pills.inverted li.cropped a {
+    background: white;
+    color: black; }
+.keymedia-crop .keymedia-crop-container {
   position: absolute;
   top: 70px;
   left: 15px;
   right: 15px;
   bottom: 15px; }
-  .keymedia-crop-container img {
+  .keymedia-crop .keymedia-crop-container img {
     max-height: 100%;
     max-width: 100%;
     border: 1px solid white; }
@@ -707,6 +859,24 @@
     margin: 0 -5px; }
     .eze .eze-object-sidebar .eze-comments li:last-child {
       border-bottom: 0; }
+
+.nav-pills.inverted li a {
+  background: transparent;
+  border: 1px solid #cccccc;
+  color: #cccccc; }
+  .nav-pills.inverted li a:hover {
+    border-color: white;
+    color: white; }
+.nav-pills.inverted li.active a {
+  color: black;
+  background-color: #ff8d00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffbb00), to(#ff8d00));
+  background-image: -webkit-linear-gradient(top, #ffbb00, #ff8d00);
+  background-image: -moz-linear-gradient(top, #ffbb00, #ff8d00);
+  background-image: -ms-linear-gradient(top, #ffbb00, #ff8d00);
+  background-image: -o-linear-gradient(top, #ffbb00, #ff8d00);
+  background-image: linear-gradient(top, #ffbb00, #ff8d00);
+  border-color: transparent; }
 
 label, input, button, select, textarea, .btn {
   font-size: 12px; }

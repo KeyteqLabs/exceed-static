@@ -6,10 +6,13 @@ Static front end for Exceed which is responsive, uses Bootstrap from the ground 
 
 View separate elements
 ---------------------
-This prototype uses php include, so if you browse /raw/table.php you will see an include of raw-table.php (just markup) with CSS applied. This is to make it easier to work focused on single elements.
+This prototype uses php include, so if you browse /raw/single-views/table.php you will see an include of raw-table.php (just markup) with CSS applied. This is to make it easier to work focused on single elements.
 
 ### Modals
 To view different modals, just comment / uncomment inside index.php
+
+### KeyMedia dark scale view
+Append the class "dark" to the "eze-stack-content" section
 
 
 Stack animations

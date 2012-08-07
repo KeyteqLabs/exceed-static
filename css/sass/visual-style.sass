@@ -3,6 +3,22 @@
 // Create a distinctive style, no default Boostrap – that looks bland
 
 
+.nav-pills.inverted
+	li
+		a
+			background: transparent
+			border: 1px solid #ccc
+			color: #ccc
+
+			&:hover
+				border-color: #fff
+				color: #fff
+
+		&.active a
+			color: #000
+			@include gradient(#ffbb00, #FF8D00)
+			border-color: transparent
+
 
 
 label, input, button, select, textarea, .btn

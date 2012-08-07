@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="/css/lib/font-awesome.css">
         <link rel="stylesheet" href="/css/lib/chosen.css">
 	</head>
-    <body class="eze" style="background: url(gfx/site.jpg)">
+    <body class="eze" style="background: url(img/site.jpg)">
         <?php include_once('raw/raw-toolbar.php'); ?> 
         <section class="eze-bigmodal">
             <section class="eze-modal-content">
@@ -31,14 +31,14 @@
                         
                         include_once('raw/raw-table.php');
                         include_once('raw/raw-keymedia-browse.php');
+                        
+                        include_once('raw/raw-sitemap.php');
                         include_once('raw/raw-keymedia-crop.php');
-
-
                         */
+                        
 
                         include_once('raw/raw-attributes.php');
                         include_once('raw/raw-object-sidebar.php');
-                        
 
                     ?>
 

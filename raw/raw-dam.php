@@ -40,54 +40,48 @@
 
 
       <ul class="thumbnails">
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-upload.png" alt=""></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
-		  <li><div class="thumbnail"><img src="http://m70.no/next/gfx/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-upload.png" alt=""></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-tag.jpg" alt=""><h5>Tag collection</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+		  <li><div class="thumbnail"><img src="../../img/dam-placeholder.jpg" alt=""><h5>Thumbnail label</h5></div></li>
+
   		</ul>
   	</section>
 

@@ -1,5 +1,8 @@
 
 
+
+/* IE doesnt support box-shadow, and filters is to cpu intensive */
+
 .eze .eze-smallmodal { border: 2px solid #555!important;}
 	.eze .eze-smallmodal .arrow { color: #555!important;}
 
