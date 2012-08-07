@@ -22,28 +22,28 @@ Set the class "move-in" / "move out" on the last list item in the stack-list to 
 
 Includes
 ---------------------
-• New toolbar
-	• with icon groups
-	• with slide-in quick actions
+* New toolbar
+    * with icon groups
+    * with slide-in quick actions
 
-• Small modals
-	• Layout
-	• Activity
-	• Create content
-	• Publish
+* Small modals
+    * Layout
+    * Activity
+    * Create content
+    * Publish
 
-• Big modal w. stack
-	• Attributes edit
-	• Sidebar
-	• KeyMedia Browse
-	• KeyMedia Scale
-	• Sitemap
-	• Data table
+* Big modal w. stack
+    * Attributes edit
+    * Sidebar
+    * KeyMedia Browse
+    * KeyMedia Scale
+    * Sitemap
+    * Data table
 
 
 To-do
 ---------------------
-• Stack autosave indicator and go-back interaction
-• On page pencils
-• User settings modal
-• Devices modal
+* Stack autosave indicator and go-back interaction
+* On page pencils
+* User settings modal
+* Devices modal
