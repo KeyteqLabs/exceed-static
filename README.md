@@ -20,12 +20,30 @@ Stack animations
 Set the class "move-in" / "move out" on the last list item in the stack-list to animate. The stack-content will animate itself on load, when going back it should get the class "move-out" and it will animate out.
 
 
+Includes
+---------------------
+• New toolbar
+	• with icon groups
+	• with slide-in quick actions
+
+• Small modals
+	• Layout
+	• Activity
+	• Create content
+	• Publish
+
+• Big modal w. stack
+	• Attributes edit
+	• Sidebar
+	• KeyMedia Browse
+	• KeyMedia Scale
+	• Sitemap
+	• Data table
+
+
 To-do
 ---------------------
-• Sitemap (use as is)
+• Stack autosave indicator and go-back interaction
 • On page pencils
 • User settings modal
 • Devices modal
-• KeyMedia scale view with jCrop
-
-• Wrap up, finishing touches to spacing and visual style
