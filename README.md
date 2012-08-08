@@ -8,8 +8,30 @@ View separate elements
 ---------------------
 This prototype uses php include, so if you browse /raw/single-views/table.php you will see an include of raw-table.php (just markup) with CSS applied. This is to make it easier to work focused on single elements.
 
-### Modals
-To view different modals, just comment / uncomment inside index.php
+### Big Modals
+
+To view different modals, toggle this in the URL:
+`?view=table`, `?view=keymedia-browse`, `?view=keymedia-crop`, `?view=sitemap` and `?view=attributes` (default).
+
+### Small modals
+
+You can toggle all modals in the URL by adding one of or several keywords as query string parameters (?keyword&secondkeyword&...).
+Keywords you can use are:
+
+* layout
+* addcontent
+* activity
+* publish
+
+### Disable toolbar, stack and pencils
+
+You can disable certain elements through URL toggles:
+
+* notoolbar
+* nopencils
+* nostack
+
+So to see no stack and pencils, just the toolbar you can view `?notoolbar&nopencils`
 
 ### KeyMedia dark scale view
 Append the class "dark" to the "eze-stack-content" section

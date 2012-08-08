@@ -21,8 +21,11 @@
 	</head>
     <body class="eze" style="background: url(img/site.jpg)">
 
-        <?php include_once('raw/raw-toolbar.php'); ?> 
-        <?php include_once('raw/raw-pencils.php'); ?>
+        <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 
+        <?php if (!isset($_GET['nopencils'])) include_once('raw/raw-pencils.php'); ?>
+        <?php 
+            if (!isset($_GET['nostack'])) {
+        ?>
         <section class="eze-bigmodal">
             <section class="eze-modal-content">
                 <?php include_once('raw/raw-stack.php'); ?>
@@ -31,38 +34,42 @@
                     
 
                     <?php
-                        /*
-                        
-                        include_once('raw/raw-table.php');
-                        include_once('raw/raw-keymedia-browse.php');
-                        include_once('raw/raw-keymedia-crop.php');
-                        include_once('raw/raw-sitemap.php');
-
-                        */
-                        
-
-                        include_once('raw/raw-attributes.php');
-                        include_once('raw/raw-object-sidebar.php');
+                        switch ($_GET['view']) {
+                            case 'table':
+                                include_once('raw/raw-table.php');
+                                break;
+                            case 'keymedia-browse':
+                                include_once('raw/raw-keymedia-browse.php');
+                                break;
+                            case 'keymedia-crop':
+                                include_once('raw/raw-keymedia-crop.php');
+                                break;
+                            case 'sitemap':
+                                include_once('raw/raw-sitemap.php');
+                                break;
+                            case 'attributes':
+                            default:
+                                include_once('raw/raw-attributes.php');
+                                include_once('raw/raw-object-sidebar.php');
+                                break;
+                        }
                     ?>
-
-                    
-
 
                 </section>
             </section>
         </section>
 
             <?php 
-                /*
-                
-                
-                include_once('raw/raw-modal-layout.php');
-                include_once('raw/raw-modal-add-content.php');
-                include_once('raw/raw-modal-activity.php');
-
-                */
-include_once('raw/raw-modal-publish.php');
+                if (isset($_GET['layout']))
+                    include_once('raw/raw-modal-layout.php');
+                if (isset($_GET['addcontent']))
+                    include_once('raw/raw-modal-add-content.php');
+                if (isset($_GET['activity']))
+                    include_once('raw/raw-modal-activity.php');
+                if (isset($_GET['publish']))
+                    include_once('raw/raw-modal-publish.php');
             ?>
+        <?php } ?>
 
 
         <?php include_once('raw/raw-dam.php'); ?>
