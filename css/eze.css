@@ -331,6 +331,7 @@
     min-width: 650px;
     max-width: 1100px; }
     .eze .stack-item header h1 {
+      float: left;
       font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
     .eze .stack-item header img {
       float: left;

@@ -16,7 +16,6 @@
         <link rel="stylesheet" href="css/eze.css" />
         <link rel="stylesheet" href="css/lib/font-awesome.css">
         <link rel="stylesheet" href="css/lib/chosen.css">
-        <link rel="stylesheet" href="http://localhost/extension/ezexceed/design/ezexceed/stylesheets/css/global.css">
 
         
         <style type="text/css">
