@@ -31,7 +31,7 @@ You can disable certain elements through URL toggles:
 * nopencils
 * nostack
 
-So to see no stack and pencils, just the toolbar you can view `?notoolbar&nopencils`
+So to see no stack and pencils, just the toolbar you can view `?nostack&nopencils`
 
 ### KeyMedia dark scale view
 Append the class "dark" to the "eze-stack-content" section

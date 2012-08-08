@@ -88,7 +88,7 @@
     </tbody>
 </table>
 
-<table style="margin: 50px 0 0 0">
+<table class="eze-datatable" style="margin: 50px 0 0 0">
     <tbody>
         <tr class="eze-table-no-hits">
             <td>No content found ☃</td>

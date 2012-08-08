@@ -16,10 +16,27 @@
         <link rel="stylesheet" href="css/eze.css" />
         <link rel="stylesheet" href="css/lib/font-awesome.css">
         <link rel="stylesheet" href="css/lib/chosen.css">
+        <style type="text/css">
+            .switcher { position: absolute; margin: 0; list-style: none; top: 50px; right: 0; width: 100px; padding: 10px; background: #000; z-index: 99999; }
+            .switcher li a { color: #fff; font-size: 11px; display: block}
+            .switcher li a:hover { background: #fff; color: #000 } .switcher li a:active { background: cyan; }
+        </style>
 
 
 	</head>
     <body class="eze" style="background: url(img/site.jpg)">
+        <ul class="switcher">
+            <li><a href="?nostack">Toolbar</a></li>
+            <li><a href="?view=attributes">Object edit</a></li>
+            <li><a href="?view=table">Data table</a></li>
+            <li><a href="?view=keymedia-browse">KeyMedia Browse</a></li>
+            <li><a href="?view=keymedia-crop">KeyMedia Crop</a></li>
+            <li><a href="?view=sitemap">Sitemap</a></li>
+            <li><a href="?layout">Modal: Layout</a></li>
+            <li><a href="?addcontent">Modal: Create</a></li>
+            <li><a href="?activity">Modal: Activity</a></li>
+            <li><a href="?publish">Modal: Publish</a></li>
+        </ul>
 
         <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 
         <?php if (!isset($_GET['nopencils'])) include_once('raw/raw-pencils.php'); ?>
