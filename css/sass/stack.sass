@@ -4,25 +4,33 @@
 
 	//	Stack
 
-	.eze-stack
-		margin: 0
-		list-style-type: none
-		position: fixed
-		z-index: 100
-		right: 44px
-		left: 64px
+	.stack-item
+		position: absolute
+		left: 0
+		bottom: 0
 		min-width: 650px
+		right: 44px
 		max-width: 1100px
 
-		li
+		// Stack header
+
+		header
 			background: #ffd5a1
 			height: 30px
 			border-bottom: 1px solid #fff
-			padding: 0 0 0 15px
-			font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+			position: fixed
+			z-index: 100
+			right: 44px
+			left: 64px
+			min-width: 650px
+			max-width: 1100px
+
+			h1
+				font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 
 			img
-				margin: 0 5px 0 0
+				float: left
+				margin: 8px 5px 0 10px
 
 			.btn
 				float: right
@@ -34,30 +42,29 @@
 			&:nth-last-child(3)
 				background: #ffd5a1
 
-			&.last
-				height: 44px
-				margin-right: -44px
-				font: normal 16px/46px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
-				background: #ff8500
-				border-bottom: 0
-				position: relative
-				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4)
+		&.last header
+			height: 44px
+			right: 0
+			max-width: 1144px
+			background: #ff8500
+			border-bottom: 0
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4)
 
-				img
-					margin-top: -2px
+			h1
+				font: normal 16px/48px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 
-				.btn
-					margin: 9px 9px 0 0
-					border: 1px solid #fff
+			.btn
+				margin: 9px 9px 0 0
+				border: 1px solid #fff
 
-			&.move-in
-				-moz-animation: stack-header-move-in 0.7s ease 1 normal
-				-webkit-animation: stack-header-move-in 0.7s ease 1 normal
-				//-webkit-animation-delay: 2s
+		&.move-in header
+			-moz-animation: stack-header-move-in 0.7s ease 1 normal
+			-webkit-animation: stack-header-move-in 0.7s ease 1 normal
+			//-webkit-animation-delay: 2s
 
-			&.move-out
-				-moz-animation: stack-header-move-out 0.7s ease 1 normal
-				-webkit-animation: stack-header-move-out 0.7s ease 1 normal
+		&.move-out header
+			-moz-animation: stack-header-move-out 0.7s ease 1 normal
+			-webkit-animation: stack-header-move-out 0.7s ease 1 normal
 
 		#autosave
 			float: right
@@ -70,25 +77,30 @@
 				border: 1px solid rgba(0,0,0,0.5)
 				padding: 5px
 
-	.eze-stack-content
-		position: absolute
-		left: 0
-		bottom: 0
-		min-width: 650px
-		right: 44px
-		max-width: 1100px
-		padding: 15px
-		overflow: auto
-		-moz-box-sizing: border-box
-		box-sizing: border-box
-		-moz-animation: fade-in 0.5s ease 1 normal
-		-webkit-animation: fade-in 0.9s ease 1 normal
-		//-webkit-animation-delay: 2s
+		// Stack content
 
-		&.dark
-			background: #222
-			color: #fff
+		.eze-stack-content
+			display: none
+			padding: 15px
+			position: absolute
+			top: 44px
+			right: 0
+			left: 0
+			bottom: 0
+			overflow: auto
+			-moz-box-sizing: border-box
+			box-sizing: border-box
+			-moz-animation: fade-in 0.5s ease 1 normal
+			-webkit-animation: fade-in 0.9s ease 1 normal
+			//-webkit-animation-delay: 2s
 
-		&.move-out
+			&.dark
+				background: #222
+				color: #fff
+
+		&.last .eze-stack-content
+			display: block
+
+		&.move-out .eze-stack-content
 			-moz-animation: stack-content-move-out 0.5s ease 1 normal
 			-webkit-animation: stack-content-move-out 1s ease 1 normal

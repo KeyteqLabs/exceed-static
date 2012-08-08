@@ -1,7 +1,16 @@
-<ol class="eze-stack">
-	<li><img src="img/16x16/Layout 16x16.png" />First level<button class="btn">Close all</button></li>
-	<li><img src="img/16x16/Globe alt 16x16.png" />Second level</li>
-	<li><img src="img/16x16/Document 16x16.png" />Third level</li>
-	<li><img src="img/16x16/Document 16x16.png" />Forth level</li>
-	<li class="last move-in"><img src="img/32x32/Documents 32x32.png" />Fifth and last level <button class="btn">Save and go back</button> <div id="autosave"><img src="gfx/loader.gif" /> Saving…</div></li>
-</ol>
+<section class="stack-item" style="top:0px">
+	<header><h1><img src="img/16x16/Layout 16x16.png" />First level</h1><button class="btn">Close all</button></header>
+	<section class="eze-stack-content">Content here</section>
+</section>
+<section class="stack-item" style="top:31px">
+	<header><h1><img src="img/16x16/Globe 16x16.png" />Second level</h1></header>
+	<section class="eze-stack-content">Content here</section>
+</section>
+<section class="stack-item" style="top:62px">
+	<header><h1><img src="img/16x16/Box 16x16.png" />Third level</h1></header>
+	<section class="eze-stack-content">Content here</section>
+</section>
+<section class="stack-item" style="top:93px">
+	<header><h1><img src="img/16x16/Layout 16x16.png" />Forth level</h1></header>
+	<section class="eze-stack-content">Content here</section>
+</section>

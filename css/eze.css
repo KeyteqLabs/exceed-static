@@ -313,75 +313,81 @@
       .eze .eze-layout-modal .tab-content .add-new select, .eze .eze-layout-modal .tab-content .add-new .chzn-container {
         margin: 0 10px 0 0; }
 
-.eze .eze-stack {
-  margin: 0;
-  list-style-type: none;
-  position: fixed;
-  z-index: 100;
-  right: 44px;
-  left: 64px;
-  min-width: 650px;
-  max-width: 1100px; }
-  .eze .eze-stack li {
-    background: #ffd5a1;
-    height: 30px;
-    border-bottom: 1px solid white;
-    padding: 0 0 0 15px;
-    font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-    .eze .eze-stack li img {
-      margin: 0 5px 0 0; }
-    .eze .eze-stack li .btn {
-      float: right;
-      margin: 2px 3px 0 0; }
-    .eze .eze-stack li:nth-last-child(2) {
-      background: #ffb365; }
-    .eze .eze-stack li:nth-last-child(3) {
-      background: #ffd5a1; }
-    .eze .eze-stack li.last {
-      height: 44px;
-      margin-right: -44px;
-      font: normal 16px/46px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-      background: #ff8500;
-      border-bottom: 0;
-      position: relative;
-      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
-      .eze .eze-stack li.last img {
-        margin-top: -2px; }
-      .eze .eze-stack li.last .btn {
-        margin: 9px 9px 0 0;
-        border: 1px solid white; }
-    .eze .eze-stack li.move-in {
-      -moz-animation: stack-header-move-in 0.7s ease 1 normal;
-      -webkit-animation: stack-header-move-in 0.7s ease 1 normal; }
-    .eze .eze-stack li.move-out {
-      -moz-animation: stack-header-move-out 0.7s ease 1 normal;
-      -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
-  .eze .eze-stack #autosave {
-    float: right;
-    margin: 0 20px 0 0;
-    font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-    .eze .eze-stack #autosave img {
-      background: white;
-      border-radius: 25px;
-      border: 1px solid rgba(0, 0, 0, 0.5);
-      padding: 5px; }
-.eze .eze-stack-content {
+.eze .stack-item {
   position: absolute;
   left: 0;
   bottom: 0;
   min-width: 650px;
   right: 44px;
-  max-width: 1100px;
-  padding: 15px;
-  overflow: auto;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-animation: fade-in 0.5s ease 1 normal;
-  -webkit-animation: fade-in 0.9s ease 1 normal; }
-  .eze .eze-stack-content.dark {
-    background: #222222;
-    color: white; }
-  .eze .eze-stack-content.move-out {
+  max-width: 1100px; }
+  .eze .stack-item header {
+    background: #ffd5a1;
+    height: 30px;
+    border-bottom: 1px solid white;
+    position: fixed;
+    z-index: 100;
+    right: 44px;
+    left: 64px;
+    min-width: 650px;
+    max-width: 1100px; }
+    .eze .stack-item header h1 {
+      font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+    .eze .stack-item header img {
+      float: left;
+      margin: 8px 5px 0 10px; }
+    .eze .stack-item header .btn {
+      float: right;
+      margin: 2px 3px 0 0; }
+    .eze .stack-item header:nth-last-child(2) {
+      background: #ffb365; }
+    .eze .stack-item header:nth-last-child(3) {
+      background: #ffd5a1; }
+  .eze .stack-item.last header {
+    height: 44px;
+    right: 0;
+    max-width: 1144px;
+    background: #ff8500;
+    border-bottom: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
+    .eze .stack-item.last header h1 {
+      font: normal 16px/48px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+    .eze .stack-item.last header .btn {
+      margin: 9px 9px 0 0;
+      border: 1px solid white; }
+  .eze .stack-item.move-in header {
+    -moz-animation: stack-header-move-in 0.7s ease 1 normal;
+    -webkit-animation: stack-header-move-in 0.7s ease 1 normal; }
+  .eze .stack-item.move-out header {
+    -moz-animation: stack-header-move-out 0.7s ease 1 normal;
+    -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
+  .eze .stack-item #autosave {
+    float: right;
+    margin: 0 20px 0 0;
+    font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .eze .stack-item #autosave img {
+      background: white;
+      border-radius: 25px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      padding: 5px; }
+  .eze .stack-item .eze-stack-content {
+    display: none;
+    padding: 15px;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-animation: fade-in 0.5s ease 1 normal;
+    -webkit-animation: fade-in 0.9s ease 1 normal; }
+    .eze .stack-item .eze-stack-content.dark {
+      background: #222222;
+      color: white; }
+  .eze .stack-item.last .eze-stack-content {
+    display: block; }
+  .eze .stack-item.move-out .eze-stack-content {
     -moz-animation: stack-content-move-out 0.5s ease 1 normal;
     -webkit-animation: stack-content-move-out 1s ease 1 normal; }
 

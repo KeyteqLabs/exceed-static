@@ -39,7 +39,7 @@ Append the class "dark" to the "eze-stack-content" section
 
 Stack animations
 ---------------------
-Set the class "move-in" / "move out" on the last list item in the stack-list to animate. The stack-content will animate itself on load, when going back it should get the class "move-out" and it will animate out.
+Set the class "move-in" / "move out" on the last stack-item to animate both header and content. When going back it should get the class "move-out" and it will animate out.
 
 
 Includes

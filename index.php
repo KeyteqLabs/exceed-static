@@ -16,8 +16,11 @@
         <link rel="stylesheet" href="css/eze.css" />
         <link rel="stylesheet" href="css/lib/font-awesome.css">
         <link rel="stylesheet" href="css/lib/chosen.css">
+        <link rel="stylesheet" href="http://localhost/extension/ezexceed/design/ezexceed/stylesheets/css/global.css">
+
+        
         <style type="text/css">
-            .switcher { position: absolute; margin: 0; list-style: none; top: 50px; right: 0; width: 100px; padding: 10px; background: #000; z-index: 99999; }
+            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 100px; padding: 10px; background: #000; z-index: 99999; }
             .switcher li a { color: #fff; font-size: 11px; display: block}
             .switcher li a:hover { background: #fff; color: #000 } .switcher li a:active { background: cyan; }
         </style>
@@ -25,6 +28,7 @@
 
 	</head>
     <body class="eze" style="background: url(img/site.jpg)">
+
         <ul class="switcher">
             <li><a href="?nostack">Toolbar</a></li>
             <li><a href="?view=attributes">Object edit</a></li>
@@ -46,32 +50,34 @@
         <section class="eze-bigmodal">
             <section class="eze-modal-content">
                 <?php include_once('raw/raw-stack.php'); ?>
-                <section class="eze-stack-content" style="top:168px">
 
-                    
+                <section class="stack-item move-in last" style="top:124px">
+                    <header><img src="img/32x32/Documents 32x32.png" /><h1>Fifth and last level</h1> <button class="btn">Save and go back</button> <div id="autosave"><img src="gfx/loader.gif" /> Saving…</div></header>
+                    <section class="eze-stack-content">
 
-                    <?php
-                        switch ($_GET['view']) {
-                            case 'table':
-                                include_once('raw/raw-table.php');
-                                break;
-                            case 'keymedia-browse':
-                                include_once('raw/raw-keymedia-browse.php');
-                                break;
-                            case 'keymedia-crop':
-                                include_once('raw/raw-keymedia-crop.php');
-                                break;
-                            case 'sitemap':
-                                include_once('raw/raw-sitemap.php');
-                                break;
-                            case 'attributes':
-                            default:
-                                include_once('raw/raw-attributes.php');
-                                include_once('raw/raw-object-sidebar.php');
-                                break;
-                        }
-                    ?>
+                        <?php
+                            switch ($_GET['view']) {
+                                case 'table':
+                                    include_once('raw/raw-table.php');
+                                    break;
+                                case 'keymedia-browse':
+                                    include_once('raw/raw-keymedia-browse.php');
+                                    break;
+                                case 'keymedia-crop':
+                                    include_once('raw/raw-keymedia-crop.php');
+                                    break;
+                                case 'sitemap':
+                                    include_once('raw/raw-sitemap.php');
+                                    break;
+                                case 'attributes':
+                                default:
+                                    include_once('raw/raw-attributes.php');
+                                    include_once('raw/raw-object-sidebar.php');
+                                    break;
+                            }
+                        ?>
 
+                    </section>
                 </section>
             </section>
         </section>
