@@ -12,12 +12,15 @@
              <link rel="stylesheet" href="css/ie-legacy.css" />
 		<![endif]-->
 
-        <link rel="stylesheet" href="/css/lib/bootstrap.min.css">
+        <link rel="stylesheet" href="css/lib/bootstrap.min.css">
         <link rel="stylesheet" href="css/eze.css" />
-        <link rel="stylesheet" href="/css/lib/font-awesome.css">
-        <link rel="stylesheet" href="/css/lib/chosen.css">
+        <link rel="stylesheet" href="css/lib/font-awesome.css">
+        <link rel="stylesheet" href="css/lib/chosen.css">
+
+
 	</head>
     <body class="eze" style="background: url(img/site.jpg)">
+
         <?php include_once('raw/raw-toolbar.php'); ?> 
         <?php include_once('raw/raw-pencils.php'); ?>
         <section class="eze-bigmodal">
@@ -32,9 +35,8 @@
                         
                         include_once('raw/raw-table.php');
                         include_once('raw/raw-keymedia-browse.php');
-                         
                         include_once('raw/raw-keymedia-crop.php');
-                                                include_once('raw/raw-sitemap.php');
+                        include_once('raw/raw-sitemap.php');
 
                         */
                         
@@ -53,13 +55,13 @@
             <?php 
                 /*
                 
-                include_once('raw/raw-modal-publish.php');
+                
                 include_once('raw/raw-modal-layout.php');
                 include_once('raw/raw-modal-add-content.php');
                 include_once('raw/raw-modal-activity.php');
 
                 */
-
+include_once('raw/raw-modal-publish.php');
             ?>
 
 
@@ -69,12 +71,13 @@
         <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
-
-        <script type="text/javascript">$(function(){$(".chzn-select").chosen();});</script>
+        <script type="text/javascript">
+            $(function(){$(".chzn-select").chosen();});
+        </script>
 
         <!-- Scroll Pane, shoud use ::-webkit-scrollbar for modern browsers http://www.webkit.org/blog/363/styling-scrollbars/ 
         <script type="text/javascript">$(function(){$('.scroll-pane').jScrollPane();});</script>
         <script type="text/javascript">$(function(){$('.scroll-pane2').jScrollPane();});</script>
-        <link rel="stylesheet" href="/css/lib/jquery.jscrollpane.css">  -->
+        <link rel="stylesheet" href="css/lib/jquery.jscrollpane.css">  -->
     </body>
 </html>

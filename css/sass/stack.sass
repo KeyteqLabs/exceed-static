@@ -24,6 +24,10 @@
 			img
 				margin: 0 5px 0 0
 
+			.btn
+				float: right
+				margin: 2px 3px 0 0
+
 			&:nth-last-child(2)
 				background: #ffb365
 
@@ -36,10 +40,15 @@
 				font: normal 16px/46px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 				background: #ff8500
 				border-bottom: 0
+				position: relative
 				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4)
 
 				img
 					margin-top: -2px
+
+				.btn
+					margin: 9px 9px 0 0
+					border: 1px solid #fff
 
 			&.move-in
 				-moz-animation: stack-header-move-in 0.7s ease 1 normal
@@ -50,11 +59,16 @@
 				-moz-animation: stack-header-move-out 0.7s ease 1 normal
 				-webkit-animation: stack-header-move-out 0.7s ease 1 normal
 
-			.go-back
-				float: right
-				height: 44px
-				width: 44px
-				text-align: center
+		#autosave
+			float: right
+			margin: 0 20px 0 0
+			font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+
+			img
+				background: #fff
+				border-radius: 25px
+				border: 1px solid rgba(0,0,0,0.5)
+				padding: 5px
 
 	.eze-stack-content
 		position: absolute

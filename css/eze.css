@@ -330,6 +330,9 @@
     font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
     .eze .eze-stack li img {
       margin: 0 5px 0 0; }
+    .eze .eze-stack li .btn {
+      float: right;
+      margin: 2px 3px 0 0; }
     .eze .eze-stack li:nth-last-child(2) {
       background: #ffb365; }
     .eze .eze-stack li:nth-last-child(3) {
@@ -340,20 +343,28 @@
       font: normal 16px/46px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       background: #ff8500;
       border-bottom: 0;
+      position: relative;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
       .eze .eze-stack li.last img {
         margin-top: -2px; }
+      .eze .eze-stack li.last .btn {
+        margin: 9px 9px 0 0;
+        border: 1px solid white; }
     .eze .eze-stack li.move-in {
       -moz-animation: stack-header-move-in 0.7s ease 1 normal;
       -webkit-animation: stack-header-move-in 0.7s ease 1 normal; }
     .eze .eze-stack li.move-out {
       -moz-animation: stack-header-move-out 0.7s ease 1 normal;
       -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
-    .eze .eze-stack li .go-back {
-      float: right;
-      height: 44px;
-      width: 44px;
-      text-align: center; }
+  .eze .eze-stack #autosave {
+    float: right;
+    margin: 0 20px 0 0;
+    font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .eze .eze-stack #autosave img {
+      background: white;
+      border-radius: 25px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      padding: 5px; }
 .eze .eze-stack-content {
   position: absolute;
   left: 0;
