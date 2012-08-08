@@ -45,6 +45,6 @@ Includes
 
 To-do
 ---------------------
-* Stack autosave indicator and go-back interaction
 * User settings modal
 * Devices modal
+* Quick edit modals (use Bootstrap modals)
