@@ -39,6 +39,7 @@
             <li><a href="?addcontent">Modal: Create</a></li>
             <li><a href="?activity">Modal: Activity</a></li>
             <li><a href="?publish">Modal: Publish</a></li>
+            <li><a href="?devices">Modal: Devices</a></li>
         </ul>
 
         <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 
@@ -90,6 +91,8 @@
                     include_once('raw/raw-modal-activity.php');
                 if (isset($_GET['publish']))
                     include_once('raw/raw-modal-publish.php');
+                if (isset($_GET['devices']))
+                    include_once('raw/raw-modal-devices.php');
             ?>
         <?php } ?>
 

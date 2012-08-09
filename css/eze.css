@@ -217,6 +217,8 @@
     background-position: -448px 0; }
   .eze nav#toolbar .eze-more {
     background-position: -512px 0; }
+  .eze nav#toolbar .eze-devices {
+    background-position: 0 -28px; }
 
 .eze .eze-bigmodal {
   position: absolute;
@@ -264,6 +266,8 @@
     margin: 0 0 10px 0; }
     .eze .eze-smallmodal h1 i {
       margin: 0 5px 0 0; }
+    .eze .eze-smallmodal h1 img {
+      margin: -4px 0 0 0; }
   .eze .eze-smallmodal h2 {
     font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -279,6 +283,16 @@
   float: right; }
 .eze .eze-add-content-modal {
   width: 580px; }
+.eze .eze-devices-modal {
+  width: 450px; }
+  .eze .eze-devices-modal .table {
+    margin: 0; }
+    .eze .eze-devices-modal .table tr:first-child td {
+      border-top: 0; }
+    .eze .eze-devices-modal .table p {
+      margin: 0; }
+    .eze .eze-devices-modal .table label {
+      margin: 4px 0 0 0; }
 .eze .eze-layout-modal {
   width: 580px; }
   .eze .eze-layout-modal .active-layout {

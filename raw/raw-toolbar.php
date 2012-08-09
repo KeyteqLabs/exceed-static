@@ -19,6 +19,7 @@
         <li><a href="#"><b class="eze-activity"></b>Activity</a></li>
         <li><a href="#eze-mediabase"><b class="eze-media"></b>Media</a></li>
         <li><a href="#"><b class="eze-sitemap"></b>Sitemap</a></li>
+        <li><a href="#"><b class="eze-devices"></b>Devices</a></li>
         <li><a href="#"><b class="eze-settings"></b>Settings</a></li>
         <li><a href="#"><b class="eze-more"></b>More</a></li>
     </ul>

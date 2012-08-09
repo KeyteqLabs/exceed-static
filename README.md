@@ -53,6 +53,7 @@ Includes
     * Activity
     * Create content
     * Publish
+    * Devices
 
 * Big modal w. stack
     * Attributes edit
@@ -68,5 +69,4 @@ Includes
 To-do
 ---------------------
 * User settings modal
-* Devices modal
 * Quick edit modals (use Bootstrap modals)
