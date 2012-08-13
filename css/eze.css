@@ -175,14 +175,14 @@
         box-sizing: border-box;
         background: rgba(0, 0, 0, 0.8); }
   .eze nav#toolbar b {
-    background: url(../gfx/sprite.png);
+    background: url(../images/sprite.png);
     display: block;
     width: 62px;
     height: 28px;
     margin: 0 0 2px 0; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
       .eze nav#toolbar b {
-        background: url(../gfx/sprite@2x.png);
+        background: url(../images/sprite@2x.png);
         -webkit-background-size: 640px 640px;
         background-size: 640px 640px; } }
   .eze nav#toolbar .eze-home {
@@ -601,7 +601,7 @@
     overflow: hidden;
     border-radius: 4px;
     margin: 0;
-    background: url("../gfx/legacy-sprite.png") -572px 0 no-repeat; }
+    background: url("../images/legacy-sprite.png") -572px 0 no-repeat; }
     .eze .kp-edit-block-box ul li {
       display: none;
       opacity: 0;
@@ -653,7 +653,7 @@
     width: 16px;
     display: block;
     border-radius: 4px;
-    background: url("../gfx/legacy-sprite.png") -562px -25px no-repeat;
+    background: url("../images/legacy-sprite.png") -562px -25px no-repeat;
     margin: 7px 0 0 5px; }
 
 .eze .eze-items {

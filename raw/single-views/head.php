@@ -3,7 +3,7 @@
         <head>
                 <title>Next</title>
                 <meta charset="utf-8" />
-                <link rel="shortcut icon" href="../../gfx/favicon.ico" />
+                <link rel="shortcut icon" href="../../images/favicon.ico" />
 
                 <!--[if lt IE 9]>
                         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

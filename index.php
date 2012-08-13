@@ -4,7 +4,7 @@
 		<title>Next</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-		<link rel="shortcut icon" href="gfx/favicon.ico" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
 
 		<!--[if lt IE 9]>
     		<script src="js/html5.js"></script>
@@ -52,7 +52,7 @@
                 <?php include_once('raw/raw-stack.php'); ?>
 
                 <section class="stack-item move-in last" style="top:124px">
-                    <header><img src="img/32x32/Documents 32x32.png" /><h1>Fifth and last level</h1> <button class="btn">Save and go back</button> <div id="autosave"><img src="gfx/loader.gif" /> Saving…</div></header>
+                    <header><img src="img/32x32/Documents 32x32.png" /><h1>Fifth and last level</h1> <button class="btn">Save and go back</button> <div id="autosave"><img src="images/loader.gif" /> Saving…</div></header>
                     <section class="eze-stack-content">
 
                         <?php
