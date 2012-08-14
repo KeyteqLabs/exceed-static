@@ -52,7 +52,14 @@
                 <?php include_once('raw/raw-stack.php'); ?>
 
                 <section class="stack-item move-in last" style="top:124px">
-                    <header><img src="img/32x32/Documents 32x32.png" /><h1>Fifth and last level</h1> <button class="btn">Save and go back</button> <div id="autosave"><img src="images/loader.gif" /> Saving…</div></header>
+                    <header>
+                        <h1>
+                            <img src="img/32x32/Documents 32x32.png" />
+                            Fifth and last level
+                        </h1>
+                        <button class="btn">Save and go back</button>
+                        <div id="autosave"><img src="images/loader.gif" /> Saving…</div>
+                    </header>
                     <section class="eze-stack-content">
 
                         <?php
