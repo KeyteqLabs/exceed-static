@@ -1,8 +1,11 @@
 <section class="eze-object-sidebar">
 	<section class="eze-container">
 		<h1><i class="icon-certificate" style="color:#FFDE00;"></i>Publish this content</h1>
-			<p class="description">Last published: 02/08/2012 14:11</p>
-			<a class="btn btn-primary" href="">Publish now</a>
+        <p class="description">
+            <span class="text">Last published:</span>
+            <time datetime="02.08.2012">02/08/2012 14:11</time>
+        </p>
+        <a class="btn btn-primary">Publish now</a>
 	</section>
 
 
