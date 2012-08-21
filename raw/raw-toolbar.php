@@ -1,4 +1,4 @@
-<nav id="toolbar">
+<nav id="eze-toolbar">
     <ul>
         <li><a href="#"><b class="eze-home"></b>Dashboard</a></li>
         <li><a href="#"><b class="eze-create"></b>Create</a>

@@ -114,7 +114,7 @@
     .eze-mediabase nav i {
       margin: 0 10px 0 20px; }
 
-.eze nav#toolbar {
+.eze #eze-toolbar {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -130,15 +130,15 @@
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #1b1b1b), color-stop(1, #1e1e1e));
   background-image: linear-gradient(left, #1b1b1b 0%, #1e1e1e 100%);
   box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.5), inset -1px 0 #3c3c3c; }
-  .eze nav#toolbar ul {
+  .eze #eze-toolbar ul {
     margin: 0;
     list-style: none;
     position: relative;
     left: 0;
     -webkit-animation: fade-in 0.4s ease-in 1; }
-    .eze nav#toolbar ul li {
+    .eze #eze-toolbar ul li {
       position: relative; }
-      .eze nav#toolbar ul li a {
+      .eze #eze-toolbar ul li a {
         height: 50px;
         width: 62px;
         padding: 9px 0 0 0;
@@ -148,7 +148,7 @@
         color: white;
         font-size: 10px;
         text-decoration: none; }
-      .eze nav#toolbar ul li div.slide-in {
+      .eze #eze-toolbar ul li div.slide-in {
         position: absolute;
         top: 0;
         left: -400px;
@@ -159,39 +159,39 @@
         -moz-transition: left 0.3s ease-out;
         -o-transition: left 0.3s ease-out;
         transition: left 0.3s ease-out; }
-      .eze nav#toolbar ul li:hover div.slide-in {
+      .eze #eze-toolbar ul li:hover div.slide-in {
         visibility: visible;
         left: 0; }
-      .eze nav#toolbar ul li .group a {
+      .eze #eze-toolbar ul li .group a {
         float: left;
         border-bottom: 0;
         background: #232323;
         border-right: 1px solid rgba(255, 255, 255, 0.3); }
-        .eze nav#toolbar ul li .group a:last-child {
+        .eze #eze-toolbar ul li .group a:last-child {
           border-right: 0; }
-      .eze nav#toolbar ul li .quick-action {
+      .eze #eze-toolbar ul li .quick-action {
         padding: 15px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         background: rgba(0, 0, 0, 0.8); }
-  .eze nav#toolbar b {
+  .eze #eze-toolbar b {
     background: url(../images/sprite.png);
     display: block;
     width: 62px;
     height: 28px;
     margin: 0 0 2px 0; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-      .eze nav#toolbar b {
+      .eze #eze-toolbar b {
         background: url(../images/sprite@2x.png);
         -webkit-background-size: 640px 640px;
         background-size: 640px 640px; } }
-  .eze nav#toolbar .eze-home {
+  .eze #eze-toolbar .eze-home {
     background-position: 0 0; }
-  .eze nav#toolbar .eze-create {
+  .eze #eze-toolbar .eze-create {
     background-position: -64px 0; }
-  .eze nav#toolbar .eze-document {
+  .eze #eze-toolbar .eze-document {
     background-position: -128px 0; }
-  .eze nav#toolbar .eze-status {
+  .eze #eze-toolbar .eze-status {
     height: 8px;
     width: 8px;
     border-radius: 8px;
@@ -199,25 +199,25 @@
     position: absolute;
     top: 3px;
     left: 37px; }
-    .eze nav#toolbar .eze-status.published {
+    .eze #eze-toolbar .eze-status.published {
       background: #82ea43; }
-    .eze nav#toolbar .eze-status.changed {
+    .eze #eze-toolbar .eze-status.changed {
       background: yellow; }
-    .eze nav#toolbar .eze-status.new {
+    .eze #eze-toolbar .eze-status.new {
       background: red; }
-  .eze nav#toolbar .eze-search {
+  .eze #eze-toolbar .eze-search {
     background-position: -192px 0; }
-  .eze nav#toolbar .eze-activity {
+  .eze #eze-toolbar .eze-activity {
     background-position: -256px 0; }
-  .eze nav#toolbar .eze-media {
+  .eze #eze-toolbar .eze-media {
     background-position: -320px 0; }
-  .eze nav#toolbar .eze-sitemap {
+  .eze #eze-toolbar .eze-sitemap {
     background-position: -384px 0; }
-  .eze nav#toolbar .eze-settings {
+  .eze #eze-toolbar .eze-settings {
     background-position: -448px 0; }
-  .eze nav#toolbar .eze-more {
+  .eze #eze-toolbar .eze-more {
     background-position: -512px 0; }
-  .eze nav#toolbar .eze-devices {
+  .eze #eze-toolbar .eze-devices {
     background-position: 0 -28px; }
 
 .eze .eze-bigmodal {

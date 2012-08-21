@@ -14,8 +14,8 @@
 			<p class="description">Show content on these pages</p>
 
 			<ul class="eze-items">
-				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Document 16x16.png" /><small>Landing page</small> Object name is really really really really really really long</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Document 16x16.png" /><small>Landing page</small> Object name is really really really really really really long</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
 			</ul>
 
 		<button class="btn">Add to page…</button>
@@ -61,9 +61,9 @@
 			<p class="description">Edit and sort content under this page</p>
 			<select class="chzn-select"><option>Sort manually</option><option>2</option></select>
 			<ul class="eze-items">
-				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Globe alt 16x16.png" /><small>Globe</small> Object name is short</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Globe alt 16x16.png" /><small>Globe</small> Object name is really really really really really really long</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Lab 16x16.png" /><small>Lab Article</small> Object name is short</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Globe alt 16x16.png" /><small>Globe</small> Object name is short</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Globe alt 16x16.png" /><small>Globe</small> Object name is really really really really really really long</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Lab 16x16.png" /><small>Lab Article</small> Object name is short</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
 			</ul>
 	</section>
 

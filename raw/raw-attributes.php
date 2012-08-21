@@ -61,14 +61,14 @@
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<div href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""><button class="btn btn-inverse">Edit image</button></div>
-				<p><a href="#" class="btn">Upload new image</a></p>
+				<p><button href="#" class="btn">Upload new image</button></p>
 		</section>
 
 		<section class="eze-object-attribute eze-dam last">
 			<label class="heading">DAM Asset</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<div href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""><button class="btn btn-inverse">Scale versions</button></div>
-				<p><a href="#" class="btn">Browse media library</a></p>
+				<p><button href="#" class="btn">Browse media library</button></p>
 		</section>
 		
 	</div>
@@ -81,23 +81,23 @@
 		<label class="heading">Related content</label>
 			<span class="help-block description">Example block-level help text here.</span>
 			<ul class="eze-items">
-				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-reorder"></i><i class="icon-magic"></i><small>Class</small> Object name</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
 			</ul>
-			<p><a href="#" class="btn">Add relations to other content…</a></p>
+			<p><button href="#" class="btn">Add relations to other content…</button></p>
 	</section>
 	
 	<section class="eze-object-attribute full-width">
 		<label class="heading">Authors</label>
 			<span class="help-block description">Example block-level help text here.</span>
 			<ul class="eze-items">
-				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
-				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
+				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+				<li><div class="wrap"><p><i class="icon-user"></i>Tor Løvskogen Bollingmo – typografi@gmail.com</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
 			</ul>
-			<p><a href="#" class="btn">Add new user</a></p>
+			<p><button href="#" class="btn">Add new user</button></p>
 	</section>
 		
 	</div>
