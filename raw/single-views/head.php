@@ -14,5 +14,15 @@
                 <link rel="stylesheet" href="../../css/lib/bootstrap.min.css">
                 <link rel="stylesheet" href="../../css/eze.css" />
                 <link rel="stylesheet" href="../../css/lib/font-awesome.css">
+                <link rel="stylesheet" href="../../css/lib/chosen.css">
+
+                <script type="text/javascript" src="../../js/jquery-latest.min.js "></script>
+                <script type="text/javascript" src="../../js/jquery.mousewheel.js"></script>
+                <script type="text/javascript" src="../../js/jquery.jscrollpane.min.js"></script>
+                <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+                <script type="text/javascript" src="../../js/chosen.jquery.min.js"></script>
+                <script type="text/javascript">
+                    $(function(){$(".chzn-select").chosen();});
+                </script>
 
         </head>

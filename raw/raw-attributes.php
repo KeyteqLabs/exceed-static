@@ -74,7 +74,7 @@
 	</div>
 
 
-	<div data-toggle="collapse" class="attr-group" data-target="#group"><i class="icon-caret-right"></i>View attribute group</div>
+	<div data-toggle="collapse" class="attr-group" data-target="#group"><i class="icon-caret-right"></i>Open attribute group</div>
 	<div id="group" class="collapse">
 
 	<section class="eze-object-attribute full-width">
@@ -113,7 +113,7 @@
 						<th><input type="checkbox"></th>
 						<th>Column 1</th>
 						<th>Column 2</th>
-						<th>Column with long name</th>
+						<th>Column 3</th>
 						<th>Col. 4</th>
 						<th>Column 5</th>
 						<th>Column 6</th>
@@ -122,30 +122,30 @@
 				<tbody>
 					<tr>
 						<td><input type="checkbox"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
-						<td><input type="text" placeholder="Type something…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
+						<td><input type="text" placeholder="…"></td>
 					</tr>
 				</tbody>
 			</table>

@@ -2,22 +2,49 @@
 
 .eze
 
-    .eze-table-filters
-        height: 32px
+    .eze-table-actions
+        margin: 0 0 20px 0
+        padding: 0
 
-        p
-            font-size: 12px
-            line-height: 30px
+    .eze-table-sort
+        margin-top: -40px
+        width: 700px
+        float: right
+        .nav
             float: left
-            margin: 0
-
+            margin: 0 0 5px 0
+            li
+                margin-right: 10px
             a
-                color: #ff7200
-                text-decoration: underline
+                font-size: 11px
+                padding: 3px 7px
+                background: #eee
+
+            li.active a
+                background: #000
+
+        .view-options
+            margin: 6px 300px 0 0
+            font-size: 20px
+
+    .eze-table-filters
+        position: fixed
+        right: 10%
+        width: 200px
+        padding: 10px
+        margin-left: 20px
+        background: #fafafa
+        border: 1px solid #eee
+
+        .description
+            font-size: 11px
+            margin: 0 0 0 2px
+
+        select
+            width: 180px
 
         form
-            float: right
-            margin: 0
+            margin: 0 0 10px 0
 
             i
                 font-size: 20px
@@ -26,9 +53,9 @@
 
     
     .eze-datatable
-        border: 1px solid #ccc
+        clear: both
         text-align: left
-        width: 100%
+        width: 70%
         //border-collapse: separate
         border-bottom-left-radius: 4px
         border-bottom-right-radius: 4px
@@ -36,12 +63,10 @@
         thead tr
             font-size: 11px
             height: 25px
-            @include gradient(#fff, #ebebeb)
 
             th
-                border: 0
-                border-bottom: 1px solid rgba(0,0,0,0.25)
                 padding: 6px 0
+                border-top: 1px solid #eee
 
         tbody tr
             background: rgba(0,0,0,0.02)
@@ -62,9 +87,6 @@
                 background: rgba(118, 212, 31, 0.2)
             &.deleting
                 background: rgba(255, 0, 0, 0.2)
-            
-            td
-                border-bottom: 1px solid #ccc
                 
             &:last-child td
                 border-bottom: 0

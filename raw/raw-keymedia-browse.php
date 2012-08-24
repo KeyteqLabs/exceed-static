@@ -1,5 +1,5 @@
 <form class="form-search">
-  <input type="text" class="input-medium search-query">
+  <input type="text" class="input-long">
   <button type="submit" class="btn">Search for media</button>
 </form>
 

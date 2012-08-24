@@ -1,40 +1,55 @@
-.eze .eze-table-filters {
-  height: 32px; }
-  .eze .eze-table-filters p {
-    font-size: 12px;
-    line-height: 30px;
+.eze .eze-table-actions {
+  margin: 0 0 20px 0;
+  padding: 0; }
+.eze .eze-table-sort {
+  margin-top: -40px;
+  width: 700px;
+  float: right; }
+  .eze .eze-table-sort .nav {
     float: left;
-    margin: 0; }
-    .eze .eze-table-filters p a {
-      color: #ff7200;
-      text-decoration: underline; }
+    margin: 0 0 5px 0; }
+    .eze .eze-table-sort .nav li {
+      margin-right: 10px; }
+    .eze .eze-table-sort .nav a {
+      font-size: 11px;
+      padding: 3px 7px;
+      background: #eeeeee; }
+    .eze .eze-table-sort .nav li.active a {
+      background: black; }
+  .eze .eze-table-sort .view-options {
+    margin: 6px 300px 0 0;
+    font-size: 20px; }
+.eze .eze-table-filters {
+  position: fixed;
+  right: 10%;
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  background: #fafafa;
+  border: 1px solid #eeeeee; }
+  .eze .eze-table-filters .description {
+    font-size: 11px;
+    margin: 0 0 0 2px; }
+  .eze .eze-table-filters select {
+    width: 180px; }
   .eze .eze-table-filters form {
-    float: right;
-    margin: 0; }
+    margin: 0 0 10px 0; }
     .eze .eze-table-filters form i {
       font-size: 20px;
       height: 20px;
       width: 20px; }
 .eze .eze-datatable {
-  border: 1px solid #cccccc;
+  clear: both;
   text-align: left;
-  width: 100%;
+  width: 70%;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
   .eze .eze-datatable thead tr {
     font-size: 11px;
-    height: 25px;
-    background-color: #ebebeb;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ebebeb));
-    background-image: -webkit-linear-gradient(top, white, #ebebeb);
-    background-image: -moz-linear-gradient(top, white, #ebebeb);
-    background-image: -ms-linear-gradient(top, white, #ebebeb);
-    background-image: -o-linear-gradient(top, white, #ebebeb);
-    background-image: linear-gradient(top, white, #ebebeb); }
+    height: 25px; }
     .eze .eze-datatable thead tr th {
-      border: 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-      padding: 6px 0; }
+      padding: 6px 0;
+      border-top: 1px solid #eeeeee; }
   .eze .eze-datatable tbody tr {
     background: rgba(0, 0, 0, 0.02);
     height: 30px;
@@ -54,8 +69,6 @@
       background: rgba(118, 212, 31, 0.2); }
     .eze .eze-datatable tbody tr.deleting {
       background: rgba(255, 0, 0, 0.2); }
-    .eze .eze-datatable tbody tr td {
-      border-bottom: 1px solid #cccccc; }
     .eze .eze-datatable tbody tr:last-child td {
       border-bottom: 0; }
     .eze .eze-datatable tbody tr a {
@@ -147,7 +160,8 @@
         text-align: center;
         color: white;
         font-size: 10px;
-        text-decoration: none; }
+        text-decoration: none;
+        position: relative; }
       .eze #eze-toolbar ul li div.slide-in {
         position: absolute;
         top: 0;
@@ -165,15 +179,22 @@
       .eze #eze-toolbar ul li .group a {
         float: left;
         border-bottom: 0;
-        background: #232323;
-        border-right: 1px solid rgba(255, 255, 255, 0.3); }
+        background: #1e1e1e;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5); }
         .eze #eze-toolbar ul li .group a:last-child {
           border-right: 0; }
       .eze #eze-toolbar ul li .quick-action {
         padding: 15px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        background: rgba(0, 0, 0, 0.8); }
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5); }
+        .eze #eze-toolbar ul li .quick-action.search .input-prepend, .eze #eze-toolbar ul li .quick-action.search .btn {
+          float: left; }
+        .eze #eze-toolbar ul li .quick-action.search .btn {
+          margin: 0 0 0 10px;
+          border: 1px solid white; }
   .eze #eze-toolbar b {
     background: url(../images/sprite.png);
     display: block;
@@ -219,6 +240,10 @@
     background-position: -512px 0; }
   .eze #eze-toolbar .eze-devices {
     background-position: 0 -28px; }
+  .eze #eze-toolbar .eze-publish {
+    background-position: -64px -28px; }
+  .eze #eze-toolbar .eze-layout {
+    background-position: -128px -28px; }
 
 .eze .eze-bigmodal {
   position: absolute;
@@ -264,10 +289,6 @@
   .eze .eze-smallmodal h1 {
     font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
-    .eze .eze-smallmodal h1 i {
-      margin: 0 5px 0 0; }
-    .eze .eze-smallmodal h1 img {
-      margin: -4px 0 0 0; }
   .eze .eze-smallmodal h2 {
     font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -279,8 +300,9 @@
     width: 270px; }
 .eze .eze-publish-modal label.checkbox {
   margin: 0 0 10px 0; }
-.eze .eze-publish-modal li i {
-  float: right; }
+.eze .eze-publish-modal .eze-items li .wrap i {
+  float: right;
+  margin: 6px 0 0 0; }
 .eze .eze-add-content-modal {
   width: 580px; }
 .eze .eze-devices-modal {
@@ -289,10 +311,14 @@
     margin: 0; }
     .eze .eze-devices-modal .table tr:first-child td {
       border-top: 0; }
+    .eze .eze-devices-modal .table td {
+      padding: 8px 8px 8px 0; }
     .eze .eze-devices-modal .table p {
-      margin: 0; }
+      margin: 4px 0 0 0; }
     .eze .eze-devices-modal .table label {
       margin: 4px 0 0 0; }
+.eze .eze-settings-modal {
+  width: 580px; }
 .eze .eze-layout-modal {
   width: 580px; }
   .eze .eze-layout-modal .active-layout {
@@ -346,22 +372,35 @@
     max-width: 1100px; }
     .eze .stack-item header h1 {
       float: left;
-      font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+      font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      margin: 0; }
     .eze .stack-item header img {
       float: left;
       margin: 8px 5px 0 10px; }
     .eze .stack-item header .btn {
       float: right;
       margin: 2px 3px 0 0; }
-    .eze .stack-item header:nth-last-child(2) {
-      background: #ffb365; }
-    .eze .stack-item header:nth-last-child(3) {
-      background: #ffd5a1; }
+  .eze .stack-item:nth-last-child(2) header {
+    background-color: #ffb365;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc785), to(#ffb365));
+    background-image: -webkit-linear-gradient(top, #ffc785, #ffb365);
+    background-image: -moz-linear-gradient(top, #ffc785, #ffb365);
+    background-image: -ms-linear-gradient(top, #ffc785, #ffb365);
+    background-image: -o-linear-gradient(top, #ffc785, #ffb365);
+    background-image: linear-gradient(top, #ffc785, #ffb365); }
+  .eze .stack-item:nth-last-child(3) header {
+    background: #ffd5a1; }
   .eze .stack-item.last header {
     height: 44px;
     right: 0;
     max-width: 1144px;
-    background: #ff8500;
+    background-color: #ff8500;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9b00), to(#ff8500));
+    background-image: -webkit-linear-gradient(top, #ff9b00, #ff8500);
+    background-image: -moz-linear-gradient(top, #ff9b00, #ff8500);
+    background-image: -ms-linear-gradient(top, #ff9b00, #ff8500);
+    background-image: -o-linear-gradient(top, #ff9b00, #ff8500);
+    background-image: linear-gradient(top, #ff9b00, #ff8500);
     border-bottom: 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
     .eze .stack-item.last header h1 {
@@ -382,8 +421,8 @@
     .eze .stack-item #autosave img {
       background: white;
       border-radius: 25px;
-      border: 1px solid rgba(0, 0, 0, 0.5);
-      padding: 5px; }
+      padding: 4px;
+      margin: 9px 16px 0 0; }
   .eze .stack-item .eze-stack-content {
     display: none;
     padding: 15px;
@@ -677,20 +716,22 @@
         margin: 0 30px 0 0;
         height: 26px;
         overflow: hidden;
-        font: normal 12px/26px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+        line-height: 26px; }
       .eze .eze-items li .wrap small {
         font-size: 11px; }
       .eze .eze-items li .wrap i {
         margin: 0 3px 0 0; }
       .eze .eze-items li .wrap img {
         margin: -1px 3px 0 0; }
+      .eze .eze-items li .wrap input[type="checkbox"] {
+        margin: 0 3px; }
       .eze .eze-items li .wrap .btn {
         position: absolute;
         top: 50%;
-        margin-top: -11px;
-        right: 5px; }
+        margin-top: -12px;
+        right: 2px; }
         .eze .eze-items li .wrap .btn.edit-btn {
-          right: 34px; }
+          right: 28px; }
 .eze .eze-content-types {
   list-style: none;
   margin: 0; }
@@ -730,7 +771,8 @@
       height: 34px;
       width: 34px;
       border-radius: 34px;
-      float: left; }
+      float: left;
+      margin-left: -3px; }
     .eze .eze-comments li p {
       margin: 0 0 0 40px;
       font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
@@ -753,7 +795,7 @@
         margin: 0 0 0 0;
         font: normal 11px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
         height: 12px;
-        width: 100%; }
+        width: 99%; }
 
 @-webkit-keyframes fade-in {
   0% {
@@ -853,10 +895,6 @@
     max-width: 100%;
     border: 1px solid white; }
 
-.eze .label-required {
-  position: absolute;
-  top: 5px;
-  right: 5px; }
 .eze .eze-object-translations {
   background: white;
   float: left;
@@ -875,14 +913,19 @@
       .eze .eze-object-translations ul li input {
         margin: -1px 5px 0 0; }
 .eze .attr-group {
-  background: #eeeeee;
+  background-color: #dddddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#dddddd));
+  background-image: -webkit-linear-gradient(top, #fafafa, #dddddd);
+  background-image: -moz-linear-gradient(top, #fafafa, #dddddd);
+  background-image: -ms-linear-gradient(top, #fafafa, #dddddd);
+  background-image: -o-linear-gradient(top, #fafafa, #dddddd);
+  background-image: linear-gradient(top, #fafafa, #dddddd);
   border-top: 1px solid #cccccc;
-  padding: 10px 15px;
+  border-bottom: 1px solid #bbbbbb;
+  padding: 10px 15px 8px 15px;
   font: normal 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
   clear: both;
   cursor: pointer; }
-  .eze .attr-group i {
-    margin-right: 10px; }
 .eze .eze-object-attributes {
   position: absolute;
   top: 0;
@@ -907,6 +950,10 @@
     box-sizing: border-box;
     padding: 15px;
     border-left: 1px solid #eeeeee; }
+    .eze .eze-object-attributes .eze-object-attribute .label-required {
+      position: absolute;
+      top: 5px;
+      right: 5px; }
     .eze .eze-object-attributes .eze-object-attribute.full-width {
       border-top: 1px solid #eeeeee;
       width: 100%; }
@@ -996,7 +1043,8 @@
       .eze .eze-object-sidebar .eze-container h1 i {
         margin: 0 5px 0 0; }
     .eze .eze-object-sidebar .eze-container h2 {
-      font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+      font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      margin-bottom: 0; }
     .eze .eze-object-sidebar .eze-container p {
       font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .eze .eze-object-sidebar .eze-comments {
@@ -1021,9 +1069,6 @@
   background-image: -o-linear-gradient(top, #ffbb00, #ff8d00);
   background-image: linear-gradient(top, #ffbb00, #ff8d00);
   border-color: transparent; }
-
-label, input, button, select, textarea, .btn {
-  font-size: 12px; }
 
 .btn-mini {
   font-size: 11px; }
@@ -1078,17 +1123,16 @@ input[type="date"], input[type="month"], input[type="time"],
 input[type="week"], input[type="number"], input[type="email"],
 input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   -webkit-appearance: none;
-  font-size: 12px;
   line-height: 16px;
   height: 16px;
-  padding: 5px 4px 2px 4px; }
+  padding: 6px 4px 3px 5px; }
 
 select, input[type="file"] {
   height: 24px;
   line-height: 24px; }
 
 .input-prepend .add-on, .input-append .add-on {
-  height: 15px; }
+  height: 17px; }
 
 .eze {
   text-rendering: optimizeLegibility;

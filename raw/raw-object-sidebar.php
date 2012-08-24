@@ -24,7 +24,7 @@
 
 	<section class="eze-container">
 		<h1>Activity</h1>
-			<p class="description">Messages about this content</p>
+			<p class="description">Comments on this content</p>
 			<div class="input-append">
                 <input class="span2" id="appendedInputButton" size="16" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
 			</div>

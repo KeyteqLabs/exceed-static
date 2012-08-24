@@ -25,7 +25,7 @@
 					<li><div class="wrap"><p><i class="icon-reorder"></i><input type="text" class="name" placeholder="Type a name"><span title="Article List is really longish">Article List is really longish</span></p><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
 				</ul>
 
-				<form class="add-new"><select class="chzn-select"><option>Set overflow</option></select><button type="submit" class="btn">Add new block</button></form>
+				<form class="add-new"><select class="chzn-select"><option>Hero Article</option></select><button type="submit" class="btn">Add new block</button></form>
 
 		    </div>
 		    <div class="tab-pane" id="tab2">

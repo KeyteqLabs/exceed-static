@@ -8,7 +8,7 @@
             <button class="btn">Pinned</button>
         </div>
         <form class="write-comment form-search">
-            <input type="text" placeholder="Write a comment" class="input-medium search-query">
+            <input type="text" placeholder="Write a comment" class="input-medium">
             <button type="submit" class="btn btn-primary">Share</button>
         </form>
         <ol class="eze-comments">

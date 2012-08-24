@@ -7,23 +7,23 @@
 			<div class="kp-columns" style="width: 423px; ">
 				<div class="column ui-droppable" style="height: 450px; opacity: 1; ">
 					<ul class="nodes">
-						<li class="node ui-draggable ui-droppable"><a id="node-602" class="" data-id="602" data-children="1"><img src="img/16x16/Layout.png"><span>eZ Exceeds</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-468" class="" data-id="468" data-children="6"><img src="img/16x16/Folder.png"><span>Lab rats</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-600" class="" data-id="600" data-children="1"><img src="img/16x16/Layout.png"><span>raymondjulin.com</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
-						<li class="node ui-draggable active ui-droppable"><a id="node-747" class="" data-id="747" data-children="5"><img src="img/16x16/Folder.png"><span>sdafas Functiontest</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-653" class="" data-id="653" data-children="16"><img src="img/16x16/Layout.png"><span>Solar system</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-773" class="" data-id="773" data-children="0"><img src="img/16x16/Folder.png"><span>A new and brave folder</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-775" class="" data-id="775" data-children="0"><img src="img/16x16/Picture.png"><span>pai-med-falukorv377.jpg</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-774" class="" data-id="774" data-children="0"><img src="img/16x16/User.png"><span>Restored object</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/16x16/Planet.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-602" class="" data-id="602" data-children="1"><img src="img/16x16/Layout 16x16.png"><span>eZ Exceeds</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-468" class="" data-id="468" data-children="6"><img src="img/16x16/Folder 16x16.png"><span>Lab rats</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-600" class="" data-id="600" data-children="1"><img src="img/16x16/Layout 16x16.png"><span>raymondjulin.com</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
+						<li class="node ui-draggable active ui-droppable"><a id="node-747" class="" data-id="747" data-children="5"><img src="img/16x16/Folder 16x16.png"><span>sdafas Functiontest</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-653" class="" data-id="653" data-children="16"><img src="img/16x16/Layout 16x16.png"><span>Solar system</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-773" class="" data-id="773" data-children="0"><img src="img/16x16/Folder 16x16.png"><span>A new and brave folder</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-775" class="" data-id="775" data-children="0"><img src="img/16x16/Picture 16x16.png"><span>pai-med-falukorv377.jpg</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-774" class="" data-id="774" data-children="0"><img src="img/16x16/User 16x16.png"><span>Restored object</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/16x16/Planet 16x16.png"><span>Tor was here</span></a></li>
 					</ul>
 				</div>
 				<div class="column active ui-droppable" style="height: 450px; opacity: 1; ">
-					<ul class="nodes"><li class="node ui-draggable ui-droppable"><a id="node-764" class="" data-id="764" data-children="0"><img src="img/16x16/Planet.png"><span>Andromeda Xs</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-758" class="" data-id="758" data-children="0"><img src="img/16x16/Planet.png"><span>For ordering</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-767" class="" data-id="767" data-children="0"><img src="img/16x16/Globe.png"><span>Ratlab</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-761" class="" data-id="761" data-children="0"><img src="img/16x16/3d.png"><span>Restored babeh!</span></a></li>
-						<li class="node ui-draggable ui-droppable"><a id="node-749" class="" data-id="749" data-children="0"><img src="img/16x16/3d.png"><span>Test of attributes</span></a></li>
+					<ul class="nodes"><li class="node ui-draggable ui-droppable"><a id="node-764" class="" data-id="764" data-children="0"><img src="img/16x16/Planet 16x16.png"><span>Andromeda Xs</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-758" class="" data-id="758" data-children="0"><img src="img/16x16/Planet 16x16.png"><span>For ordering</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-767" class="" data-id="767" data-children="0"><img src="img/16x16/Globe 16x16.png"><span>Ratlab</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-761" class="" data-id="761" data-children="0"><img src="img/16x16/3d 16x16.png"><span>Restored babeh!</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-749" class="" data-id="749" data-children="0"><img src="img/16x16/3d 16x16.png"><span>Test of attributes</span></a></li>
 					</ul>
 				</div>
 			</div>

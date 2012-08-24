@@ -28,6 +28,7 @@
 			h1
 				float: left
 				font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin: 0
 
 			img
 				float: left
@@ -37,17 +38,17 @@
 				float: right
 				margin: 2px 3px 0 0
 
-			&:nth-last-child(2)
-				background: #ffb365
+		&:nth-last-child(2) header
+			@include gradient(#ffc785, #ffb365)
 
-			&:nth-last-child(3)
-				background: #ffd5a1
+		&:nth-last-child(3) header
+			background: #ffd5a1
 
 		&.last header
 			height: 44px
 			right: 0
 			max-width: 1144px
-			background: #ff8500
+			@include gradient(#ff9b00, #ff8500)
 			border-bottom: 0
 			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4)
 
@@ -75,8 +76,8 @@
 			img
 				background: #fff
 				border-radius: 25px
-				border: 1px solid rgba(0,0,0,0.5)
-				padding: 5px
+				padding: 4px
+				margin: 9px 16px 0 0
 
 		// Stack content
 

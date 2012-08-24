@@ -4,11 +4,6 @@
 
 	//	Attributes
 
-	.label-required
-		position: absolute
-		top: 5px
-		right: 5px
-
 
 	.eze-object-translations
 		background: #fff
@@ -33,15 +28,13 @@
 					margin: -1px 5px 0 0
 
 	.attr-group
-		background: #eee
+		@include gradient(#fafafa,#dddddd)
 		border-top: 1px solid #ccc
-		padding: 10px 15px
+		border-bottom: 1px solid #bbb
+		padding: 10px 15px 8px 15px
 		font: normal 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 		clear: both
 		cursor: pointer
-
-		i
-			margin-right: 10px
 
 
 	.eze-object-attributes
@@ -70,6 +63,11 @@
 			box-sizing: border-box
 			padding: 15px
 			border-left: 1px solid #eee
+
+			.label-required
+				position: absolute
+				top: 5px
+				right: 5px
 
 			&.full-width
 				border-top: 1px solid #eee
@@ -212,6 +210,7 @@
 					margin: 0 5px 0 0
 			h2
 				font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+				margin-bottom: 0
 
 			p
 				font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif

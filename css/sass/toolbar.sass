@@ -32,6 +32,7 @@
 					color: #fff
 					font-size: 10px
 					text-decoration: none
+					position: relative
 
 		
 
@@ -54,8 +55,9 @@
 				.group a
 					float: left
 					border-bottom: 0
-					background: #232323
-					border-right: 1px solid rgba(255,255,255,0.3)
+					background: #1e1e1e
+					border-right: 1px solid rgba(255,255,255,0.1)
+					box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.5)
 
 					&:last-child
 						border-right: 0
@@ -66,6 +68,15 @@
 					-moz-box-sizing: border-box
 					box-sizing: border-box
 					background: rgba(0,0,0,0.8)
+					box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.5)
+
+					&.search
+						.input-prepend, .btn
+							float: left
+
+						.btn
+							margin: 0 0 0 10px
+							border: 1px solid #fff
 
 
 		
@@ -125,3 +136,7 @@
 			background-position: -512px 0
 		.eze-devices
 			background-position: 0 -28px
+		.eze-publish
+			background-position: -64px -28px
+		.eze-layout
+			background-position: -128px -28px

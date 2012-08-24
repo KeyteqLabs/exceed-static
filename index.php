@@ -40,6 +40,7 @@
             <li><a href="?activity">Modal: Activity</a></li>
             <li><a href="?publish">Modal: Publish</a></li>
             <li><a href="?devices">Modal: Devices</a></li>
+            <li><a href="?settings">Modal: Settings</a></li>
         </ul>
 
         <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 
@@ -100,10 +101,12 @@
                     include_once('raw/raw-modal-publish.php');
                 if (isset($_GET['devices']))
                     include_once('raw/raw-modal-devices.php');
+                if (isset($_GET['settings']))
+                    include_once('raw/raw-modal-settings.php');
             ?>
         <?php } ?>
 
-
+        <?php include_once('raw/raw-modal-single-edit.php'); ?>
         <?php include_once('raw/raw-dam.php'); ?>
         <script type="text/javascript" src="js/jquery-latest.min.js "></script>
         <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
@@ -111,7 +114,7 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
         <script type="text/javascript">
-            $(function(){$(".chzn-select").chosen();});
+            $(function(){$(".chzn-select").chosen({disable_search_threshold: 3});});
         </script>
 
         <!-- Scroll Pane, shoud use ::-webkit-scrollbar for modern browsers http://www.webkit.org/blog/363/styling-scrollbars/ 
