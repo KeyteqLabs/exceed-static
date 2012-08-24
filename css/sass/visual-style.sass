@@ -3,63 +3,72 @@
 // Create a distinctive style, no default Boostrap – that looks bland
 
 
-.nav-pills.inverted
-	li
-		a
-			background: transparent
-			border: 1px solid #ccc
-			color: #ccc
+.eze // Stuff from bootstraps html and body styles
+	margin: 0
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+	font-size: 12px
+	line-height: 20px
+	color: #333
+	background-color: #fff
+	-webkit-text-size-adjust: 100%
+	-ms-text-size-adjust: 100%
 
-			&:hover
-				border-color: #fff
-				color: #fff
+	.nav-pills.inverted
+		li
+			a
+				background: transparent
+				border: 1px solid #ccc
+				color: #ccc
 
-		&.active a
-			color: #000
-			@include gradient(#ffbb00, #FF8D00)
-			border-color: transparent
+				&:hover
+					border-color: #fff
+					color: #fff
+
+			&.active a
+				color: #000
+				@include gradient(#ffbb00, #FF8D00)
+				border-color: transparent
 
 
 
 
-.btn-mini
-	font-size: 11px
+	.btn-mini
+		font-size: 11px
 
-.btn
-	padding: 3px 10px 2px 10px
-	border: 1px solid #bbb
+	.btn
+		padding: 3px 10px 2px 10px
+		border: 1px solid #bbb
 
-.remove-btn
-	padding: 3px 8px
+	.remove-btn
+		padding: 3px 8px
 
-.btn-primary
-	@include gradient(#ffac00,#ff9c00)
-	border: 1px solid #d67f00
-	color: #332100
-	text-shadow: 0 1px 0 rgba(255,255,255,0.5)
-
-	&:hover
-		background: #ff9c00
+	.btn-primary
+		@include gradient(#ffac00,#ff9c00)
+		border: 1px solid #d67f00
 		color: #332100
 		text-shadow: 0 1px 0 rgba(255,255,255,0.5)
 
-.btn-inverse
-	border: 1px solid #000
+		&:hover
+			background: #ff9c00
+			color: #332100
+			text-shadow: 0 1px 0 rgba(255,255,255,0.5)
 
-.label, .badge
-	text-shadow: none
+	.btn-inverse
+		border: 1px solid #000
 
-.label
-	font-weight: normal
-	&.label-required
-		color: #777
-		background: #ccc
+	.label, .badge
+		text-shadow: none
+
+	.label
+		font-weight: normal
+		&.label-required
+			color: #777
+			background: #ccc
 
 
 
-// Size adjustments etc.
+	// Size adjustments etc.
 
-.eze
 	a
 		color: #000
 
@@ -71,19 +80,19 @@
 		height: 25px
 		font-size: 12px
 
-input[type="text"], input[type="password"], 
-input[type="datetime"], input[type="datetime-local"], 
-input[type="date"], input[type="month"], input[type="time"], 
-input[type="week"], input[type="number"], input[type="email"], 
-input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
-	-webkit-appearance: none
-	line-height: 16px
-	height: 16px
-	padding: 6px 4px 3px 5px
+	input[type="text"], input[type="password"], 
+	input[type="datetime"], input[type="datetime-local"], 
+	input[type="date"], input[type="month"], input[type="time"], 
+	input[type="week"], input[type="number"], input[type="email"], 
+	input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+		-webkit-appearance: none
+		line-height: 16px
+		height: 16px
+		padding: 6px 4px 3px 5px
 
-select, input[type="file"]
-	height: 24px
-	line-height: 24px
+	select, input[type="file"]
+		height: 24px
+		line-height: 24px
 
-.input-prepend .add-on, .input-append .add-on
-	height: 17px
+	.input-prepend .add-on, .input-append .add-on
+		height: 17px
