@@ -32,7 +32,7 @@
 					<li><div class="wrap"><p><i class="icon-reorder"></i><input type="text" class="name" placeholder="Type a name"><span title="Centerpiece">Centerpiece</span></p><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
 				</ul>
 		    </div>
-		    <div class="tab-pane" id="tab3"><p><center>No content is added</center></p></div>
-		    <div class="tab-pane" id="tab4"><p><center>No content is added</center></p></div>
+		    <div class="tab-pane" id="tab3"><p>No content is added</p></div>
+		    <div class="tab-pane" id="tab4"><p>No content is added</p></div>
 		  </div>
 </section>
