@@ -926,6 +926,10 @@
   font: normal 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
   clear: both;
   cursor: pointer; }
+.eze .collapse .eze-object-attribute {
+  display: none; }
+.eze .collapse.in .eze-object-attribute {
+  display: block; }
 .eze .eze-object-attributes {
   position: absolute;
   top: 0;
@@ -1009,7 +1013,8 @@
     padding: 15px 5px 10px 5px;
     width: 100%; }
   .eze .eze-object-attributes .eze-matrix p {
-    float: right; }
+    float: right;
+    margin: -27px 0 0 0; }
     .eze .eze-object-attributes .eze-matrix p .btn {
       float: right;
       margin-left: 5px; }
