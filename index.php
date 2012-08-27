@@ -35,7 +35,7 @@
             <li><a href="?view=keymedia-browse">KeyMedia Browse</a></li>
             <li><a href="?view=keymedia-crop">KeyMedia Crop</a></li>
             <li><a href="?view=sitemap">Sitemap</a></li>
-            <li><a href="?layout">Modal: Layout</a></li>
+            <li><a href="?view=layout">Layout</a></li>
             <li><a href="?addcontent">Modal: Create</a></li>
             <li><a href="?activity">Modal: Activity</a></li>
             <li><a href="?publish">Modal: Publish</a></li>
@@ -77,6 +77,9 @@
                                 case 'sitemap':
                                     include_once('raw/raw-sitemap.php');
                                     break;
+                                case 'layout':
+                                    include_once('raw/raw-layout.php');
+                                    break;
                                 case 'attributes':
                                 default:
                                     include_once('raw/raw-attributes.php');
@@ -91,8 +94,6 @@
         </section>
 
             <?php 
-                if (isset($_GET['layout']))
-                    include_once('raw/raw-modal-layout.php');
                 if (isset($_GET['addcontent']))
                     include_once('raw/raw-modal-add-content.php');
                 if (isset($_GET['activity']))
