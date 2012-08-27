@@ -1,104 +1,128 @@
-.eze .eze-table-actions {
-  margin: 0 0 20px 0;
-  padding: 0; }
-.eze .eze-table-sort {
-  margin-top: -40px;
-  width: 700px;
-  float: right; }
-  .eze .eze-table-sort .nav {
-    float: left;
-    margin: 0 0 5px 0; }
-    .eze .eze-table-sort .nav li {
-      margin-right: 10px; }
-    .eze .eze-table-sort .nav a {
+.eze h1 {
+  font: normal 30px/30px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+  .eze h1 button {
+    margin: -3px 0 0 5px; }
+.eze .eze-table {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  overflow: hidden; }
+  .eze .eze-table .eze-table-actions {
+    height: 35px; }
+    .eze .eze-table .eze-table-actions .btn {
+      float: left;
+      margin-right: 5px; }
+    .eze .eze-table .eze-table-actions input {
+      float: left;
+      margin: 9px 5px 0 0; }
+    .eze .eze-table .eze-table-actions .sort-by {
+      float: right;
+      margin-right: 0; }
+      .eze .eze-table .eze-table-actions .sort-by ul {
+        float: left; }
+        .eze .eze-table .eze-table-actions .sort-by ul li {
+          margin-left: 5px; }
+          .eze .eze-table .eze-table-actions .sort-by ul li h2 {
+            font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+            margin: 7px 7px 0 0; }
+          .eze .eze-table .eze-table-actions .sort-by ul li a {
+            background: #eeeeee;
+            padding: 4px 10px; }
+          .eze .eze-table .eze-table-actions .sort-by ul li.active a {
+            background: black; }
+      .eze .eze-table .eze-table-actions .sort-by img {
+        float: left;
+        display: inline;
+        opacity: 0.5; }
+        .eze .eze-table .eze-table-actions .sort-by img.active {
+          opacity: 1; }
+  .eze .eze-table .eze-table-content {
+    position: absolute;
+    top: 86px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    margin-right: 212px;
+    border-bottom: 1px solid #e4e3e3;
+    border-top: 1px solid #e4e3e3;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0); }
+    .eze .eze-table .eze-table-content ul {
+      list-style: none;
+      margin: 0; }
+      .eze .eze-table .eze-table-content ul:first-child .group-header {
+        border-top: 0; }
+      .eze .eze-table .eze-table-content ul li.group-header {
+        margin: 0;
+        background-color: #fafafa;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#fafafa));
+        background-image: -webkit-linear-gradient(top, white, #fafafa);
+        background-image: -moz-linear-gradient(top, white, #fafafa);
+        background-image: -ms-linear-gradient(top, white, #fafafa);
+        background-image: -o-linear-gradient(top, white, #fafafa);
+        background-image: linear-gradient(top, white, #fafafa);
+        border: 1px solid #e4e3e3;
+        padding: 5px 5px 3px 5px;
+        color: #4c4c4c;
+        font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 2; }
+      .eze .eze-table .eze-table-content ul li.item {
+        background: #fafafa;
+        padding: 0 0 0 120px;
+        margin: 0 0 1px 10px;
+        border-right: 1px solid #e8e8e8; }
+        .eze .eze-table .eze-table-content ul li.item:nth-child(2n) {
+          background: white; }
+        .eze .eze-table .eze-table-content ul li.item .check {
+          float: left;
+          width: 12px;
+          margin: 0 -20px 0 -120px;
+          background: #fafafa;
+          border-bottom-right-radius: 4px;
+          padding: 2px 4px 2px 2px;
+          position: relative;
+          z-index: 1;
+          -webkit-transform: translateZ(0); }
+          .eze .eze-table .eze-table-content ul li.item .check input {
+            margin: 0; }
+        .eze .eze-table .eze-table-content ul li.item .thumb {
+          float: left;
+          display: inline;
+          margin-left: -120px; }
+        .eze .eze-table .eze-table-content ul li.item h2 {
+          font: normal 18px/18px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+          margin: 10px 0 5px 0; }
+        .eze .eze-table .eze-table-content ul li.item p {
+          float: left;
+          width: 100%;
+          font: normal 12px/20px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+          .eze .eze-table .eze-table-content ul li.item p .other-locations {
+            border-bottom: 1px dashed black; }
+  .eze .eze-table .eze-filters {
+    right: 0;
+    position: absolute;
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    background: white; }
+    .eze .eze-table .eze-filters .description {
       font-size: 11px;
-      padding: 3px 7px;
-      background: #eeeeee; }
-    .eze .eze-table-sort .nav li.active a {
-      background: black; }
-  .eze .eze-table-sort .view-options {
-    margin: 6px 300px 0 0;
-    font-size: 20px; }
-.eze .eze-table-filters {
-  position: fixed;
-  right: 10%;
-  width: 200px;
-  padding: 10px;
-  margin-left: 20px;
-  background: #fafafa;
-  border: 1px solid #eeeeee; }
-  .eze .eze-table-filters .description {
-    font-size: 11px;
-    margin: 0 0 0 2px; }
-  .eze .eze-table-filters select {
-    width: 180px; }
-  .eze .eze-table-filters form {
-    margin: 0 0 10px 0; }
-    .eze .eze-table-filters form i {
-      font-size: 20px;
-      height: 20px;
-      width: 20px; }
-.eze .eze-datatable {
-  clear: both;
-  text-align: left;
-  width: 70%;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px; }
-  .eze .eze-datatable thead tr {
-    font-size: 11px;
-    height: 25px; }
-    .eze .eze-datatable thead tr th {
-      padding: 6px 0;
-      border-top: 1px solid #eeeeee; }
-  .eze .eze-datatable tbody tr {
-    background: rgba(0, 0, 0, 0.02);
-    height: 30px;
-    font: normal 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -webkit-transition: background 0.2s ease-out;
-    -moz-transition: background 0.2s ease-out;
-    -o-transition: background 0.2s ease-out;
-    transition: background 0.2s ease-out; }
-    .eze .eze-datatable tbody tr:nth-child(even) {
-      background: transparent; }
-    .eze .eze-datatable tbody tr:hover {
-      background: rgba(255, 220, 0, 0.1);
-      cursor: pointer; }
-    .eze .eze-datatable tbody tr.active {
-      background: rgba(255, 220, 0, 0.2); }
-    .eze .eze-datatable tbody tr.publishing {
-      background: rgba(118, 212, 31, 0.2); }
-    .eze .eze-datatable tbody tr.deleting {
-      background: rgba(255, 0, 0, 0.2); }
-    .eze .eze-datatable tbody tr:last-child td {
-      border-bottom: 0; }
-    .eze .eze-datatable tbody tr a {
-      line-height: 30px;
-      display: block; }
-  .eze .eze-datatable .eze-table-check {
-    padding: 0;
-    width: 30px;
-    vertical-align: middle; }
-    .eze .eze-datatable .eze-table-check label {
-      height: 30px;
-      width: 30px;
-      padding: 10px;
-      display: inline; }
-    .eze .eze-datatable .eze-table-check input {
-      margin: 2px 8px 0 -3px; }
-  .eze .eze-datatable .eze-table-icon {
-    width: 16px;
-    padding: 0 10px;
-    border-left: 1px solid #d4d4d4;
-    text-align: center; }
-    .eze .eze-datatable .eze-table-icon i {
-      font-size: 14px; }
-  .eze .eze-datatable .eze-table-no-hits td {
-    text-align: center;
-    padding: 40px;
-    font: normal 28px/28px "Helvetica Neue UltraLight", "HelveticaNeue-UltraLight", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-  .eze .eze-datatable .eze-table-no-hits:hover {
-    background: rgba(0, 0, 0, 0.02);
-    cursor: default; }
+      margin: 0 0 0 2px; }
+    .eze .eze-table .eze-filters input[type="text"] {
+      width: 145px; }
+    .eze .eze-table .eze-filters select {
+      width: 180px; }
+    .eze .eze-table .eze-filters form {
+      margin: 0 0 10px 0; }
+      .eze .eze-table .eze-filters form .add-on {
+        padding: 3px 4px 5px 4px; }
+        .eze .eze-table .eze-filters form .add-on i {
+          font-size: 16px; }
 
 #eze-mediabase {
   display: none;
@@ -1072,7 +1096,6 @@
   font-size: 12px;
   line-height: 20px;
   color: #333333;
-  background-color: white;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
   .eze .nav-pills.inverted li a {
