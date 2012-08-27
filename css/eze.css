@@ -697,7 +697,8 @@
 
 .eze .eze-items {
   list-style-type: none;
-  margin: 0 0 10px 0; }
+  margin: 0 0 10px 0;
+  -webkit-transform: translateZ(0); }
   .eze .eze-items li {
     margin: 0 0 5px 0;
     width: 100%;
@@ -708,7 +709,6 @@
       border: 1px solid #cccccc;
       border-radius: 4px;
       padding: 0 4px;
-      -webkit-transform: translateZ(0);
       position: relative;
       height: 26px;
       line-height: 26px; }
@@ -938,7 +938,7 @@
   width: 60%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform: translateZ(0);
   z-index: 1;
   box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.1);
   border-right: 1px solid #cccccc; }
@@ -953,7 +953,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 15px;
-    border-left: 1px solid #eeeeee; }
+    border-left: 1px solid #eeeeee;
+    -webkit-transform: translateZ(0); }
     .eze .eze-object-attributes .eze-object-attribute .label-required {
       position: absolute;
       top: 5px;
@@ -1014,7 +1015,7 @@
     width: 100%; }
   .eze .eze-object-attributes .eze-matrix p {
     float: right;
-    margin: -27px 0 0 0; }
+    margin: 0; }
     .eze .eze-object-attributes .eze-matrix p .btn {
       float: right;
       margin-left: 5px; }
