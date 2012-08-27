@@ -371,7 +371,7 @@
     min-width: 650px;
     max-width: 1100px; }
     .eze .stack-item header h1 {
-      float: left;
+      display: inline;
       font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin: 0; }
     .eze .stack-item header img {
@@ -415,14 +415,20 @@
     -moz-animation: stack-header-move-out 0.7s ease 1 normal;
     -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
   .eze .stack-item #autosave {
+    height: 20px;
     float: right;
-    margin: 0 20px 0 0;
-    font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    margin: 2px 20px 0 0;
+    padding: 0 0 0 35px;
+    font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative; }
     .eze .stack-item #autosave img {
       background: white;
       border-radius: 25px;
       padding: 4px;
-      margin: 9px 16px 0 0; }
+      margin: 9px 16px 0 0;
+      position: absolute;
+      top: 0;
+      left: 0; }
   .eze .stack-item .eze-stack-content {
     display: none;
     padding: 15px;
