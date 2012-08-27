@@ -320,7 +320,7 @@
 .eze .eze-settings-modal {
   width: 580px; }
 .eze .eze-layout-modal {
-  width: 580px; }
+  width: 635px; }
   .eze .eze-layout-modal .active-layout {
     border: 3px solid orange; }
   .eze .eze-layout-modal h2 {
@@ -334,20 +334,21 @@
       height: 36px;
       line-height: 36px; }
       .eze .eze-layout-modal .tab-content ul li .wrap p {
-        width: 320px;
+        width: 300px;
         height: 36px;
         float: left;
         margin: 0;
         text-overflow: ellipsis;
         white-space: nowrap;
         font: normal 12px/36px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+        .eze .eze-layout-modal .tab-content ul li .wrap p input {
+          width: 100px; }
     .eze .eze-layout-modal .tab-content ul li .name {
       width: 150px;
       margin: 0 10px 0 0; }
     .eze .eze-layout-modal .tab-content ul li select, .eze .eze-layout-modal .tab-content ul li .chzn-container {
-      width: 140px;
-      float: right;
-      margin: 5px 80px 0 0; }
+      width: 110px;
+      margin: 5px 5px 0 0; }
     .eze .eze-layout-modal .tab-content .add-new {
       margin: 0; }
       .eze .eze-layout-modal .tab-content .add-new select, .eze .eze-layout-modal .tab-content .add-new .chzn-container {
@@ -955,16 +956,13 @@
   .eze .eze-object-attributes .eze-object-attribute {
     width: 49%;
     float: left;
-    position: relative;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 15px;
-    border-left: 1px solid #eeeeee;
-    -webkit-transform: translateZ(0); }
+    border-left: 1px solid #eeeeee; }
     .eze .eze-object-attributes .eze-object-attribute .label-required {
-      position: absolute;
-      top: 5px;
-      right: 5px; }
+      float: right;
+      margin: -10px; }
     .eze .eze-object-attributes .eze-object-attribute.full-width {
       border-top: 1px solid #eeeeee;
       width: 100%; }

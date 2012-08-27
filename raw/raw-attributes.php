@@ -17,9 +17,9 @@
 	<div class="eze-object-attribute-wrap">
 
 		<section class="eze-object-attribute eze-string">
+			<span class="label label-required">Required</span>
 			<!-- <div class="alert fade in"><button type="button" class="close" data-dismiss="alert">×</button><strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.</div>-->
 			<div class="language"><img class="flag" src="http://ezexceed.no/extension/ezexceed/design/ezexceed/images/flags/eng-US.gif"> English (American)</div>
-			<span class="label label-required">Required</span>
 			<label class="heading">String of text</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<input type="text" class="span3" placeholder="Type something…">
