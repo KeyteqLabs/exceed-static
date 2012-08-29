@@ -22,6 +22,10 @@
 		<div class="well well-small">
 			<form class="row-fluid">
 				<legend>Update login information</legend>
+					<div class="alert alert-error">
+						<button type="button" class="close" data-dismiss="alert">×</button>
+						<strong>Warning!</strong> Best check yo self, you're not looking too good.
+					</div>
 				<div class="span5">
 					<label>Username</label>
 						<input type="text" placeholder="Type something…">
