@@ -30,6 +30,7 @@
 
         <ul class="switcher">
             <li><a href="?nostack">Toolbar</a></li>
+            <li><a href="?dashboard">Dashboard</a></li>
             <li><a href="?view=attributes">Object edit</a></li>
             <li><a href="?view=table">Data table</a></li>
             <li><a href="?view=keymedia-browse">KeyMedia Browse</a></li>
@@ -40,7 +41,6 @@
             <li><a href="?activity">Modal: Activity</a></li>
             <li><a href="?publish">Modal: Publish</a></li>
             <li><a href="?devices">Modal: Devices</a></li>
-            <li><a href="?settings">Modal: Settings</a></li>
         </ul>
 
         <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 
@@ -59,7 +59,7 @@
                             Fifth and last level
                         </h1>
                         <button class="btn">Save and go back</button>
-                        <div id="autosave"><img src="images/loader.gif" /> Saving…</div>
+                        <div class="eze-autosave"><img src="images/loader.gif" /> Saving…</div>
                     </header>
                     <section class="eze-stack-content">
 
@@ -103,7 +103,7 @@
                 if (isset($_GET['devices']))
                     include_once('raw/raw-modal-devices.php');
                 if (isset($_GET['settings']))
-                    include_once('raw/raw-modal-settings.php');
+                    include_once('raw/raw-modal-dashboard.php');
             ?>
         <?php } ?>
 

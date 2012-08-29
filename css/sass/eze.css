@@ -316,10 +316,6 @@
   .eze .eze-smallmodal h2 {
     font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
-  .eze .eze-smallmodal .eze-autosave {
-    position: absolute;
-    top: 6px;
-    right: 0; }
 .eze .eze-activity-modal .btn-group {
   margin: 0 0 10px 0; }
 .eze .eze-activity-modal .write-comment {
@@ -345,7 +341,7 @@
       margin: 4px 0 0 0; }
     .eze .eze-devices-modal .table label {
       margin: 4px 0 0 0; }
-.eze .eze-dashboard-modal {
+.eze .eze-settings-modal {
   width: 580px; }
 
 .eze-layout-modal .active-layout {
@@ -447,12 +443,21 @@
   .eze .stack-item.move-out header {
     -moz-animation: stack-header-move-out 0.7s ease 1 normal;
     -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
-  .eze .stack-item .eze-autosave {
+  .eze .stack-item #autosave {
+    height: 20px;
     float: right;
-    margin-top: 2px;
+    margin: 2px 20px 0 0;
+    padding: 0 0 0 35px;
+    font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: relative; }
-    .eze .stack-item .eze-autosave img {
-      border: 0; }
+    .eze .stack-item #autosave img {
+      background: white;
+      border-radius: 25px;
+      padding: 4px;
+      margin: 9px 16px 0 0;
+      position: absolute;
+      top: 0;
+      left: 0; }
   .eze .stack-item .eze-stack-content {
     display: none;
     padding: 15px;
@@ -725,18 +730,6 @@
     background: url("../images/legacy-sprite.png") -562px -25px no-repeat;
     margin: 7px 0 0 5px; }
 
-.eze .eze-autosave {
-  padding: 0 20px 0 35px;
-  font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .eze .eze-autosave img {
-    background: white;
-    border-radius: 25px;
-    padding: 4px;
-    margin: 9px 16px 0 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 1px solid #888888; }
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0;

@@ -1,6 +1,6 @@
 <nav id="eze-toolbar">
     <ul>
-        <li><a href="#"><b class="eze-home"></b>Dashboard</a></li>
+        <li><a href="#"><b class="eze-settings"></b>Username</a></li>
         <li><a href="#"><b class="eze-create"></b>Create</a>
         <li><a href="#"><b class="eze-document"></b><span class="eze-status published"></span>Edit</a>
             <div class="slide-in group">
@@ -21,7 +21,6 @@
         <li><a href="#eze-mediabase"><b class="eze-media"></b>Media</a></li>
         <li><a href="#"><b class="eze-sitemap"></b>Sitemap</a></li>
         <li><a href="#"><b class="eze-devices"></b>Devices</a></li>
-        <li><a href="#"><b class="eze-settings"></b>Settings</a></li>
         <li><a href="#"><b class="eze-more"></b>More</a></li>
     </ul>
 </nav>
