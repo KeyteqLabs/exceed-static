@@ -37,6 +37,7 @@
             <li><a href="?view=keymedia-crop">KeyMedia Crop</a></li>
             <li><a href="?view=sitemap">Sitemap</a></li>
             <li><a href="?view=layout">Layout</a></li>
+            <li><a href="?view=block">Block Settings</a></li>
             <li><a href="?addcontent">Modal: Create</a></li>
             <li><a href="?activity">Modal: Activity</a></li>
             <li><a href="?publish">Modal: Publish</a></li>
@@ -79,6 +80,9 @@
                                     break;
                                 case 'layout':
                                     include_once('raw/raw-layout.php');
+                                    break;
+                                case 'block':
+                                    include_once('raw/raw-block.php');
                                     break;
                                 case 'attributes':
                                 default:

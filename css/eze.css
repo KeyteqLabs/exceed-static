@@ -286,6 +286,10 @@
     box-shadow: 3px 0 0 0 rgba(0, 0, 0, 0.3);
     -webkit-animation: fade-in 0.4s ease-in 1;
     min-height: 100%; }
+.eze .eze-stack-content h1 {
+  font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+.eze .eze-stack-content h2 {
+  font: bold 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
 .eze .eze-smallmodal {
   position: absolute;
   top: 50px;
@@ -357,6 +361,10 @@
   font: bold 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
 .eze-layout-modal .nav {
   margin: 0 0 5px 0; }
+.eze-layout-modal .add-new {
+  margin: 0; }
+  .eze-layout-modal .add-new select, .eze-layout-modal .add-new .chzn-container {
+    margin: 0 10px 0 0; }
 .eze-layout-modal .tab-content {
   overflow: visible;
   padding: 5px 0 0 0; }
@@ -377,14 +385,6 @@
   .eze-layout-modal .tab-content ul li .name {
     width: 150px;
     margin: 0 10px 0 0; }
-  .eze-layout-modal .tab-content ul li select, .eze-layout-modal .tab-content ul li .chzn-container {
-    float: right;
-    width: 110px;
-    margin: 5px 5px 0 0; }
-  .eze-layout-modal .tab-content .add-new {
-    margin: 0; }
-    .eze-layout-modal .tab-content .add-new select, .eze-layout-modal .tab-content .add-new .chzn-container {
-      margin: 0 10px 0 0; }
 
 .eze .stack-item {
   position: absolute;
@@ -449,10 +449,11 @@
     -webkit-animation: stack-header-move-out 0.7s ease 1 normal; }
   .eze .stack-item .eze-autosave {
     float: right;
-    margin-top: 2px;
-    position: relative; }
+    position: relative;
+    margin-top: 2px; }
     .eze .stack-item .eze-autosave img {
-      border: 0; }
+      border: 0;
+      margin: 9px 0 0 0; }
   .eze .stack-item .eze-stack-content {
     display: none;
     padding: 15px;
@@ -774,6 +775,10 @@
         right: 2px; }
         .eze .eze-items li .wrap .btn.edit-btn {
           right: 28px; }
+    .eze .eze-items li select, .eze .eze-items li .chzn-container {
+      float: right;
+      width: 110px;
+      margin: 5px 5px 0 0; }
 .eze .eze-content-types {
   list-style: none;
   margin: 0; }
