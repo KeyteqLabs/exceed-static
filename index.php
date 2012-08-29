@@ -102,7 +102,7 @@
                     include_once('raw/raw-modal-publish.php');
                 if (isset($_GET['devices']))
                     include_once('raw/raw-modal-devices.php');
-                if (isset($_GET['settings']))
+                if (isset($_GET['dashboard']))
                     include_once('raw/raw-modal-dashboard.php');
             ?>
         <?php } ?>
