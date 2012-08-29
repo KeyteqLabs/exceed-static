@@ -108,7 +108,6 @@
         <?php } ?>
 
         <?php include_once('raw/raw-modal-single-edit.php'); ?>
-        <?php include_once('raw/raw-dam.php'); ?>
         <script type="text/javascript" src="js/jquery-latest.min.js "></script>
         <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
