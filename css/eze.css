@@ -197,7 +197,7 @@
         -moz-transition: left 0.3s ease-out;
         -o-transition: left 0.3s ease-out;
         transition: left 0.3s ease-out; }
-      .eze #eze-toolbar ul li:hover div.slide-in {
+      .eze #eze-toolbar ul li div.slide-in.active {
         visibility: visible;
         left: 0; }
       .eze #eze-toolbar ul li .group a {
@@ -301,7 +301,9 @@
   max-height: 600px;
   width: 350px;
   z-index: 60000;
-  padding: 15px; }
+  padding: 15px;
+  -moz-animation: fade-in 0.5s ease 1 normal;
+  -webkit-animation: fade-in 0.5s ease 1 normal; }
   .eze .eze-smallmodal .arrow {
     height: 24px;
     width: 15px;
@@ -326,65 +328,22 @@
     right: 0; }
 .eze .eze-activity-modal .btn-group {
   margin: 0 0 10px 0; }
-.eze .eze-activity-modal .write-comment {
-  margin: 0 0 10px 0; }
-  .eze .eze-activity-modal .write-comment input {
-    width: 270px; }
+.eze .eze-devices-modal .table {
+  margin: 0; }
+  .eze .eze-devices-modal .table tr:first-child td {
+    border-top: 0; }
+  .eze .eze-devices-modal .table td {
+    padding: 8px 8px 8px 0; }
+  .eze .eze-devices-modal .table p {
+    margin: 4px 0 0 0; }
+  .eze .eze-devices-modal .table label {
+    margin: 4px 0 0 0; }
 .eze .eze-publish-modal label.checkbox {
   margin: 0 0 10px 0; }
-.eze .eze-publish-modal .eze-items .status-icon {
-  float: right;
-  margin: 7px 5px 0 0; }
 .eze .eze-add-content-modal {
   width: 580px; }
-.eze .eze-devices-modal {
-  width: 450px; }
-  .eze .eze-devices-modal .table {
-    margin: 0; }
-    .eze .eze-devices-modal .table tr:first-child td {
-      border-top: 0; }
-    .eze .eze-devices-modal .table td {
-      padding: 8px 8px 8px 0; }
-    .eze .eze-devices-modal .table p {
-      margin: 4px 0 0 0; }
-    .eze .eze-devices-modal .table label {
-      margin: 4px 0 0 0; }
 .eze .eze-dashboard-modal {
   width: 580px; }
-
-.eze-layout-modal .active-layout {
-  border: 3px solid orange; }
-.eze-layout-modal h1 {
-  font: normal 22px/22px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-.eze-layout-modal h2 {
-  margin: 20px 0 10px 0;
-  font: bold 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-.eze-layout-modal .nav {
-  margin: 0 0 5px 0; }
-.eze-layout-modal .add-new {
-  margin: 0; }
-  .eze-layout-modal .add-new select, .eze-layout-modal .add-new .chzn-container {
-    margin: 0 10px 0 0; }
-.eze-layout-modal .tab-content {
-  overflow: visible;
-  padding: 5px 0 0 0; }
-  .eze-layout-modal .tab-content ul li .wrap {
-    height: 36px;
-    line-height: 36px;
-    padding-right: 80px; }
-    .eze-layout-modal .tab-content ul li .wrap p {
-      width: 300px;
-      height: 36px;
-      float: left;
-      margin: 0;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      font: normal 12px/36px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-      .eze-layout-modal .tab-content ul li .wrap p input {
-        width: 100px; }
-  .eze-layout-modal .tab-content ul li .name {
-    width: 150px;
-    margin: 0 10px 0 0; }
 
 .eze .stack-item {
   position: absolute;
@@ -465,7 +424,7 @@
     overflow: auto;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-animation: fade-in 0.5s ease 1 normal;
+    -moz-animation: fade-in 0.9s ease 1 normal;
     -webkit-animation: fade-in 0.9s ease 1 normal; }
     .eze .stack-item .eze-stack-content.dark {
       background: #222222;
@@ -473,7 +432,7 @@
   .eze .stack-item.last .eze-stack-content {
     display: block; }
   .eze .stack-item.move-out .eze-stack-content {
-    -moz-animation: stack-content-move-out 0.5s ease 1 normal;
+    -moz-animation: stack-content-move-out 1s ease 1 normal;
     -webkit-animation: stack-content-move-out 1s ease 1 normal; }
 
 .eze .finder {
@@ -608,8 +567,9 @@
         font: normal 11px/18px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
         display: block;
         width: 100%; }
-    .eze .finder .actions .action-buttons li button {
-      margin: 0 0 10px 0; }
+    .eze .finder .actions .action-buttons li {
+      float: left;
+      margin: 0 5px 10px 0; }
   @media screen and (max-width: 1024px) {
     .eze .finder .kp-finder-content ul li a {
       height: 32px; } }
@@ -790,6 +750,9 @@
         font-size: 11px; }
       .eze .eze-items li .wrap i {
         margin: 0 3px 0 0; }
+        .eze .eze-items li .wrap i.status-icon {
+          float: right;
+          margin: 7px 5px 0 0; }
       .eze .eze-items li .wrap img {
         margin: -1px 3px 0 0; }
       .eze .eze-items li .wrap input[type="checkbox"] {
@@ -1128,6 +1091,40 @@
     .eze .eze-object-sidebar .eze-comments li:last-child {
       border-bottom: 0; }
 
+.eze .eze-layout .active-layout {
+  border: 3px solid orange; }
+.eze .eze-layout h1 {
+  font: normal 22px/22px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+.eze .eze-layout h2 {
+  margin: 20px 0 10px 0;
+  font: bold 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+.eze .eze-layout .nav {
+  margin: 0 0 5px 0; }
+.eze .eze-layout .add-new {
+  margin: 0; }
+  .eze .eze-layout .add-new select, .eze .eze-layout .add-new .chzn-container {
+    margin: 0 10px 0 0; }
+.eze .eze-layout .tab-content {
+  overflow: visible;
+  padding: 5px 0 0 0; }
+  .eze .eze-layout .tab-content ul li .wrap {
+    height: 36px;
+    line-height: 36px;
+    padding-right: 80px; }
+    .eze .eze-layout .tab-content ul li .wrap p {
+      width: 300px;
+      height: 36px;
+      float: left;
+      margin: 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font: normal 12px/36px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .eze .eze-layout .tab-content ul li .wrap p input {
+        width: 100px; }
+  .eze .eze-layout .tab-content ul li .name {
+    width: 150px;
+    margin: 0 10px 0 0; }
+
 .eze {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1136,22 +1133,9 @@
   color: #333333;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
-  .eze .status-icon {
-    height: 9px;
-    width: 9px;
-    display: block;
-    float: left;
-    border-radius: 11px;
-    border: 1px solid white; }
-    .eze .status-icon.changed {
-      background: #fff000;
-      border-color: #d8c600; }
-    .eze .status-icon.new {
-      background: #ff4632;
-      border-color: #d83a29; }
-    .eze .status-icon.published {
-      background: #a3e10b;
-      border-color: #91c90a; }
+  .eze .tab-content .tab-pane {
+    -moz-animation: fade-in 0.5s ease 1 normal;
+    -webkit-animation: fade-in 0.5s ease 1 normal; }
   .eze .nav-pills.inverted li a {
     background: transparent;
     border: 1px solid #cccccc;
@@ -1222,6 +1206,22 @@
     line-height: 24px; }
   .eze .input-prepend .add-on, .eze .input-append .add-on {
     height: 17px; }
+  .eze .status-icon {
+    height: 9px;
+    width: 9px;
+    display: block;
+    float: left;
+    border-radius: 11px;
+    border: 1px solid white; }
+    .eze .status-icon.changed {
+      background: #fff000;
+      border-color: #d8c600; }
+    .eze .status-icon.new {
+      background: #ff4632;
+      border-color: #d83a29; }
+    .eze .status-icon.published {
+      background: #a3e10b;
+      border-color: #91c90a; }
 
 .eze {
   text-rendering: optimizeLegibility;

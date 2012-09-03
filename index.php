@@ -19,29 +19,30 @@
 
         
         <style type="text/css">
-            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 100px; padding: 10px; background: #000; z-index: 99999; }
-            .switcher li a { color: #fff; font-size: 11px; display: block}
-            .switcher li a:hover { background: #fff; color: #000 } .switcher li a:active { background: cyan; }
+            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 100px; background: #000;z-index: 99999; border-top-left-radius: 4px; border-bottom-left-radius: 4px }
+            .switcher li a { color: #fff; font-size: 11px; display: block; padding: 2px 10px}
+            .switcher li a:hover { background: #fafafa; color: #000 } .switcher li a:active { background: cyan; }
         </style>
 
 
 	</head>
-    <body class="eze" style="background: url(img/site.jpg)">
+    <body class="eze" style="background: url(img/site.jpg) top center">
 
         <ul class="switcher">
             <li><a href="?nostack">Toolbar</a></li>
-            <li><a href="?dashboard">Dashboard</a></li>
-            <li><a href="?view=attributes">Object edit</a></li>
-            <li><a href="?view=table">Data table</a></li>
+            <li><a href="?view=block">Block Settings</a></li>
             <li><a href="?view=keymedia-browse">KeyMedia Browse</a></li>
             <li><a href="?view=keymedia-crop">KeyMedia Crop</a></li>
+            <!--<li><a href="?dashboard">Dashboard</a></li>
+            <li><a href="?view=attributes">Object edit</a></li>
+            <li><a href="?view=table">Data table</a></li>
+            
             <li><a href="?view=sitemap">Sitemap</a></li>
             <li><a href="?view=layout">Layout</a></li>
-            <li><a href="?view=block">Block Settings</a></li>
             <li><a href="?addcontent">Modal: Create</a></li>
             <li><a href="?activity">Modal: Activity</a></li>
             <li><a href="?publish">Modal: Publish</a></li>
-            <li><a href="?devices">Modal: Devices</a></li>
+            <li><a href="?devices">Modal: Devices</a></li> -->
         </ul>
 
         <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 

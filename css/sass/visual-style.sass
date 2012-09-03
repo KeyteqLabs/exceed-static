@@ -12,28 +12,12 @@
 	-ms-text-size-adjust: 100%
 
 
+
 	// Bootstrap-style
 
-
-	.status-icon
-		height: 9px
-		width: 9px
-		display: block
-		float: left
-		border-radius: 11px
-		border: 1px solid #fff
-
-		&.changed
-			background: #FFF000
-			border-color: #D8C600
-
-		&.new
-			background: #FF4632
-			border-color: #D83A29
-
-		&.published
-			background: #A3E10B
-			border-color: #91C90A
+	.tab-content .tab-pane
+		-moz-animation: fade-in 0.5s ease 1 normal
+		-webkit-animation: fade-in 0.5s ease 1 normal
 
 
 	.nav-pills.inverted
@@ -116,3 +100,26 @@
 
 	.input-prepend .add-on, .input-append .add-on
 		height: 17px
+
+
+	// Custom interface elements
+
+	.status-icon
+		height: 9px
+		width: 9px
+		display: block
+		float: left
+		border-radius: 11px
+		border: 1px solid #fff
+
+		&.changed
+			background: #FFF000
+			border-color: #D8C600
+
+		&.new
+			background: #FF4632
+			border-color: #D83A29
+
+		&.published
+			background: #A3E10B
+			border-color: #91C90A

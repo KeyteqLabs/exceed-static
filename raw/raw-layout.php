@@ -1,4 +1,4 @@
-<section class="eze-layout-modal">
+<section class="eze-layout">
 	<h1>Choose layout</h1>
 		<img class="active-layout" src="http://ez.raymond.keyteq.no//extension/ezflow/design/standard/images/ezpage/thumbnails/2zones_layout1.gif" alt="2 zones (layout 1)">
 		<img src="http://ez.raymond.keyteq.no/extension/ezflow/design/standard/images/ezpage/thumbnails/2zones_layout2.gif" alt="2 zones (layout 1)">

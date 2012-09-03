@@ -7,35 +7,32 @@
             <button class="btn">@me</button>
             <button class="btn">Pinned</button>
         </div>
-        <form class="write-comment form-search">
-            <input type="text" placeholder="Write a comment" class="input-medium">
-            <button type="submit" class="btn btn-primary">Share</button>
-        </form>
-        <ol class="eze-comments">
-            <li>
-                <a href="/all_content/home#activity/47">
+        <div class="input-append">
+            <input class="span2" id="appendedInputButton" size="16" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
+        </div>
+            <ol class="eze-comments">
+                <li class="clearfix">
                     <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Mutley, you snickering, floppy eared hound. When courage is needed, you're never around. Those medals you wear on your moth-eaten chest should be there for bungling at which you are best.</p>
-                </a>
-            </li>
-            <li>
-                <a href="/all_content/home#activity/47">
+                    <button class="btn btn-mini add-comment-button">Comment</button>
+                </li>
+                <li class="clearfix">
                     <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
-                </a>
-            </li>
-            <li>
-                <a href="/all_content/home#activity/47">
+                    <button class="btn btn-mini add-comment-button">Comment</button>
+                </li>
+                <li class="clearfix">
                     <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
-                </a>
-            </li>
-            <li>
-                <a href="/all_content/home#activity/47">
+                    <div class="input-append add-comment">
+                        <input id="appendedInputButton" type="text" placeholder="Write message…"><button class="btn btn-mini" type="button">Post</button>
+                    </div>
+                </li>
+                <li class="clearfix">
                     <img src="img/default-user.jpeg">
                     <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
-                </a>
-            </li>
-        </ol>
+                    <button class="btn btn-mini add-comment-button">Comment</button>
+                </li>
+            </ol>
         <button class="btn">Show all (34)</button>
 </section>
