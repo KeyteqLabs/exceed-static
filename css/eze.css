@@ -332,9 +332,9 @@
     width: 270px; }
 .eze .eze-publish-modal label.checkbox {
   margin: 0 0 10px 0; }
-.eze .eze-publish-modal .eze-items li .wrap i {
+.eze .eze-publish-modal .eze-items .status-icon {
   float: right;
-  margin: 6px 0 0 0; }
+  margin: 7px 5px 0 0; }
 .eze .eze-add-content-modal {
   width: 580px; }
 .eze .eze-devices-modal {
@@ -741,12 +741,38 @@
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0;
-  -webkit-transform: translateZ(0); }
+  -webkit-transform: translateZ(0);
+  position: relative; }
   .eze .eze-items li {
     margin: 0 0 5px 0;
     width: 100%;
     border-radius: 4px;
     background: #cccccc; }
+    .eze .eze-items li.notification {
+      background: rgba(250, 250, 250, 0.9);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+      text-align: center;
+      opacity: 1;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out; }
+      .eze .eze-items li.notification p {
+        height: 26px;
+        position: absolute;
+        background: #fafafa;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin-top: -13px;
+        font: normal 20px/20px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+        .eze .eze-items li.notification p img {
+          margin: -4px 7px 0 0; }
     .eze .eze-items li .wrap {
       background: white;
       border: 1px solid #cccccc;
@@ -1091,7 +1117,7 @@
       font: normal 15px/15px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin-bottom: 5px; }
       .eze .eze-object-sidebar .eze-container h1 i {
-        margin: 0 5px 0 0; }
+        margin: 2px 5px 0 0; }
     .eze .eze-object-sidebar .eze-container h2 {
       font: bold 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin-bottom: 0; }
@@ -1110,6 +1136,22 @@
   color: #333333;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
+  .eze .status-icon {
+    height: 9px;
+    width: 9px;
+    display: block;
+    float: left;
+    border-radius: 11px;
+    border: 1px solid white; }
+    .eze .status-icon.changed {
+      background: #fff000;
+      border-color: #d8c600; }
+    .eze .status-icon.new {
+      background: #ff4632;
+      border-color: #d83a29; }
+    .eze .status-icon.published {
+      background: #a3e10b;
+      border-color: #91c90a; }
   .eze .nav-pills.inverted li a {
     background: transparent;
     border: 1px solid #cccccc;
