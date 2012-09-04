@@ -15,5 +15,9 @@
 <h2>Custom attributes</h2>
 	<p>Print here</p>
 
-<h2>Settings</h2>
-	<p>Print here</p>
+<div class="well well-small block-settings">
+	<p>
+		Rotate active content every <input name="value" value="" type="number" min="0" max="60" step="1"> <select class="chzn-select"><option>Minute</option></select><br />
+		<label class="checkbox"><input type="checkbox"> Shuffle content when rotating</label>
+	</p>
+</div>

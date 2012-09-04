@@ -292,13 +292,13 @@
   font: bold 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
 .eze .eze-smallmodal {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 87px;
   background: #fafafa;
   border-radius: 4px;
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
   border: 1px solid white;
-  max-height: 600px;
+  max-height: 650px;
   width: 350px;
   z-index: 60000;
   padding: 15px;
@@ -344,6 +344,8 @@
   width: 580px; }
 .eze .eze-dashboard-modal {
   width: 580px; }
+  .eze .eze-dashboard-modal form {
+    margin: 0; }
 
 .eze .stack-item {
   position: absolute;
@@ -698,6 +700,15 @@
     top: 0;
     left: 0;
     border: 1px solid #888888; }
+.eze .block-settings {
+  width: 400px; }
+  .eze .block-settings p {
+    margin: 0; }
+  .eze .block-settings input[type="number"] {
+    width: 40px;
+    margin: 0px 5px 0 5px; }
+  .eze .block-settings select {
+    width: 100px; }
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0;

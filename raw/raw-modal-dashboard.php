@@ -1,47 +1,50 @@
 <section class="eze-smallmodal eze-dashboard-modal">
 <span class="arrow"><i class="icon-caret-left"></i></span>
 <div class="eze-autosave"><img src="images/loader.gif" /> Saving…</div>
+
 	<h1>Username</h1>
+	Recent content<br>Trash
 
-	<div class="tab-content">
-		<div class="tab-pane active" id="tab1">
+	<div style="width:250px;float:right">
 
-			<form class="row-fluid">
-				<div class="span5">
-				<label>First name</label>
-					<input type="text" placeholder="Type something…">
+		<ul class="nav nav-tabs" data-toggle="buttons-radio">
+			<li class="active"><a href="#tab1" data-toggle="tab">Your profile</a></li>
+			<li><a href="#tab2" data-toggle="tab">Change login</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane active" id="tab1">
+				<div class="alert alert-error">
+					<button type="button" class="close" data-dismiss="alert">×</button>
+					<strong>Warning!</strong> Best check yo self, you're not looking too good.
 				</div>
-				<div class="span7">
-				<label>Last name</label>
-					<input type="text" placeholder="Type something…">
-				</div>
-				<label>Signature</label>
-					<input type="text" placeholder="Type something…">
-			</form>
-
-		<div class="well well-small">
-			<form class="row-fluid">
-				<legend>Update login information</legend>
-					<div class="alert alert-error">
-						<button type="button" class="close" data-dismiss="alert">×</button>
-						<strong>Warning!</strong> Best check yo self, you're not looking too good.
-					</div>
-				<div class="span5">
+				<form>
+					<label>First name</label>
+						<input type="text" placeholder="Type something…">
+					<label>Last name</label>
+						<input type="text" placeholder="Type something…">
+					<label>Signature</label>
+						<input type="text" placeholder="Type something…">
+				</form>
+			</div>
+			<div class="tab-pane" id="tab2">
+				<form>
 					<label>Username</label>
+						<input type="text" placeholder="Type something…">
+					<label>Email address</label>
 						<input type="text" placeholder="Type something…">
 					<label>Password</label>
 						<input type="text" placeholder="Type something…">
+					<label>Repeat password</label>
+						<input type="text" placeholder="Type something…">
+
 					<button type="submit" class="btn">Update login information</button>
-				</div>
-				<div class="span5">
-				<label>Email address</label>
-					<input type="text" placeholder="Type something…">
-				<label>Repeat password</label>
-					<input type="text" placeholder="Type something…">
-				</div>
-			</form>
+				</form>
+			</div>
 		</div>
 
-		</div>
 	</div>
+
+
+		
 </section>

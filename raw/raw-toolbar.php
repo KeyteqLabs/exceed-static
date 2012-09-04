@@ -3,7 +3,7 @@
         <li><a href="?dashboard"><b class="eze-settings"></b>Username</a></li>
         <li><a href="?addcontent"><b class="eze-create"></b>Create</a></li>
         <li><a href="?view=attributes"><b class="eze-document"></b>Edit</a></li>
-        <li><a href="#"><b class="eze-search"></b>Find</a>
+        <li><a href="?view=table"><b class="eze-search"></b>Find</a>
             <div class="slide-in quick-action search">
                 <div class="input-prepend">
                 <span class="add-on"><i class="icon-search"></i></span><input id="prependedInput" placeholder="Type to search…" size="16" type="text">
