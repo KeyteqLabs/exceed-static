@@ -376,7 +376,8 @@
       margin: 8px 5px 0 10px; }
     .eze .stack-item header .btn {
       float: right;
-      margin: 2px 3px 0 0; }
+      margin: 2px 3px 0 0;
+      display: none; }
   .eze .stack-item:nth-last-child(2) header {
     background-color: #ffb365;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc785), to(#ffb365));
@@ -387,6 +388,8 @@
     background-image: linear-gradient(top, #ffc785, #ffb365); }
   .eze .stack-item:nth-last-child(3) header {
     background: #ffd5a1; }
+  .eze .stack-item.first header .btn, .eze .stack-item.last header .btn {
+    display: block; }
   .eze .stack-item.last header {
     height: 44px;
     right: 0;
