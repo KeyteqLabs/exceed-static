@@ -15,7 +15,7 @@
         <li><a href="?activity"><b class="eze-activity"></b>Activity</a></li>
         <li><a href="?devices"><b class="eze-devices"></b>Devices</a></li>
         <li><a href="?view=sitemap"><b class="eze-sitemap"></b>Sitemap</a></li>
-        <li><a href="?view=layout"><b class="eze-layout"></b>Layout</a></li>
+        <li><a href="?view=layout"><b class="eze-layout"></b>Zones</a></li>
         <!--
         <li><a href="#eze-mediabase"><b class="eze-media"></b>Media</a></li>
         <li><a href="#"><b class="eze-more"></b>More</a></li>
