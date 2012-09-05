@@ -778,6 +778,22 @@
         right: 2px; }
         .eze .eze-items li .wrap .btn.edit-btn {
           right: 28px; }
+      .eze .eze-items li .wrap .datetime {
+        position: absolute;
+        top: 2px;
+        right: 95px;
+        font-size: 11px; }
+        .eze .eze-items li .wrap .datetime span {
+          float: left;
+          margin: -1px 3px 0 0; }
+        .eze .eze-items li .wrap .datetime input {
+          width: 30px;
+          display: inline;
+          font-size: 11px;
+          padding: 2px 5px;
+          margin-left: 5px; }
+          .eze .eze-items li .wrap .datetime input.publish-date {
+            width: 60px; }
     .eze .eze-items li select, .eze .eze-items li .chzn-container {
       float: right;
       width: 110px;
