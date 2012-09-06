@@ -371,9 +371,11 @@
       display: inline;
       font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin: 0; }
-    .eze .stack-item header img {
-      float: left;
-      margin: 8px 5px 0 10px; }
+      .eze .stack-item header h1 .iconwrap img {
+        float: left;
+        margin: 8px 5px 0 10px; }
+        .eze .stack-item header h1 .iconwrap img.large {
+          display: none; }
     .eze .stack-item header .btn {
       float: right;
       margin: 2px 3px 0 0;
@@ -405,6 +407,10 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4); }
     .eze .stack-item.last header h1 {
       font: normal 16px/48px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+      .eze .stack-item.last header h1 .iconwrap img.small {
+        display: none; }
+      .eze .stack-item.last header h1 .iconwrap img.large {
+        display: block; }
     .eze .stack-item.last header .btn {
       margin: 9px 9px 0 0;
       border: 1px solid white; }

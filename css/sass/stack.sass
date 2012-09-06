@@ -30,9 +30,12 @@
 				font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 				margin: 0
 
-			img
-				float: left
-				margin: 8px 5px 0 10px
+				.iconwrap img
+					float: left
+					margin: 8px 5px 0 10px
+
+					&.large
+						display: none
 
 			.btn
 				float: right
@@ -58,6 +61,12 @@
 
 			h1
 				font: normal 16px/48px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+
+				.iconwrap img
+					&.small
+						display: none
+					&.large
+						display: block
 
 			.btn
 				margin: 9px 9px 0 0

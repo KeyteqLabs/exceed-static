@@ -57,7 +57,7 @@
                 <section class="stack-item move-in last" style="top:124px">
                     <header>
                         <h1>
-                            <img src="img/32x32/Documents 32x32.png" />
+                            <div class="iconwrap"><img class="large" src="img/32x32/Documents 32x32.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
                             Fifth and last level
                         </h1>
                         <button class="btn">Save and go back</button>
