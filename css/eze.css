@@ -530,17 +530,20 @@
             bottom: 50%;
             margin-top: -8px; }
           .eze .finder .kp-finder-content .column li a .has-children-arrow {
+            display: block;
+            height: 16px;
+            width: 16px;
             position: absolute;
             right: 2px;
             top: 50%;
             bottom: 50%;
             margin-top: -8px;
-            background-color: white;
             -webkit-transition: all 0.1s ease-out;
             -moz-transition: all 0.1s ease-out;
             -o-transition: all 0.1s ease-out;
             transition: all 0.1s ease-out;
-            opacity: 0.7; }
+            opacity: 0.7;
+            background: transparent url("../images/legacy-sprite.png") -136px -22px no-repeat; }
         .eze .finder .kp-finder-content .column li.active a, .eze .finder .kp-finder-content .column li.active a:hover, .eze .finder .kp-finder-content .column li.dragover a {
           background: #ffa500;
           border-color: #ffa500; }
