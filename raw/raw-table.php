@@ -39,9 +39,10 @@
             <?php foreach (range(1, 2) as $index) { ?>
                 <li class="item clearfix">
                     <label class="check"><input type="checkbox"></label>
-                    <img class="thumb" src="img/thumb.png" alt="">
-
-                    <h2>Grillsandwich with chicken timian and a mix of greens</h2>
+                    <div class="thumb">
+                        <img class="class-icon" src="img/32x32/Globe alt 32x32.png" alt="" />
+                    </div>
+                    <h2><a href="#">Grillsandwich with chicken timian and a mix of greens</a></h2>
                     <p>
                         <span class="label label-success">Published</span> 13:30 by Trude Henrichsen, in Norwegian and English<br />
                         <img src="img/16x16/Globe alt 16x16.png" alt="" /> World news article, published in /presse/nyheter/flere-vil-spise-sunt/ and <span class="other-locations" title="first tooltip">3 other locations</span>
@@ -56,9 +57,10 @@
             <?php foreach (range(1, 10) as $index) { ?>
                 <li class="item clearfix">
                     <label class="check"><input type="checkbox"></label>
-                    <img class="thumb" src="img/thumb.png" alt="">
-
-                    <h2>Grillsandwich with chicken timian and a mix of greens</h2>
+                    <div class="thumb">
+                        <img src="img/thumb.png" alt="">
+                    </div>
+                    <h2><a href="#">Grillsandwich with chicken timian and a mix of greens</a></h2>
                     <p>
                         <span class="label label-success">Published</span> 13:30 by Trude Henrichsen, in Norwegian and English<br />
                         <img src="img/16x16/Globe alt 16x16.png" alt="" /> World news article, published in /presse/nyheter/flere-vil-spise-sunt/ and <span class="other-locations" title="first tooltip">3 other locations</span>

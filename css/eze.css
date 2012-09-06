@@ -73,7 +73,7 @@
       margin: 0; }
       .eze .eze-table .eze-table-content ul li.item {
         background: #fafafa;
-        padding: 0 0 0 120px;
+        padding: 0 0 0 130px;
         margin: 0 0 1px 10px;
         border-right: 1px solid #e8e8e8; }
         .eze .eze-table .eze-table-content ul li.item:nth-child(2n) {
@@ -91,9 +91,15 @@
           .eze .eze-table .eze-table-content ul li.item .check input {
             margin: 0; }
         .eze .eze-table .eze-table-content ul li.item .thumb {
+          margin: 0 0 0 -120px;
+          width: 110px;
+          height: 90px;
           float: left;
-          display: inline;
-          margin-left: -120px; }
+          background: #eeeeee; }
+          .eze .eze-table .eze-table-content ul li.item .thumb img {
+            float: left; }
+            .eze .eze-table .eze-table-content ul li.item .thumb img.class-icon {
+              margin: 30px 0 0 39px; }
         .eze .eze-table .eze-table-content ul li.item h2 {
           font: normal 18px/18px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
           margin: 10px 0 5px 0; }
