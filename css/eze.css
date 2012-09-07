@@ -765,41 +765,45 @@
         font: normal 20px/20px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
         .eze .eze-items li.notification p img {
           margin: -4px 7px 0 0; }
+    .eze .eze-items li .wrap, .eze .eze-items li .right-align .btn, .eze .eze-items li .reorder {
+      height: 34px;
+      line-height: 34px; }
     .eze .eze-items li .wrap {
       background: white;
-      border: 1px solid #cccccc;
+      background-color: #f5f5f5;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f5f5));
+      background-image: -webkit-linear-gradient(top, white, #f5f5f5);
+      background-image: -moz-linear-gradient(top, white, #f5f5f5);
+      background-image: -ms-linear-gradient(top, white, #f5f5f5);
+      background-image: -o-linear-gradient(top, white, #f5f5f5);
+      background-image: linear-gradient(top, white, #f5f5f5);
+      border: 1px solid #d0d0d0;
       border-radius: 4px;
-      padding: 0 4px;
+      padding: 0;
       position: relative;
-      height: 26px;
-      line-height: 26px; }
-      .eze .eze-items li .wrap p {
-        margin: 0 30px 0 0;
-        height: 26px;
-        overflow: hidden;
-        line-height: 26px; }
-      .eze .eze-items li .wrap small {
-        font-size: 11px; }
+      overflow: hidden; }
+      .eze .eze-items li .wrap .reorder {
+        display: block;
+        width: 40px;
+        float: left;
+        margin-right: -5px;
+        background: url(../images/scrubber.png) center center no-repeat;
+        cursor: move; }
       .eze .eze-items li .wrap i {
         margin: 0 3px 0 0; }
         .eze .eze-items li .wrap i.status-icon {
           float: right;
           margin: 7px 5px 0 0; }
       .eze .eze-items li .wrap img {
-        margin: -1px 3px 0 0; }
+        margin: -1px 5px 0 5px; }
       .eze .eze-items li .wrap input[type="checkbox"] {
         margin: 0 3px; }
-      .eze .eze-items li .wrap .btn {
-        position: absolute;
-        top: 50%;
-        margin-top: -12px;
-        right: 2px; }
-        .eze .eze-items li .wrap .btn.edit-btn {
-          right: 28px; }
+      .eze .eze-items li .wrap input[type="text"] {
+        height: 22px;
+        padding: 0 3px;
+        margin: -1px 5px 0 5px;
+        line-height: 22px; }
       .eze .eze-items li .wrap .datetime {
-        position: absolute;
-        top: 2px;
-        right: 95px;
         font-size: 11px; }
         .eze .eze-items li .wrap .datetime span {
           float: left;
@@ -812,10 +816,32 @@
           margin-left: 5px; }
           .eze .eze-items li .wrap .datetime input.publish-date {
             width: 60px; }
+      .eze .eze-items li .wrap .right-align {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        bottom: 1px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        background-color: #f5f5f5;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f5f5));
+        background-image: -webkit-linear-gradient(top, white, #f5f5f5);
+        background-image: -moz-linear-gradient(top, white, #f5f5f5);
+        background-image: -ms-linear-gradient(top, white, #f5f5f5);
+        background-image: -o-linear-gradient(top, white, #f5f5f5);
+        background-image: linear-gradient(top, white, #f5f5f5); }
+        .eze .eze-items li .wrap .right-align .btn {
+          background: transparent;
+          border: 0;
+          padding: 0 15px;
+          margin: 0;
+          border-radius: 0;
+          border-left: 1px solid #d0d0d0; }
     .eze .eze-items li select, .eze .eze-items li .chzn-container {
-      float: right;
       width: 110px;
-      margin: 5px 5px 0 0; }
+      margin: 5px 5px 0 0;
+      display: block;
+      float: left; }
 .eze .eze-content-types {
   list-style: none;
   margin: 0; }
@@ -1155,23 +1181,6 @@
 .eze .eze-layout .tab-content {
   overflow: visible;
   padding: 5px 0 0 0; }
-  .eze .eze-layout .tab-content ul li .wrap {
-    height: 36px;
-    line-height: 36px;
-    padding-right: 80px; }
-    .eze .eze-layout .tab-content ul li .wrap p {
-      width: 300px;
-      height: 36px;
-      float: left;
-      margin: 0;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      font: normal 12px/36px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-      .eze .eze-layout .tab-content ul li .wrap p input {
-        width: 100px; }
-  .eze .eze-layout .tab-content ul li .name {
-    width: 150px;
-    margin: 0 10px 0 0; }
 
 .eze {
   margin: 0;

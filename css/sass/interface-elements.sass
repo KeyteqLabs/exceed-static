@@ -71,23 +71,27 @@
 
 					img
 						margin: -4px 7px 0 0
+
+			.wrap, .right-align .btn, .reorder
+				height: 34px
+				line-height: 34px
+
 			.wrap
 				background: #fff
-				border: 1px solid #ccc
+				@include gradient(#ffffff,#f5f5f5)
+				border: 1px solid #d0d0d0
 				border-radius: 4px
-				padding: 0 4px
+				padding: 0
 				position: relative
-				height: 26px
-				line-height: 26px
-				
-				p
-					margin: 0 30px 0 0
-					height: 26px
-					overflow: hidden
-					line-height: 26px
+				overflow: hidden
 
-				small
-					font-size: 11px
+				.reorder
+					display: block
+					width: 40px
+					float: left
+					margin-right: -5px
+					background: url(../images/scrubber.png) center center no-repeat
+					cursor: move
 
 				i
 					margin: 0 3px 0 0
@@ -97,24 +101,18 @@
 						margin: 7px 5px 0 0
 
 				img
-					margin: -1px 3px 0 0
+					margin: -1px 5px 0 5px
 
 				input[type="checkbox"]
 					margin: 0 3px
 
-				.btn
-					position: absolute
-					top: 50%
-					margin-top: -12px
-					right: 2px
-
-					&.edit-btn
-						right: 28px
+				input[type="text"]
+					height: 22px
+					padding: 0 3px
+					margin: -1px 5px 0 5px
+					line-height: 22px
 
 				.datetime
-					position: absolute
-					top: 2px
-					right: 95px
 					font-size: 11px
 
 					span
@@ -131,11 +129,29 @@
 
 						&.publish-date
 							width: 60px
+
+				.right-align
+					position: absolute
+					right: 0
+					top: 0px
+					bottom: 1px
+					border-top-right-radius: 4px
+					border-bottom-right-radius: 4px
+					@include gradient(#ffffff,#f5f5f5)
+
+					.btn
+						background: transparent
+						border: 0
+						padding: 0 15px
+						margin: 0
+						border-radius: 0
+						border-left: 1px solid #d0d0d0
 			
 			select, .chzn-container
-				float: right
 				width: 110px
 				margin: 5px 5px 0 0
+				display: block
+				float: left
 
 
 
