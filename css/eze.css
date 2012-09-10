@@ -330,7 +330,7 @@
     text-align: right; }
   .eze .eze-smallmodal h1 {
     font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-    margin: 0 0 5px 0; }
+    margin: 0 0 10px 0; }
   .eze .eze-smallmodal h2 {
     font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -352,7 +352,7 @@
     margin: 4px 0 0 0; }
 .eze .eze-publish-modal .publish-info {
   font-size: 11px;
-  margin: 0 0 5px 0; }
+  margin: -5px 0 5px 0; }
 .eze .eze-publish-modal label.checkbox {
   margin: 0 0 5px 2px; }
 .eze .eze-add-content-modal {
@@ -431,10 +431,11 @@
       margin: 9px 9px 0 0;
       border: 1px solid white; }
   .eze .stack-item.move-in header {
-    -moz-animation: stack-header-move-in 0.5s ease 1 normal; }
+    -moz-animation: stack-header-move-in 0.5s ease 1 normal;
+    -webkit-animation: stack-header-move-in 0.7s ease 1 normal; }
   .eze .stack-item.move-out header {
-    -moz-animation: stack-header-move-out 0.5s ease 1 normal;
-    -webkit-animation: stack-header-move-out 0.5s ease 1 normal; }
+    -moz-animation: stack-header-move-out 0.2s ease 1 normal;
+    -webkit-animation: stack-header-move-out 0.2s ease 1 normal; }
   .eze .stack-item .eze-autosave {
     float: right;
     position: relative;
@@ -949,13 +950,13 @@
 @-webkit-keyframes stack-header-move-in {
   0% {
     opacity: 0;
-    margin-top: 120px; }
+    margin-top: 40px; }
 
   50% {
     opacity: 1; }
 
   60% {
-    margin-top: -10px; }
+    margin-top: -5px; }
 
   100% {
     margin-top: 0; } }
@@ -963,13 +964,13 @@
 @-moz-keyframes stack-header-move-in {
   0% {
     opacity: 0;
-    margin-top: 120px; }
+    margin-top: 40px; }
 
   50% {
     opacity: 1; }
 
   60% {
-    margin-top: -10px; }
+    margin-top: -5px; }
 
   100% {
     margin-top: 0; } }
@@ -979,11 +980,11 @@
     margin-top: 0; }
 
   60% {
-    margin-top: -10px;
+    margin-top: -5px;
     opacity: 1; }
 
   100% {
-    margin-top: 120px;
+    margin-top: 60px;
     opacity: 0; } }
 
 @-moz-keyframes stack-header-move-out {
@@ -991,11 +992,11 @@
     margin-top: 0; }
 
   60% {
-    margin-top: -10px;
+    margin-top: -5px;
     opacity: 1; }
 
   100% {
-    margin-top: 120px;
+    margin-top: 60px;
     opacity: 0; } }
 
 .keymedia-crop .nav-pills.inverted li {
