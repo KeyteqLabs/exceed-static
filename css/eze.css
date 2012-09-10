@@ -886,7 +886,7 @@
     margin: 0 -15px; }
     .eze .eze-comments li:first-child {
       border-top: 0; }
-    .eze .eze-comments li img {
+    .eze .eze-comments li .user-image {
       height: 34px;
       width: 34px;
       border-radius: 34px;
@@ -897,6 +897,12 @@
       font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
       .eze .eze-comments li p .date {
         font-size: 11px; }
+      .eze .eze-comments li p.like-post {
+        font-size: 11px;
+        margin: 5px 0 -18px 40px; }
+        .eze .eze-comments li p.like-post a {
+          color: #d67f00;
+          text-decoration: underline; }
     .eze .eze-comments li .add-comment-button {
       float: right; }
     .eze .eze-comments li .add-comment {
@@ -1176,10 +1182,8 @@
       margin-bottom: 0; }
     .eze .eze-object-sidebar .eze-container p {
       font: normal 11px/16px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .eze .eze-object-sidebar .eze-comments {
-    margin: 0 -5px; }
-    .eze .eze-object-sidebar .eze-comments li:last-child {
-      border-bottom: 0; }
+  .eze .eze-object-sidebar .eze-comments li:last-child {
+    border-bottom: 0; }
 
 .eze .eze-layout .active-layout {
   border: 3px solid orange; }
