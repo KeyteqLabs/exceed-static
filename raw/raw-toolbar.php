@@ -11,7 +11,7 @@
                <button class="btn">View all content</button>
             </div>
         </li>
-        <li><a href="?publish"><b class="eze-publish"></b><!--<span class="eze-status published"></span>-->Publish</a></li>
+        <li><a href="?publish"><b class="eze-publish"></b><span class="status-icon changed"></span>Publish</a></li>
         <li><a href="?activity"><b class="eze-activity"></b>Activity</a></li>
         <li><a href="?devices"><b class="eze-devices"></b>Devices</a></li>
         <li><a href="?view=sitemap"><b class="eze-sitemap"></b>Sitemap</a></li>

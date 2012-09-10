@@ -65,7 +65,7 @@
       padding: 6px 0; }
     .eze .eze-table .eze-table-content .group-header {
       margin: 0;
-      background-color: #fafafa;
+      background-color: white;
       background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#fafafa));
       background-image: -webkit-linear-gradient(top, white, #fafafa);
       background-image: -moz-linear-gradient(top, white, #fafafa);
@@ -258,20 +258,11 @@
     background-position: -64px 0; }
   .eze #eze-toolbar .eze-document {
     background-position: -128px 0; }
-  .eze #eze-toolbar .eze-status {
-    height: 8px;
-    width: 8px;
-    border-radius: 8px;
+  .eze #eze-toolbar .status-icon {
     border: 1px solid black;
     position: absolute;
-    top: 3px;
-    left: 37px; }
-    .eze #eze-toolbar .eze-status.published {
-      background: #82ea43; }
-    .eze #eze-toolbar .eze-status.changed {
-      background: yellow; }
-    .eze #eze-toolbar .eze-status.new {
-      background: red; }
+    top: 5px;
+    left: 38px; }
   .eze #eze-toolbar .eze-search {
     background-position: -192px 0; }
   .eze #eze-toolbar .eze-activity {
@@ -339,7 +330,7 @@
     text-align: right; }
   .eze .eze-smallmodal h1 {
     font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-    margin: 0 0 10px 0; }
+    margin: 0 0 5px 0; }
   .eze .eze-smallmodal h2 {
     font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -359,8 +350,11 @@
     margin: 4px 0 0 0; }
   .eze .eze-devices-modal .table label {
     margin: 4px 0 0 0; }
+.eze .eze-publish-modal .publish-info {
+  font-size: 11px;
+  margin: 0 0 5px 0; }
 .eze .eze-publish-modal label.checkbox {
-  margin: 0 0 10px 0; }
+  margin: 0 0 5px 2px; }
 .eze .eze-add-content-modal {
   width: 580px; }
 .eze .eze-dashboard-modal {
@@ -401,7 +395,7 @@
       margin: 2px 3px 0 0;
       display: none; }
   .eze .stack-item:nth-last-child(2) header {
-    background-color: #ffb365;
+    background-color: #ffc785;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc785), to(#ffb365));
     background-image: -webkit-linear-gradient(top, #ffc785, #ffb365);
     background-image: -moz-linear-gradient(top, #ffc785, #ffb365);
@@ -416,7 +410,7 @@
     height: 44px;
     right: 0;
     max-width: 1144px;
-    background-color: #ff8500;
+    background-color: #ff9b00;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9b00), to(#ff8500));
     background-image: -webkit-linear-gradient(top, #ff9b00, #ff8500);
     background-image: -moz-linear-gradient(top, #ff9b00, #ff8500);
@@ -457,6 +451,7 @@
     left: 0;
     bottom: 0;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -moz-animation: stack-content-move-in 0.5s ease 1 normal;
@@ -478,7 +473,7 @@
     margin: 0;
     overflow: hidden;
     border-bottom: 1px solid #e0e0e0;
-    background-color: #f7f7f7;
+    background-color: #e1e1e1;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#f7f7f7));
     background-image: -webkit-linear-gradient(top, #e1e1e1, #f7f7f7);
     background-image: -moz-linear-gradient(top, #e1e1e1, #f7f7f7);
@@ -632,7 +627,7 @@
 
 .eze .kp-edit-block-box {
   border: 1px solid black;
-  background-color: #020202;
+  background-color: #5c5c5c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#5c5c5c), to(#020202));
   background-image: -webkit-linear-gradient(top, #5c5c5c, #020202);
   background-image: -moz-linear-gradient(top, #5c5c5c, #020202);
@@ -702,7 +697,7 @@
 
 .attribute-direct-edit {
   border: 1px solid white;
-  background-color: #ededed;
+  background-color: white;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ededed));
   background-image: -webkit-linear-gradient(top, white, #ededed);
   background-image: -moz-linear-gradient(top, white, #ededed);
@@ -786,7 +781,7 @@
       line-height: 34px; }
     .eze .eze-items li .wrap {
       background: white;
-      background-color: #f5f5f5;
+      background-color: white;
       background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f5f5));
       background-image: -webkit-linear-gradient(top, white, #f5f5f5);
       background-image: -moz-linear-gradient(top, white, #f5f5f5);
@@ -805,15 +800,10 @@
         margin-right: -5px;
         background: url(../images/scrubber.png) center center no-repeat;
         cursor: move; }
-      .eze .eze-items li .wrap i {
-        margin: 0 3px 0 0; }
-        .eze .eze-items li .wrap i.status-icon {
-          float: right;
-          margin: 7px 5px 0 0; }
       .eze .eze-items li .wrap img {
         margin: -1px 5px 0 5px; }
       .eze .eze-items li .wrap input[type="checkbox"] {
-        margin: 0 3px; }
+        margin: 2px 0 0 10px; }
       .eze .eze-items li .wrap input[type="text"] {
         height: 22px;
         padding: 0 3px;
@@ -839,13 +829,15 @@
         bottom: 1px;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
-        background-color: #f5f5f5;
+        background-color: white;
         background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f5f5f5));
         background-image: -webkit-linear-gradient(top, white, #f5f5f5);
         background-image: -moz-linear-gradient(top, white, #f5f5f5);
         background-image: -ms-linear-gradient(top, white, #f5f5f5);
         background-image: -o-linear-gradient(top, white, #f5f5f5);
         background-image: linear-gradient(top, white, #f5f5f5); }
+        .eze .eze-items li .wrap .right-align .status-icon {
+          margin: 11px 10px 0 5px; }
         .eze .eze-items li .wrap .right-align .btn {
           background: transparent;
           border: 0;
@@ -868,7 +860,7 @@
     margin: 0 10px 10px 0;
     width: 160px;
     border: 1px solid #d9d9d9;
-    background-color: #eeeeee;
+    background-color: #f8f8f8;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#eeeeee));
     background-image: -webkit-linear-gradient(top, #f8f8f8, #eeeeee);
     background-image: -moz-linear-gradient(top, #f8f8f8, #eeeeee);
@@ -1046,7 +1038,7 @@
       .eze .eze-object-translations ul li input {
         margin: -1px 5px 0 0; }
 .eze .attr-group {
-  background-color: #dddddd;
+  background-color: #fafafa;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#dddddd));
   background-image: -webkit-linear-gradient(top, #fafafa, #dddddd);
   background-image: -moz-linear-gradient(top, #fafafa, #dddddd);
@@ -1225,7 +1217,7 @@
       color: white; }
   .eze .nav-pills.inverted li.active a {
     color: black;
-    background-color: #ff8d00;
+    background-color: #ffbb00;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffbb00), to(#ff8d00));
     background-image: -webkit-linear-gradient(top, #ffbb00, #ff8d00);
     background-image: -moz-linear-gradient(top, #ffbb00, #ff8d00);
@@ -1241,7 +1233,7 @@
   .eze .remove-btn {
     padding: 3px 8px; }
   .eze .btn-primary {
-    background-color: #ff9c00;
+    background-color: #ffac00;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffac00), to(#ff9c00));
     background-image: -webkit-linear-gradient(top, #ffac00, #ff9c00);
     background-image: -moz-linear-gradient(top, #ffac00, #ff9c00);
@@ -1264,6 +1256,8 @@
     .eze .label.label-required {
       color: #777777;
       background: #cccccc; }
+  .eze small {
+    font-size: 90%; }
   .eze a {
     color: black; }
     .eze a:hover {

@@ -19,7 +19,7 @@
 
         
         <style type="text/css">
-            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 100px; background: #000;z-index: 99999; border-top-left-radius: 4px; border-bottom-left-radius: 4px }
+            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 110px; background: #000;z-index: 99999; border-top-left-radius: 4px; border-bottom-left-radius: 4px }
             .switcher li a { color: #fff; font-size: 11px; display: block; padding: 2px 10px}
             .switcher li a:hover { background: #fafafa; color: #000 } .switcher li a:active { background: cyan; }
         </style>
