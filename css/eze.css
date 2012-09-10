@@ -733,15 +733,6 @@
     top: 0;
     left: 0;
     border: 1px solid #888888; }
-.eze .block-settings {
-  width: 400px; }
-  .eze .block-settings p {
-    margin: 0; }
-  .eze .block-settings input[type="number"] {
-    width: 40px;
-    margin: 0px 5px 0 5px; }
-  .eze .block-settings select {
-    width: 100px; }
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0;
@@ -810,19 +801,11 @@
         padding: 0 3px;
         margin: -1px 5px 0 5px;
         line-height: 22px; }
-      .eze .eze-items li .wrap .datetime {
-        font-size: 11px; }
-        .eze .eze-items li .wrap .datetime span {
-          float: left;
-          margin: -1px 3px 0 0; }
-        .eze .eze-items li .wrap .datetime input {
-          width: 30px;
-          display: inline;
-          font-size: 11px;
-          padding: 2px 5px;
-          margin-left: 5px; }
-          .eze .eze-items li .wrap .datetime input.publish-date {
-            width: 60px; }
+      .eze .eze-items li .wrap .activate-time, .eze .eze-items li .wrap .activate-date {
+        text-align: center;
+        width: 35px; }
+      .eze .eze-items li .wrap .activate-date {
+        width: 75px; }
       .eze .eze-items li .wrap .right-align {
         position: absolute;
         right: 0;

@@ -1,15 +1,15 @@
 <h2>Active content</h2>
 	<ul class="eze-items">
-		<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
-		<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Document 16x16.png" /><small>Landing page</small> Object name is really really really really really really long</p><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short</div></li>
+		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Landing page</small> Object name is short</div></li>
 	</ul>
 
 <button class="btn btn-primary">Add content to this block…</button>
 
 <h2>Queued up content</h2>
 	<ul class="eze-items">
-		<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short</p><div class="datetime"><span>Activate at</span><input type="date" class="publish-date" data-value="2012-09-05" value="2012-09-05"><input type="time" value="08:38" autocomplete="OFF"></div><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
-		<li><div class="wrap"><p><i class="icon-reorder"></i><img src="img/16x16/Document 16x16.png" /><small>Landing page</small> Object name is really really really really really really long</p><div class="datetime"><span>Activate at</span><input type="date" class="publish-date" data-value="2012-09-05" value="2012-09-05"><input type="time" value="08:38" autocomplete="OFF"></div><button class="btn btn-mini edit-btn" href="">Edit</button><button class="btn btn-mini remove-btn" href="">x</button></div></li>
+		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short <div class="right-align">Activate at <input class="activate-date" type="text" placeholder="16/10/2012"> <input class="activate-time" type="text" placeholder="13:34"></div></div></li>
+		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short <div class="right-align">Activate at <input class="activate-date" type="text" placeholder="16/10/2012"> <input class="activate-time" type="text" placeholder="13:34"></div></div></li>
 	</ul>
 
 <h2>Custom attributes</h2>
