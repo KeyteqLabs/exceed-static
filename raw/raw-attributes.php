@@ -60,14 +60,14 @@
 			<span class="label label-required">Required</span>
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<div href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""><button class="btn btn-inverse">Edit image</button></div>
+				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="btn btn-inverse">Edit image</button></div>
 				<p><button href="#" class="btn">Upload new image</button></p>
 		</section>
 
 		<section class="eze-object-attribute eze-dam last">
 			<label class="heading">DAM Asset</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<div href="#" class="thumbnail"><img src="http://placehold.it/300x100" alt=""><button class="btn btn-inverse">Scale versions</button></div>
+				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="btn btn-inverse">Edit image</button></div>
 				<p><button href="#" class="btn">Browse media library</button></p>
 		</section>
 		

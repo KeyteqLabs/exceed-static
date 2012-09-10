@@ -30,11 +30,13 @@
 				font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 				margin: 0
 
-				.iconwrap img
+				.iconwrap
 					float: left
-					margin: 8px 5px 0 10px
+					width: 16px
+					margin: -1px 5px 0 10px
 
-					&.large
+					.large
+						margin-top: 8px
 						display: none
 
 			.btn
@@ -62,10 +64,12 @@
 			h1
 				font: normal 16px/48px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
 
-				.iconwrap img
-					&.small
+				.iconwrap
+					width: 32px
+
+					.small
 						display: none
-					&.large
+					.large
 						display: block
 
 			.btn
@@ -73,13 +77,12 @@
 				border: 1px solid #fff
 
 		&.move-in header
-			-moz-animation: stack-header-move-in 0.7s ease 1 normal
-			-webkit-animation: stack-header-move-in 0.7s ease 1 normal
-			//-webkit-animation-delay: 2s
+			-moz-animation: stack-header-move-in 0.5s ease 1 normal
+			//-webkit-animation: stack-header-move-in 0.7s ease 1 normal
 
 		&.move-out header
-			-moz-animation: stack-header-move-out 0.7s ease 1 normal
-			-webkit-animation: stack-header-move-out 0.7s ease 1 normal
+			-moz-animation: stack-header-move-out 0.5s ease 1 normal
+			-webkit-animation: stack-header-move-out 0.5s ease 1 normal
 
 		.eze-autosave
 			float: right
@@ -103,9 +106,9 @@
 			overflow: auto
 			-moz-box-sizing: border-box
 			box-sizing: border-box
-			-moz-animation: fade-in 0.9s ease 1 normal
-			-webkit-animation: fade-in 0.9s ease 1 normal
-			//-webkit-animation-delay: 2s
+			-moz-animation: stack-content-move-in 0.5s ease 1 normal
+			-webkit-animation: stack-content-move-in 0.5s ease 1 normal
+			display: none
 
 			&.dark
 				background: #222
@@ -115,5 +118,5 @@
 			display: block
 
 		&.move-out .eze-stack-content
-			-moz-animation: stack-content-move-out 1s ease 1 normal
-			-webkit-animation: stack-content-move-out 1s ease 1 normal
+			-moz-animation: stack-content-move-out 0.5s ease 1 normal
+			-webkit-animation: stack-content-move-out 0.5s ease 1 normal
