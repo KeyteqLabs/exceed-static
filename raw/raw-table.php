@@ -69,6 +69,7 @@
             <?php } ?>
             </ul>
         </div>
+        <div class="loading-bar">Loading more…</div>
     </section>
 
 
