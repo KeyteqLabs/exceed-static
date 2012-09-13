@@ -147,11 +147,11 @@
   background-color: #ffffff;
 }
 .eze a {
-  color: #ff9c00;
+  color: #000000;
   text-decoration: none;
 }
 .eze a:hover {
-  color: #b36d00;
+  color: #000000;
   text-decoration: underline;
 }
 .eze .img-rounded {
@@ -1789,30 +1789,30 @@
 .eze .dropdown-submenu:hover > a {
   text-decoration: none;
   color: #ffffff;
-  background-color: #ff9c00;
-  background-color: #f59600;
-  background-image: -moz-linear-gradient(top, #ff9c00, #e68c00);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9c00), to(#e68c00));
-  background-image: -webkit-linear-gradient(top, #ff9c00, #e68c00);
-  background-image: -o-linear-gradient(top, #ff9c00, #e68c00);
-  background-image: linear-gradient(to bottom, #ff9c00, #e68c00);
+  background-color: #000000;
+  background-color: #000000;
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9c00', endColorstr='#ffe68c00', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff000000', GradientType=0);
 }
 .eze .dropdown-menu .active > a,
 .eze .dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #ff9c00;
-  background-color: #f59600;
-  background-image: -moz-linear-gradient(top, #ff9c00, #e68c00);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9c00), to(#e68c00));
-  background-image: -webkit-linear-gradient(top, #ff9c00, #e68c00);
-  background-image: -o-linear-gradient(top, #ff9c00, #e68c00);
-  background-image: linear-gradient(to bottom, #ff9c00, #e68c00);
+  background-color: #000000;
+  background-color: #000000;
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9c00', endColorstr='#ffe68c00', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff000000', GradientType=0);
 }
 .eze .dropdown-menu .disabled > a,
 .eze .dropdown-menu .disabled > a:hover {
@@ -2109,17 +2109,17 @@
 .eze .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #ff9c00;
-  background-image: -moz-linear-gradient(top, #ff9c00, #ff9c00);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9c00), to(#ff9c00));
-  background-image: -webkit-linear-gradient(top, #ff9c00, #ff9c00);
-  background-image: -o-linear-gradient(top, #ff9c00, #ff9c00);
-  background-image: linear-gradient(to bottom, #ff9c00, #ff9c00);
+  background-color: #000000;
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9c00', endColorstr='#ffff9c00', GradientType=0);
-  border-color: #ff9c00 #ff9c00 #b36d00;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff000000', GradientType=0);
+  border-color: #000000 #000000 #000000;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #ff9c00;
+  *background-color: #000000;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -2130,12 +2130,12 @@
 .eze .btn-primary.disabled,
 .eze .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #ff9c00;
-  *background-color: #e68c00;
+  background-color: #000000;
+  *background-color: #000000;
 }
 .eze .btn-primary:active,
 .eze .btn-primary.active {
-  background-color: #cc7d00 \9;
+  background-color: #000000 \9;
 }
 .eze .btn-warning {
   color: #ffffff;
@@ -2328,13 +2328,13 @@
 .eze .btn-link {
   border-color: transparent;
   cursor: pointer;
-  color: #ff9c00;
+  color: #000000;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .eze .btn-link:hover {
-  color: #b36d00;
+  color: #000000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -2470,7 +2470,7 @@
   background-color: #e6e6e6;
 }
 .eze .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #ff9c00;
+  background-color: #000000;
 }
 .eze .btn-group.open .btn-warning.dropdown-toggle {
   background-color: #f89406;
@@ -2646,7 +2646,7 @@
 .eze .nav-list > .active > a:hover {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #ff9c00;
+  background-color: #000000;
 }
 .eze .nav-list [class^="icon-"] {
   margin-right: 2px;
@@ -2725,7 +2725,7 @@
 .eze .nav-pills > .active > a,
 .eze .nav-pills > .active > a:hover {
   color: #ffffff;
-  background-color: #ff9c00;
+  background-color: #000000;
 }
 .eze .nav-stacked > li {
   float: none;
@@ -2779,13 +2779,13 @@
   border-radius: 6px;
 }
 .eze .nav .dropdown-toggle .caret {
-  border-top-color: #ff9c00;
-  border-bottom-color: #ff9c00;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
   margin-top: 6px;
 }
 .eze .nav .dropdown-toggle:hover .caret {
-  border-top-color: #b36d00;
-  border-bottom-color: #b36d00;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
 }
 .eze .nav-tabs .dropdown-toggle .caret {
   margin-top: 8px;
@@ -3869,7 +3869,7 @@
   transition: all 0.2s ease-in-out;
 }
 .eze a.thumbnail:hover {
-  border-color: #ff9c00;
+  border-color: #000000;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);

@@ -1,7 +1,7 @@
 
 
 <section class="eze-table">
-    <h1>All content <button class="btn btn-primary">Create new…</button></h1>
+    <h1>All content <button class="btn btn-primary" id="example" rel="popover" data-placement="bottom" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Create new…</button></h1>
     <section class="eze-table-actions">
         <input type="checkbox" />
         <button class="btn disabled">Publish selected</button>
@@ -13,8 +13,8 @@
                 <li><a href="#">Author</a></li>
                 <li><a href="#">Content type</a></li>
             </ul>
-            <img class="active" src="img/24x24/Ordered list 24x24b.png" alt="" />
-            <img src="img/24x24/Thumbnails 24x24.png" alt="" />
+            <!-- <img class="active" src="img/24x24/Ordered list 24x24b.png" alt="" />
+            <img src="img/24x24/Thumbnails 24x24.png" alt="" /> -->
         </div>
     </section>
 
@@ -26,10 +26,10 @@
         <p class="description">Content type</p><select class="chzn-select"><option>All content types</option><option>Article</option><option>Page</option></select>
         <p class="description">With status</p><select class="chzn-select"><option>All statuses</option><option>Published</option><option>Edited</option><option>Drafts</option></select>
         <p class="description">By author</p><select class="chzn-select"><option>All authors</option><option>2</option></select>
-        <p class="description">From location</p><select class="chzn-select"><option>All locations</option><option>Mobile</option><option>iPad</option><option>Web</option></select>
+        <!-- <p class="description">From location</p><select class="chzn-select"><option>All locations</option><option>Mobile</option><option>iPad</option><option>Web</option></select>
 
         <h2 style="font-size:12px;margin:10px 0 5px 0;line-height:12px">Saved searches</h2>
-            <span class="label">Grillsandwich</span> <span class="label">Fårikål</span> <span class="label">MatPrat</span>
+            <span class="label">Grillsandwich</span> <span class="label">Fårikål</span> <span class="label">MatPrat</span> -->
     </section>
 
     <section class="eze-table-content">

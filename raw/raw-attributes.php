@@ -2,8 +2,8 @@
 
 
 	<section class="eze-object-translations">
-		<h1>Show translations</h1>
 		<ul>
+			<li><h1>Show translations</h1></li>
 			<li class="disabled">
 				<label><input id="kp-edit-language-eng-GB" type="checkbox" checked="checked" data-language="eng-GB" data-version="118" disabled="disabled">English (United Kingdom)</label>
 			</li>

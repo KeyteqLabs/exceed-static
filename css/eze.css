@@ -94,7 +94,7 @@
         .eze .eze-table .eze-table-content ul li.item .check {
           float: left;
           width: 12px;
-          margin: 0 -20px 0 -120px;
+          margin: 0 -20px 0 -130px;
           background: #fafafa;
           border-bottom-right-radius: 4px;
           padding: 2px 4px 2px 2px;
@@ -104,7 +104,7 @@
           .eze .eze-table .eze-table-content ul li.item .check input {
             margin: 0; }
         .eze .eze-table .eze-table-content ul li.item .thumb {
-          margin: 0 0 0 -120px;
+          margin: 0 0 0 -130px;
           width: 110px;
           height: 90px;
           float: left;
@@ -1014,19 +1014,19 @@
   background: white;
   float: left;
   width: 100%; }
-  .eze .eze-object-translations h1 {
-    font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-    margin: 20px 20px 10px 20px; }
   .eze .eze-object-translations ul {
     float: left;
     list-style: none;
-    margin: 0 10px 0 20px; }
+    margin: 20px 10px 5px 20px; }
     .eze .eze-object-translations ul li {
       float: left;
       font: normal 12px/12px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-      margin: 0 10px 10px 0; }
+      margin: 0 10px 5px 0; }
       .eze .eze-object-translations ul li input {
         margin: -1px 5px 0 0; }
+      .eze .eze-object-translations ul li h1 {
+        font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+        margin: 0; }
 .eze .attr-group {
   background-color: #fafafa;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#dddddd));
@@ -1213,6 +1213,8 @@
     background-image: -o-linear-gradient(top, #ffbb00, #ff8d00);
     background-image: linear-gradient(top, #ffbb00, #ff8d00);
     border-color: transparent; }
+  .eze .popover {
+    z-index: 60000; }
   .eze .btn-mini {
     font-size: 11px; }
   .eze .btn {

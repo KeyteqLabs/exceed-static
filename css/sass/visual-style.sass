@@ -37,7 +37,8 @@
 				border-color: transparent
 
 
-
+	.popover
+		z-index: 60000
 
 	.btn-mini
 		font-size: 11px
@@ -125,3 +126,12 @@
 		&.published
 			background: #A3E10B
 			border-color: #91C90A
+
+
+// Fixes for ezexceed demo design general styles
+
+	header
+		min-height: 0
+
+	section ul li::before, footer ul li::before, section ol li::before, footer ol li::before
+		display: none
