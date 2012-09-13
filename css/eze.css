@@ -206,8 +206,6 @@
         text-decoration: none;
         position: relative;
         pointer: cursor; }
-        .eze #eze-toolbar ul li a:hover {
-          background: black; }
       .eze #eze-toolbar ul li div.slide-in {
         position: absolute;
         top: 0;
@@ -250,8 +248,16 @@
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
       .eze #eze-toolbar b {
         background: url(../images/sprite@2x.png);
-        -webkit-background-size: 640px 640px;
-        background-size: 640px 640px; } }
+        -webkit-background-size: 1200px 640px;
+        background-size: 1200px 640px; } }
+  .eze #eze-toolbar li:hover a {
+    color: #fdca7d; }
+  .eze #eze-toolbar li:hover b {
+    background-position-y: -28px; }
+  .eze #eze-toolbar li.active a {
+    color: #ffc000; }
+  .eze #eze-toolbar li.active b {
+    background-position-y: -56px; }
   .eze #eze-toolbar .eze-home {
     background-position: 0 0; }
   .eze #eze-toolbar .eze-create {
@@ -276,11 +282,11 @@
   .eze #eze-toolbar .eze-more {
     background-position: -512px 0; }
   .eze #eze-toolbar .eze-devices {
-    background-position: 0 -28px; }
+    background-position: -576px 0; }
   .eze #eze-toolbar .eze-publish {
-    background-position: -64px -28px; }
+    background-position: -640px 0; }
   .eze #eze-toolbar .eze-layout {
-    background-position: -128px -28px; }
+    background-position: -704px 0; }
 
 .eze .eze-bigmodal {
   position: absolute;

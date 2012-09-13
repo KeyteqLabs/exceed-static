@@ -35,9 +35,6 @@
 					position: relative
 					pointer: cursor
 
-					&:hover
-						background: #000
-
 				// Group and quick action, slide in
 
 				div.slide-in
@@ -93,8 +90,20 @@
 
 			@media only screen and (-webkit-min-device-pixel-ratio: 1.5)
 				background: url(../images/sprite@2x.png)
-				-webkit-background-size: 640px 640px
-				background-size: 640px 640px
+				-webkit-background-size: 1200px 640px
+				background-size: 1200px 640px
+
+		li:hover
+			a
+				color: #fdca7d
+			b
+				background-position-y: -28px
+
+		li.active
+			a
+				color: #ffc000
+			b
+				background-position-y: -56px
 
 		.eze-home
 			background-position: 0 0
@@ -122,8 +131,8 @@
 		.eze-more
 			background-position: -512px 0
 		.eze-devices
-			background-position: 0 -28px
+			background-position: -576px 0
 		.eze-publish
-			background-position: -64px -28px
+			background-position: -640px 0
 		.eze-layout
-			background-position: -128px -28px
+			background-position: -704px 0
