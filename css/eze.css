@@ -832,7 +832,7 @@
           background: transparent;
           border: 0;
           padding: 0 15px;
-          margin: 0;
+          margin: -1px 0 0 0;
           border-radius: 0;
           border-left: 1px solid #d0d0d0; }
     .eze .eze-items li select, .eze .eze-items li .chzn-container {
@@ -1098,13 +1098,18 @@
       font: normal 11px/11px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin: 0 0 10px 0; }
       .eze .eze-object-attributes .eze-object-attribute .language img {
-        margin: -1px 5px 0 0; }
-  .eze .eze-object-attributes .eze-string input {
-    width: 90%; }
+        margin: -3px 3px 0 0; }
+  .eze .eze-object-attributes .eze-string input, .eze .eze-object-attributes .eze-date input {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%; }
   .eze .eze-object-attributes .eze-select select {
     width: 100%; }
-  .eze .eze-object-attributes .eze-date input {
-    width: 110px; }
+  .eze .eze-object-attributes .eze-date .input-append {
+    margin-right: 10px; }
+  .eze .eze-object-attributes .eze-date .icon-calendar {
+    font-size: 16px;
+    vertical-align: 0; }
   .eze .eze-object-attributes .eze-image .thumbnail, .eze .eze-object-attributes .eze-dam .thumbnail {
     margin: 0 0 10px 0;
     background: white; }
@@ -1275,6 +1280,9 @@
     margin-bottom: 10px;
     height: 25px;
     font-size: 12px; }
+  .eze .chzn-container-single .chzn-single, .eze select, .eze input[type="file"] {
+    height: 25px;
+    line-height: 26px; }
   .eze input[type="text"], .eze input[type="password"],
   .eze input[type="datetime"], .eze input[type="datetime-local"],
   .eze input[type="date"], .eze input[type="month"], .eze input[type="time"],
@@ -1284,9 +1292,6 @@
     line-height: 16px;
     height: 16px;
     padding: 6px 4px 3px 5px; }
-  .eze select, .eze input[type="file"] {
-    height: 24px;
-    line-height: 24px; }
   .eze .input-prepend .add-on, .eze .input-append .add-on {
     height: 17px; }
   .eze .status-icon {
