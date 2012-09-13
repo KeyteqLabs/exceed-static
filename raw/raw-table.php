@@ -33,6 +33,7 @@
     </section>
 
     <section class="eze-table-content">
+        <div class="eze-inner">
         <div>
             <h2 class="group-header">Today</h2>
             <ul class="items">
@@ -70,6 +71,7 @@
             </ul>
         </div>
         <div class="loading-bar">Loading more…</div>
+        </div>
     </section>
 
 
