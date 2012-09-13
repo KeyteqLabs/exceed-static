@@ -137,6 +137,18 @@
 					bottom: 10px
 					left: 10px
 
+				.close
+					position: absolute
+					top: 0
+					right: 0
+					padding: 2px 8px 8px 8px
+
+				&:hover .close
+					@include transition(opacity,0.2s)
+					opacity: 1
+					background: #fff
+					border-bottom-left-radius: 4px
+
 		.eze-matrix
 
 			table

@@ -1108,6 +1108,19 @@
       position: absolute;
       bottom: 10px;
       left: 10px; }
+    .eze .eze-object-attributes .eze-image .thumbnail .close, .eze .eze-object-attributes .eze-dam .thumbnail .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 2px 8px 8px 8px; }
+    .eze .eze-object-attributes .eze-image .thumbnail:hover .close, .eze .eze-object-attributes .eze-dam .thumbnail:hover .close {
+      -webkit-transition: opacity 0.2s ease-out;
+      -moz-transition: opacity 0.2s ease-out;
+      -o-transition: opacity 0.2s ease-out;
+      transition: opacity 0.2s ease-out;
+      opacity: 1;
+      background: white;
+      border-bottom-left-radius: 4px; }
   .eze .eze-object-attributes .eze-matrix table {
     margin: 0 0 10px 0; }
   .eze .eze-object-attributes .eze-matrix th {
