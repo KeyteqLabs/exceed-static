@@ -70,7 +70,7 @@
 				border-radius: 4px
 				padding: 0
 				position: relative
-				overflow: hidden
+				overflow: visible
 
 				.reorder
 					display: block
@@ -87,6 +87,7 @@
 					margin: 2px 0 0 10px
 
 				input[type="text"]
+					width: 130px
 					height: 22px
 					padding: 0 3px
 					margin: -1px 5px 0 5px
@@ -125,6 +126,17 @@
 				margin: 5px 5px 0 0
 				display: block
 				float: left
+
+		&.with-dropdown li // For a list with a dropdown that expands outside the list item
+			.right-align, .wrap
+				overflow: visible
+
+			.title
+				width: 70%
+				white-space: nowrap
+				overflow: hidden
+				display: inline-block
+				text-overflow: ellipsis
 
 
 
