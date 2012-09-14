@@ -11,11 +11,11 @@
 
 	<section class="eze-container">
 		<h1>Pages</h1>
-			<p class="description">Show content on these pages</p>
+			<p class="description">Show this content on these pages</p>
 
 			<ul class="eze-items">
 				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really really really really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 			</ul>
 
 		<button class="btn">Add to page…</button>
@@ -65,11 +65,11 @@
 			<p class="description">Edit and sort content under this page</p>
 			<select class="chzn-select"><option>Sort manually</option><option>2</option></select>
 			<ul class="eze-items">
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really really really really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really really really really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really really really really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really really really really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really really really really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 			</ul>
 	</section>
 

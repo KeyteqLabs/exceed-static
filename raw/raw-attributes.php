@@ -60,15 +60,35 @@
 			<span class="label label-required">Required</span>
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="close">&times;</button><button class="btn btn-inverse">Edit image</button></div>
-				<p><button href="#" class="btn">Upload new image</button></p>
+				<button href="#" class="btn">Upload new image</button>
 		</section>
 
 		<section class="eze-object-attribute eze-dam last">
 			<label class="heading">DAM Asset</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="close">&times;</button><button class="btn btn-inverse">Edit image</button></div>
-				<p><button href="#" class="btn">Browse media library</button></p>
+				<button href="#" class="btn">Upload new image</button><button href="#" class="btn">Browse media library</button>
+		</section>
+		
+	</div>
+
+	<div class="eze-object-attribute-wrap">
+
+		<section class="eze-object-attribute eze-image">
+			<span class="label label-required">Required</span>
+			<label class="heading">Regular Image</label>
+				<span class="help-block description">Example block-level help text here.</span>
+				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="close">&times;</button><button class="btn btn-inverse edit-image">Edit image</button></div>
+		</section>
+
+		<section class="eze-object-attribute eze-dam last">
+			<label class="heading">DAM Asset</label>
+				<span class="help-block description">Example block-level help text here.</span>
+				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="close">&times;</button><button class="btn btn-inverse edit-image">Scale variants</button></div>
+				<div class="input-append add-tag">
+					<input id="appendedInputButton" type="text" placeholder="Write tag"><button class="btn" type="button">Add tag</button>
+				</div>
+				<div class="tags"><span class="label">Tagname <button class="close">&times;</button></span> <span class="label">Tag name <button class="close">&times;</button></span> <span class="label">Taggy <button class="close">&times;</button></span> </div>
+
 		</section>
 		
 	</div>
