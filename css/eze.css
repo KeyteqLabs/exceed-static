@@ -774,7 +774,7 @@
         font: normal 20px/20px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
         .eze .eze-items li.notification p img {
           margin: -4px 7px 0 0; }
-    .eze .eze-items li .wrap, .eze .eze-items li .right-align .btn, .eze .eze-items li .reorder {
+    .eze .eze-items li .wrap, .eze .eze-items li .right-align .btn, .eze .eze-items li .reorder, .eze .eze-items li .right-align {
       height: 34px;
       line-height: 34px; }
     .eze .eze-items li .wrap {
@@ -825,7 +825,8 @@
         background-image: -moz-linear-gradient(top, white, #f5f5f5);
         background-image: -ms-linear-gradient(top, white, #f5f5f5);
         background-image: -o-linear-gradient(top, white, #f5f5f5);
-        background-image: linear-gradient(top, white, #f5f5f5); }
+        background-image: linear-gradient(top, white, #f5f5f5);
+        overflow: hidden; }
         .eze .eze-items li .wrap .right-align .status-icon {
           margin: 11px 10px 0 5px; }
         .eze .eze-items li .wrap .right-align .btn {
@@ -994,6 +995,40 @@
   100% {
     margin-top: 60px;
     opacity: 0; } }
+
+.keymedia-thumbs {
+  clear: both;
+  -webkit-transform: translate3d(0, 0, 0); }
+  .keymedia-thumbs .item {
+    float: left;
+    cursor: pointer; }
+    .keymedia-thumbs .item .pick {
+      text-align: center;
+      width: 170px;
+      height: 190px;
+      display: table-cell;
+      padding: 10px 10px 0 10px;
+      position: relative; }
+      .keymedia-thumbs .item .pick img {
+        border: 1px solid white;
+        box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.4);
+        opacity: 0.9;
+        -webkit-transition: opacity 0.2s ease-out;
+        -moz-transition: opacity 0.2s ease-out;
+        -o-transition: opacity 0.2s ease-out;
+        transition: opacity 0.2s ease-out; }
+      .keymedia-thumbs .item .pick .meta {
+        text-overflow: ellipsis;
+        max-width: 170px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 5px; }
+        .keymedia-thumbs .item .pick .meta .details {
+          font-size: 11px; }
+      .keymedia-thumbs .item .pick:hover img {
+        opacity: 1; }
+  .keymedia-thumbs .more-hits {
+    clear: both; }
 
 .keymedia-crop .nav-pills.inverted li {
   margin-right: 10px; }

@@ -1,3 +1,47 @@
+// Browse view
+
+.keymedia-thumbs
+	clear: both
+	-webkit-transform: translate3d(0,0,0)
+
+	.item
+		float: left
+		cursor: pointer
+
+		.pick
+			text-align: center
+			width: 170px
+			height: 190px
+			display: table-cell
+			padding: 10px 10px 0 10px
+			position: relative
+
+			img
+				border: 1px solid #fff
+				box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4)
+				opacity: 0.9
+				@include transition(opacity,0.2s)
+	        
+			.meta
+				text-overflow: ellipsis
+				max-width: 170px
+				white-space: nowrap
+				overflow: hidden
+				margin-top: 5px
+	            
+				.details
+					font-size: 11px
+	        
+			&:hover img
+				opacity: 1
+
+	.more-hits
+		clear: both
+
+
+
+
+// Crop view
 
 .keymedia-crop
 
