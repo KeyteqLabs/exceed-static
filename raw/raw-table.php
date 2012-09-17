@@ -4,32 +4,36 @@
     <h1>All content <button class="btn btn-primary" id="example" rel="popover" data-placement="bottom" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Create new…</button></h1>
     <section class="eze-table-actions">
         <input type="checkbox" />
-        <button class="btn disabled">Publish selected</button>
-        <button class="btn disabled">Delete selected</button>
+        <div class="batch">
+            <button class="btn disabled">Publish selected</button>
+            <button class="btn disabled">Delete selected</button>
+        </div>
         <div class="sort-by">
-            <ul class="nav nav-pills">
-                <li><h2>Sort by</h2></li>
-                <li class="active"><a href="#">Date</a></li>
-                <li><a href="#">Author</a></li>
-                <li><a href="#">Content type</a></li>
-            </ul>
+            <h2>Sort by</h2>
+            <div class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn">Date</button>
+                <button type="button" class="btn">Author</button>
+                <button type="button" class="btn">Content type</button>
+            </div>
             <!-- <img class="active" src="img/24x24/Ordered list 24x24b.png" alt="" />
             <img src="img/24x24/Thumbnails 24x24.png" alt="" /> -->
         </div>
     </section>
 
-    <section class="eze-filters">
+    <section class="eze-filters-wrap">
         <form class="form-search"><div class="input-prepend">
             <span class="add-on"><i class="icon-search"></i></span><input type="text" placeholder="Type to search" class="input-medium">
         </div></form>
-        <p class="description">Last edit date</p><select class="chzn-select"><option>All time</option><option>Last week</option><option>Last month</option></select>
-        <p class="description">Content type</p><select class="chzn-select"><option>All content types</option><option>Article</option><option>Page</option></select>
-        <p class="description">With status</p><select class="chzn-select"><option>All statuses</option><option>Published</option><option>Edited</option><option>Drafts</option></select>
-        <p class="description">By author</p><select class="chzn-select"><option>All authors</option><option>2</option></select>
-        <!-- <p class="description">From location</p><select class="chzn-select"><option>All locations</option><option>Mobile</option><option>iPad</option><option>Web</option></select>
+        <div class="eze-filters">
+            <p class="description">Last edit date</p><select class="chzn-select"><option>All time</option><option>Last week</option><option>Last month</option></select>
+            <p class="description">Content type</p><select class="chzn-select"><option>All content types</option><option>Article</option><option>Page</option></select>
+            <p class="description">With status</p><select class="chzn-select"><option>All statuses</option><option>Published</option><option>Edited</option><option>Drafts</option></select>
+            <p class="description">By author</p><select class="chzn-select"><option>All authors</option><option>2</option></select>
+            <!-- <p class="description">From location</p><select class="chzn-select"><option>All locations</option><option>Mobile</option><option>iPad</option><option>Web</option></select>
 
-        <h2 style="font-size:12px;margin:10px 0 5px 0;line-height:12px">Saved searches</h2>
-            <span class="label">Grillsandwich</span> <span class="label">Fårikål</span> <span class="label">MatPrat</span> -->
+            <h2 style="font-size:12px;margin:10px 0 5px 0;line-height:12px">Saved searches</h2>
+                <span class="label">Grillsandwich</span> <span class="label">Fårikål</span> <span class="label">MatPrat</span> -->
+        </div>
     </section>
 
     <section class="eze-table-content">

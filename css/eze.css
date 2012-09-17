@@ -6,8 +6,9 @@
   bottom: 20px;
   overflow: hidden; }
   .eze .eze-table .eze-table-actions {
-    height: 35px; }
-    .eze .eze-table .eze-table-actions .btn {
+    height: 35px;
+    margin-right: 220px; }
+    .eze .eze-table .eze-table-actions .batch .btn {
       float: left;
       margin-right: 5px; }
     .eze .eze-table .eze-table-actions input {
@@ -16,18 +17,13 @@
     .eze .eze-table .eze-table-actions .sort-by {
       float: right;
       margin-right: 0; }
-      .eze .eze-table .eze-table-actions .sort-by ul {
+      .eze .eze-table .eze-table-actions .sort-by h2 {
+        float: left;
+        font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+        margin: 7px 10px 0 0;
+        display: inline; }
+      .eze .eze-table .eze-table-actions .sort-by .btn-group {
         float: left; }
-        .eze .eze-table .eze-table-actions .sort-by ul li {
-          margin-left: 5px; }
-          .eze .eze-table .eze-table-actions .sort-by ul li h2 {
-            font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-            margin: 7px 7px 0 0; }
-          .eze .eze-table .eze-table-actions .sort-by ul li a {
-            background: #eeeeee;
-            padding: 4px 10px; }
-          .eze .eze-table .eze-table-actions .sort-by ul li.active a {
-            background: black; }
       .eze .eze-table .eze-table-actions .sort-by img {
         float: left;
         display: inline;
@@ -42,7 +38,7 @@
     bottom: 0;
     overflow-y: scroll;
     background: white;
-    margin-right: 212px;
+    margin-right: 220px;
     border: 1px solid #e4e3e3;
     -webkit-overflow-scrolling: touch;
     -webkit-transform: translateZ(0); }
@@ -124,26 +120,30 @@
         -moz-animation: removing 0.3s ease 1 normal;
         -webkit-animation: removing 0.3s ease 1 normal;
         opacity: 0; }
-  .eze .eze-table .eze-filters {
+  .eze .eze-table .eze-filters-wrap {
+    top: 84px;
     right: 0;
     position: absolute;
-    width: 180px;
-    padding: 10px;
-    border: 1px solid #eeeeee;
-    background: white; }
-    .eze .eze-table .eze-filters .description {
-      font-size: 11px;
-      margin: 0 0 0 2px; }
-    .eze .eze-table .eze-filters input[type="text"] {
-      width: 145px; }
-    .eze .eze-table .eze-filters select {
-      width: 180px; }
-    .eze .eze-table .eze-filters form {
-      margin: 0 0 10px 0; }
-      .eze .eze-table .eze-filters form .add-on {
-        padding: 3px 4px 5px 4px; }
-        .eze .eze-table .eze-filters form .add-on i {
-          font-size: 16px; }
+    width: 200px;
+    margin-top: -37px; }
+    .eze .eze-table .eze-filters-wrap .eze-filters {
+      border: 1px solid #eeeeee;
+      width: 178px;
+      padding: 10px;
+      background: white; }
+      .eze .eze-table .eze-filters-wrap .eze-filters .description {
+        font-size: 11px;
+        margin: 0 0 0 2px; }
+      .eze .eze-table .eze-filters-wrap .eze-filters input[type="text"] {
+        width: 145px; }
+      .eze .eze-table .eze-filters-wrap .eze-filters select {
+        width: 180px; }
+      .eze .eze-table .eze-filters-wrap .eze-filters form {
+        margin: 0 0 10px 0; }
+        .eze .eze-table .eze-filters-wrap .eze-filters form .add-on {
+          padding: 3px 4px 5px 4px; }
+          .eze .eze-table .eze-filters-wrap .eze-filters form .add-on i {
+            font-size: 16px; }
 
 #eze-mediabase {
   display: none;

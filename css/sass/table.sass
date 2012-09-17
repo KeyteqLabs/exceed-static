@@ -12,8 +12,9 @@
 
         .eze-table-actions
             height: 35px
+            margin-right: 220px
 
-            .btn
+            .batch .btn
                 float: left
                 margin-right: 5px
 
@@ -25,20 +26,15 @@
                 float: right
                 margin-right: 0
 
-                ul
+                h2
                     float: left
-                    li
-                        margin-left: 5px
+                    font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
+                    margin: 7px 10px 0 0
+                    display: inline
 
-                        h2
-                            font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif
-                            margin: 7px 7px 0 0
-                        a
-                            background: #eee
-                            padding: 4px 10px
+                .btn-group
+                    float: left
 
-                        &.active a
-                            background: #000
                 img
                     float: left
                     display: inline
@@ -55,7 +51,7 @@
             bottom: 0
             overflow-y: scroll
             background: #fff
-            margin-right: 212px
+            margin-right: 220px
             border: 1px solid #e4e3e3
             -webkit-overflow-scrolling: touch
             -webkit-transform: translateZ(0)
@@ -148,30 +144,35 @@
                         -webkit-animation: removing 0.3s ease 1 normal
                         opacity: 0
 
-        .eze-filters
+        .eze-filters-wrap
+            top: 84px
             right: 0
             position: absolute
-            width: 180px
-            padding: 10px
-            border: 1px solid #eee
-            background: #fff
+            width: 200px
+            margin-top: -37px
 
-            .description
-                font-size: 11px
-                margin: 0 0 0 2px
+            .eze-filters
+                border: 1px solid #eee
+                width: 178px
+                padding: 10px
+                background: #fff
 
-            input[type="text"]
-                width: 145px
+                .description
+                    font-size: 11px
+                    margin: 0 0 0 2px
 
-            select
-                width: 180px
+                input[type="text"]
+                    width: 145px
 
-            form
-                margin: 0 0 10px 0
+                select
+                    width: 180px
 
-                .add-on
-                    padding: 3px 4px 5px 4px
+                form
+                    margin: 0 0 10px 0
 
-                    i
-                        font-size: 16px
+                    .add-on
+                        padding: 3px 4px 5px 4px
+
+                        i
+                            font-size: 16px
             
