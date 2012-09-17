@@ -21,9 +21,10 @@
     </section>
 
     <section class="eze-filters-wrap">
-        <form class="form-search"><div class="input-prepend">
-            <span class="add-on"><i class="icon-search"></i></span><input type="text" placeholder="Type to search" class="input-medium">
-        </div></form>
+        <form class="form-search">
+            <div class="input-prepend">
+                <span class="add-on"><i class="icon-search"></i></span><input type="text" placeholder="Type to search" class="input-medium">
+            </div>
         <div class="eze-filters">
             <p class="description">Last edit date</p><select class="chzn-select"><option>All time</option><option>Last week</option><option>Last month</option></select>
             <p class="description">Content type</p><select class="chzn-select"><option>All content types</option><option>Article</option><option>Page</option></select>
@@ -34,6 +35,7 @@
             <h2 style="font-size:12px;margin:10px 0 5px 0;line-height:12px">Saved searches</h2>
                 <span class="label">Grillsandwich</span> <span class="label">Fårikål</span> <span class="label">MatPrat</span> -->
         </div>
+        </form>
     </section>
 
     <section class="eze-table-content">
