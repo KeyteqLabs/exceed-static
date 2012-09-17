@@ -1315,6 +1315,8 @@
   color: #333333;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
+  .eze a {
+    cursor: pointer; }
   .eze .tab-content .tab-pane {
     -moz-animation: fade-in 0.5s ease 1 normal;
     -webkit-animation: fade-in 0.5s ease 1 normal; }
