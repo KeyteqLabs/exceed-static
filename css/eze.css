@@ -112,6 +112,8 @@
         .eze .eze-table .eze-table-content ul li.item p {
           width: 100%;
           font: normal 12px/22px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+          .eze .eze-table .eze-table-content ul li.item p img {
+            margin-top: -2px; }
           .eze .eze-table .eze-table-content ul li.item p .other-locations {
             border-bottom: 1px dashed black; }
       .eze .eze-table .eze-table-content ul li.publishing {
@@ -303,6 +305,8 @@
   -webkit-animation: fade-in 0.5s ease 1 normal; }
   .eze .popover.right .arrow {
     left: -11px; }
+  .eze .popover .popover-title {
+    background: white; }
   .eze .popover h1 {
     font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -315,6 +319,8 @@
     right: 0; }
 .eze .eze-activity-modal .btn-group {
   margin: 0 0 10px 0; }
+.eze .eze-activity-modal .show-more {
+  margin: 10px 0 0 0; }
 .eze .eze-devices-modal .table {
   margin: 0; }
   .eze .eze-devices-modal .table tr:first-child td {
@@ -1100,7 +1106,8 @@
       font: normal 12px/12px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin: 0 10px 5px 0; }
       .eze .eze-object-translations ul li input {
-        margin: -1px 5px 0 0; }
+        margin: -1px 5px 0 0;
+        display: inline; }
       .eze .eze-object-translations ul li h1 {
         font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
         margin: 0; }
@@ -1410,6 +1417,8 @@
     .eze .status-icon.published {
       background: #a3e10b;
       border-color: #91c90a; }
+  .eze .input-prepend .add-on, .eze .input-append .add-on {
+    color: #333333; }
   .eze header {
     min-height: 0;
     background: cyan; }
@@ -1419,8 +1428,6 @@
     width: auto; }
   .eze input, .eze textarea, .eze select {
     height: auto; }
-  .eze label {
-    display: inline; }
   .eze li {
     line-height: normal;
     position: static; }

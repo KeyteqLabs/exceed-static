@@ -20,8 +20,8 @@
                     </li>
                     <li class="clearfix">
                         <img class="user-image" src="img/default-user.jpeg">
-                        <p><span class="date">35 days ago, from <strong>Jon Helge Stensrud</strong></span><br>Hello world</p>
-                        <p class="like-post"><a href="#">Like</a></p>
+                        <p><span class="date">35 days ago, from <strong>Your user</strong></span><br>I cannot like my own comment, but I can delete it.</p>
+                        <p class="like-post"><a href="#">Delete</a></p>
                         <button class="btn btn-mini add-comment-button">Comment</button>
                     </li>
                     <li class="clearfix">
@@ -39,7 +39,7 @@
                         <button class="btn btn-mini add-comment-button">Comment</button>
                     </li>
                 </ol>
-            <button class="btn">Show all (34)</button>
+            <button class="btn show-more">Show all (34)</button>
         </div>
     </div>
 </div>
