@@ -1415,6 +1415,23 @@
     background: cyan; }
   .eze section ul li::before, .eze footer ul li::before, .eze section ol li::before, .eze footer ol li::before {
     display: none; }
+  .eze .container {
+    width: auto; }
+  .eze input, .eze textarea, .eze select {
+    height: auto; }
+  .eze label {
+    display: inline; }
+  .eze li {
+    line-height: normal;
+    position: static; }
+    .eze li:before {
+      content: normal; }
+  .eze h1, .eze h2, .eze h3, .eze h4, .eze h5, .eze h6 {
+    color: black; }
+    .eze h1 small, .eze h2 small, .eze h3 small, .eze h4 small, .eze h5 small, .eze h6 small {
+      color: black; }
+  .eze .comment {
+    min-height: 10px; }
 
 .eze {
   text-rendering: optimizeLegibility;
