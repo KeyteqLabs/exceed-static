@@ -101,7 +101,8 @@
           float: left;
           background: #eeeeee; }
           .eze .eze-table .eze-table-content ul li.item .thumb img {
-            float: left; }
+            float: left;
+            height: 90px; }
             .eze .eze-table .eze-table-content ul li.item .thumb img.class-icon {
               margin: 30px 0 0 39px; }
         .eze .eze-table .eze-table-content ul li.item h2 {

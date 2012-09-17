@@ -63,7 +63,7 @@
                 <li class="item clearfix">
                     <label class="check"><input type="checkbox"></label>
                     <div class="thumb">
-                        <img src="img/thumb.png" alt="">
+                        <img src="img/thumb2.jpg" alt="">
                     </div>
                     <h2><a href="#">Grillsandwich with chicken timian and a mix of greens</a></h2>
                     <p>
