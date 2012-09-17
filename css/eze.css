@@ -292,6 +292,42 @@
     background-position: -640px 0; }
   .eze #eze-toolbar .eze-layout {
     background-position: -704px 0; }
+.eze .popover {
+  max-height: 650px;
+  width: 350px;
+  -moz-animation: fade-in 0.5s ease 1 normal;
+  -webkit-animation: fade-in 0.5s ease 1 normal; }
+  .eze .popover h1 {
+    font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    margin: 0 0 10px 0; }
+  .eze .popover h2 {
+    font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    margin: 0 0 10px 0; }
+  .eze .popover .eze-autosave {
+    position: absolute;
+    top: 6px;
+    right: 0; }
+.eze .eze-activity-modal .btn-group {
+  margin: 0 0 10px 0; }
+.eze .eze-devices-modal .table {
+  margin: 0; }
+  .eze .eze-devices-modal .table tr:first-child td {
+    border-top: 0; }
+  .eze .eze-devices-modal .table td {
+    padding: 8px 8px 8px 0; }
+  .eze .eze-devices-modal .table p, .eze .eze-devices-modal .table label {
+    margin: 4px 0 0 0; }
+.eze .eze-publish-modal .publish-info {
+  font-size: 11px;
+  margin: -5px 0 5px 0; }
+.eze .eze-publish-modal label.checkbox {
+  margin: 0 0 5px 2px; }
+.eze .eze-add-content-modal {
+  width: 580px; }
+.eze .eze-dashboard-modal {
+  width: 580px; }
+  .eze .eze-dashboard-modal form {
+    margin: 0; }
 
 .eze .eze-bigmodal {
   position: absolute;
@@ -314,65 +350,6 @@
   letter-spacing: 1px; }
 .eze .eze-stack-content h2 {
   font: bold 14px/14px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-.eze .eze-smallmodal {
-  position: absolute;
-  top: 20px;
-  left: 87px;
-  background: #fafafa;
-  border-radius: 4px;
-  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
-  border: 1px solid white;
-  max-height: 650px;
-  width: 350px;
-  z-index: 60000;
-  padding: 15px;
-  -moz-animation: fade-in 0.5s ease 1 normal;
-  -webkit-animation: fade-in 0.5s ease 1 normal; }
-  .eze .eze-smallmodal .arrow {
-    height: 24px;
-    width: 15px;
-    position: absolute;
-    left: -14px;
-    top: 50%;
-    bottom: 50%;
-    margin-top: -8px;
-    color: #fafafa;
-    text-shadow: -2px 0 3px rgba(0, 0, 0, 0.6);
-    font-size: 36px;
-    text-align: right; }
-  .eze .eze-smallmodal h1 {
-    font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-    margin: 0 0 10px 0; }
-  .eze .eze-smallmodal h2 {
-    font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-    margin: 0 0 10px 0; }
-  .eze .eze-smallmodal .eze-autosave {
-    position: absolute;
-    top: 6px;
-    right: 0; }
-.eze .eze-activity-modal .btn-group {
-  margin: 0 0 10px 0; }
-.eze .eze-devices-modal .table {
-  margin: 0; }
-  .eze .eze-devices-modal .table tr:first-child td {
-    border-top: 0; }
-  .eze .eze-devices-modal .table td {
-    padding: 8px 8px 8px 0; }
-  .eze .eze-devices-modal .table p {
-    margin: 4px 0 0 0; }
-  .eze .eze-devices-modal .table label {
-    margin: 4px 0 0 0; }
-.eze .eze-publish-modal .publish-info {
-  font-size: 11px;
-  margin: -5px 0 5px 0; }
-.eze .eze-publish-modal label.checkbox {
-  margin: 0 0 5px 2px; }
-.eze .eze-add-content-modal {
-  width: 580px; }
-.eze .eze-dashboard-modal {
-  width: 580px; }
-  .eze .eze-dashboard-modal form {
-    margin: 0; }
 
 .eze .stack-item {
   position: absolute;
