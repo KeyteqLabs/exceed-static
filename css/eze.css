@@ -293,10 +293,16 @@
   .eze #eze-toolbar .eze-layout {
     background-position: -704px 0; }
 .eze .popover {
+  border-color: white;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
   max-height: 650px;
+  border-radius: 4px;
   width: 350px;
+  background: #fafafa;
   -moz-animation: fade-in 0.5s ease 1 normal;
   -webkit-animation: fade-in 0.5s ease 1 normal; }
+  .eze .popover.right .arrow {
+    left: -11px; }
   .eze .popover h1 {
     font: normal 20px/20px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
@@ -323,7 +329,7 @@
 .eze .eze-publish-modal label.checkbox {
   margin: 0 0 5px 2px; }
 .eze .eze-add-content-modal {
-  width: 580px; }
+  width: 605px; }
 .eze .eze-dashboard-modal {
   width: 580px; }
   .eze .eze-dashboard-modal form {
