@@ -5,18 +5,20 @@
 
 
 	.eze-autosave
-		padding: 0 20px 0 35px
-		font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+		position: relative
+		font: normal 12px/28px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif
+		height: 27px
+		border-radius: 2px
 
-		img
-			background: #fff
-			border-radius: 25px
-			padding: 4px
-			margin: 9px 16px 0 0
-			position: absolute
-			top: 0
-			left: 0
-			border: 1px solid #888
+		&.saving
+			-moz-animation: autosave-highlight 1.5s linear infinite normal
+			-webkit-animation: autosave-highlight 1.5s linear infinite normal
+
+		p
+			float: left
+			margin: 0 10px 0
+
+		.btn
 
 
 	// Custom generic list, with drag and drop
@@ -44,7 +46,6 @@
 				margin: 0
 				text-align: center
 				opacity: 1
-				@include transition()
 
 				p
 					height: 26px

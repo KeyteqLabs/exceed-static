@@ -404,8 +404,9 @@
           display: none; }
     .eze .stack-item header .btn {
       float: right;
-      margin: 2px 3px 0 0;
       display: none; }
+      .eze .stack-item header .btn.btn-mini {
+        margin: 3px 9px 0 0; }
   .eze .stack-item:nth-last-child(2) header {
     background-color: #ffc785;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc785), to(#ffb365));
@@ -420,8 +421,8 @@
     display: block; }
   .eze .stack-item.last header {
     height: 44px;
-    right: 0;
-    max-width: 1144px;
+    right: 44px;
+    max-width: 1100px;
     background-color: #ff9b00;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9b00), to(#ff8500));
     background-image: -webkit-linear-gradient(top, #ff9b00, #ff8500);
@@ -439,9 +440,6 @@
           display: none; }
         .eze .stack-item.last header h1 .iconwrap .large {
           display: block; }
-    .eze .stack-item.last header .btn {
-      margin: 9px 9px 0 0;
-      border: 1px solid white; }
   .eze .stack-item.move-in header {
     -moz-animation: stack-header-move-in 0.5s ease 1 normal;
     -webkit-animation: stack-header-move-in 0.7s ease 1 normal; }
@@ -450,11 +448,7 @@
     -webkit-animation: stack-header-move-out 0.2s ease 1 normal; }
   .eze .stack-item .eze-autosave {
     float: right;
-    position: relative;
-    margin-top: 2px; }
-    .eze .stack-item .eze-autosave img {
-      border: 0;
-      margin: 9px 0 0 0; }
+    margin: 9px 9px 0 0; }
   .eze .stack-item .eze-stack-content {
     display: none;
     padding: 15px;
@@ -734,17 +728,16 @@
     margin: 7px 0 0 5px; }
 
 .eze .eze-autosave {
-  padding: 0 20px 0 35px;
-  font: normal 12px/44px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .eze .eze-autosave img {
-    background: white;
-    border-radius: 25px;
-    padding: 4px;
-    margin: 9px 16px 0 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 1px solid #888888; }
+  position: relative;
+  font: normal 12px/28px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 27px;
+  border-radius: 2px; }
+  .eze .eze-autosave.saving {
+    -moz-animation: autosave-highlight 1.5s linear infinite normal;
+    -webkit-animation: autosave-highlight 1.5s linear infinite normal; }
+  .eze .eze-autosave p {
+    float: left;
+    margin: 0 10px 0; }
 .eze .eze-items {
   list-style-type: none;
   margin: 0 0 10px 0;
@@ -764,11 +757,7 @@
       bottom: 0;
       margin: 0;
       text-align: center;
-      opacity: 1;
-      -webkit-transition: all 0.2s ease-out;
-      -moz-transition: all 0.2s ease-out;
-      -o-transition: all 0.2s ease-out;
-      transition: all 0.2s ease-out; }
+      opacity: 1; }
       .eze .eze-items li.notification p {
         height: 26px;
         position: absolute;
@@ -955,6 +944,26 @@
 
   100% {
     opacity: 0; } }
+
+@-webkit-keyframes autosave-highlight {
+  0% {
+    background: rgba(255, 204, 0, 0); }
+
+  50% {
+    background: #ffcc00; }
+
+  100% {
+    background: rgba(255, 204, 0, 0); } }
+
+@-moz-keyframes autosave-highlight {
+  0% {
+    background: rgba(255, 204, 0, 0); }
+
+  50% {
+    background: #ffcc00; }
+
+  100% {
+    background: rgba(255, 204, 0, 0); } }
 
 @-webkit-keyframes fade-in {
   0% {
