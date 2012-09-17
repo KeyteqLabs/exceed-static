@@ -117,6 +117,7 @@
 				<li><div class="wrap"><img src="img/16x16/User 16x16.png" />Tor Løvskogen Bollingmo – typografi@gmail.com<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 				<li><div class="wrap"><img src="img/16x16/User 16x16.png" />Tor Løvskogen Bollingmo – typografi@gmail.com<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 				<li><div class="wrap"><img src="img/16x16/User 16x16.png" />Tor Løvskogen Bollingmo – typografi@gmail.com<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><input type="text" placeholder="Name"> <input type="text" placeholder="E-mail"> <div class="right-align"><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 			</ul>
 			<p><button href="#" class="btn">Add new user</button></p>
 	</section>
