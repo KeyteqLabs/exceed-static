@@ -1425,6 +1425,11 @@
     .eze .status-icon.published {
       background: #a3e10b;
       border-color: #91c90a; }
+  .eze header {
+    min-height: 0;
+    background: cyan; }
+  .eze section ul li::before, .eze footer ul li::before, .eze section ol li::before, .eze footer ol li::before {
+    display: none; }
 
 .eze {
   text-rendering: optimizeLegibility;
