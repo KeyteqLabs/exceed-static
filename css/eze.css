@@ -322,14 +322,22 @@
   margin: 0 0 10px 0; }
 .eze .eze-activity-modal .show-more {
   margin: 10px 0 0 0; }
-.eze .eze-devices-modal .table {
-  margin: 0; }
-  .eze .eze-devices-modal .table tr:first-child td {
-    border-top: 0; }
-  .eze .eze-devices-modal .table td {
-    padding: 8px 8px 8px 0; }
-  .eze .eze-devices-modal .table p, .eze .eze-devices-modal .table label {
-    margin: 4px 0 0 0; }
+.eze .eze-devices-modal {
+  width: 420px; }
+  .eze .eze-devices-modal .table {
+    margin: 0; }
+    .eze .eze-devices-modal .table tr:first-child td {
+      border-top: 0; }
+    .eze .eze-devices-modal .table td {
+      padding: 8px 8px 8px 0; }
+    .eze .eze-devices-modal .table p, .eze .eze-devices-modal .table label {
+      margin: 4px 0 0 0; }
+    .eze .eze-devices-modal .table p {
+      width: 150px;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
 .eze .eze-publish-modal .publish-info {
   font-size: 11px;
   margin: -5px 0 5px 0; }
@@ -1438,6 +1446,9 @@
     color: black; }
     .eze h1 small, .eze h2 small, .eze h3 small, .eze h4 small, .eze h5 small, .eze h6 small {
       color: black; }
+  .eze p {
+    font-size: 12px;
+    line-height: 20px; }
   .eze .comment {
     min-height: 10px; }
 
