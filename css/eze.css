@@ -1355,6 +1355,8 @@
   -ms-text-size-adjust: 100%; }
   .eze a {
     cursor: pointer; }
+  .eze .hide {
+    display: none !important; }
   .eze .tab-content .tab-pane {
     -moz-animation: fade-in 0.5s ease 1 normal;
     -webkit-animation: fade-in 0.5s ease 1 normal; }
