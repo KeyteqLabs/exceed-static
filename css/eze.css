@@ -337,6 +337,7 @@
       margin: 4px 0 0 0; }
     .eze .eze-devices-modal .table p {
       width: 150px;
+      margin: 0;
       display: block;
       overflow: hidden;
       text-overflow: ellipsis;
