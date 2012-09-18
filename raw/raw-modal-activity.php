@@ -35,7 +35,49 @@
                     <li class="clearfix">
                         <img class="user-image" src="img/default-user.jpeg">
                         <p><span class="date"><strong>Jon Helge Stensrud</strong> 35 days ago</span><br>Hello world</p>
-                        <p class="post-actions"><a href="#">Like</a></p>
+
+                            <ol class="eze-replies">
+                                <li class="sub-comment">
+                                    <p><span class="date"><strong>Tor Løvskogen</strong> 20 days ago</span><br>A comment on this</p>
+                                    <p class="post-actions"><a href="#">Delete</a></p>
+                                </li>
+                                <li class="sub-comment">
+                                    <p><span class="date"><strong>Tor Løvskogen</strong> 20 days ago</span><br>Another comment on this post, made by me. I can also delete it.</p>
+                                    <p class="post-actions"><a href="#">Delete</a></p>
+                                </li>
+                            </ol>
+                        <button class="btn btn-mini add-comment-button">Comment</button>
+                    </li>
+                    <li class="clearfix">
+                        <img class="user-image" src="img/default-user.jpeg">
+                        <p><span class="date"><strong>Jon Helge Stensrud</strong> 35 days ago</span><br>Hello world</p>
+
+                            <ol class="eze-replies">
+                                <li class="sub-comment">
+                                    <p><span class="date"><strong>Tor Løvskogen</strong> 20 days ago</span><br>A comment on this</p>
+                                    <p class="post-actions"><a href="#">Delete</a></p>
+                                </li>
+                                <li class="sub-comment">
+                                    <p><span class="date"><strong>Tor Løvskogen</strong> 20 days ago</span><br>Another comment on this post, made by me. I can also delete it.</p>
+                                    <p class="post-actions"><a href="#">Delete</a></p>
+                                </li>
+                            </ol>
+                        <button class="btn btn-mini add-comment-button">Comment</button>
+                    </li>
+                    <li class="clearfix">
+                        <img class="user-image" src="img/default-user.jpeg">
+                        <p><span class="date"><strong>Jon Helge Stensrud</strong> 35 days ago</span><br>Hello world</p>
+
+                            <ol class="eze-replies">
+                                <li class="sub-comment">
+                                    <p><span class="date"><strong>Tor Løvskogen</strong> 20 days ago</span><br>A comment on this</p>
+                                    <p class="post-actions"><a href="#">Delete</a></p>
+                                </li>
+                                <li class="sub-comment">
+                                    <p><span class="date"><strong>Tor Løvskogen</strong> 20 days ago</span><br>Another comment on this post, made by me. I can also delete it.</p>
+                                    <p class="post-actions"><a href="#">Delete</a></p>
+                                </li>
+                            </ol>
                         <button class="btn btn-mini add-comment-button">Comment</button>
                     </li>
                 </ol>
