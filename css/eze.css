@@ -889,10 +889,10 @@
       font: normal 12px/18px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
       .eze .eze-comments li p .date {
         font-size: 11px; }
-      .eze .eze-comments li p.like-post {
+      .eze .eze-comments li p.post-actions {
         font-size: 11px;
         margin: 5px 0 -18px 40px; }
-        .eze .eze-comments li p.like-post a {
+        .eze .eze-comments li p.post-actions a {
           color: #d67f00;
           text-decoration: underline; }
     .eze .eze-comments li .add-comment-button {
