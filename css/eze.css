@@ -799,7 +799,7 @@
         margin: -1px 5px 0 5px; }
       .eze .eze-items li .wrap input[type="checkbox"] {
         margin: 2px 0 0 10px; }
-      .eze .eze-items li .wrap input[type="text"] {
+      .eze .eze-items li .wrap input[type="text"], .eze .eze-items li .wrap input[type="email"] {
         width: 130px;
         height: 22px;
         padding: 0 3px;
