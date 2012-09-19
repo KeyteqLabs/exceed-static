@@ -3,9 +3,9 @@
 	<div style="clear:both;"></div>
 	<div class="error"></div>     
 	<div class="kp-finder-content">
-		<div class="kp-columns-wrapper" style="max-width: 1145px; height: 410px; ">
+		<div class="kp-columns-wrapper" style="max-width: 1145px; height: 1000px; ">
 			<div class="kp-columns" style="width: 423px; ">
-				<div class="column ui-droppable" style="height: 450px; opacity: 1; ">
+				<div class="column ui-droppable" style="height: 1000px; opacity: 1; ">
 					<ul class="nodes">
 						<li class="node ui-draggable ui-droppable"><a id="node-602" class="" data-id="602" data-children="1"><img src="img/16x16/Layout 16x16.png"><span>eZ Exceeds</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-468" class="" data-id="468" data-children="6"><img src="img/16x16/Folder 16x16.png"><span>Lab rats</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
@@ -18,7 +18,7 @@
 						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/16x16/Planet 16x16.png"><span>Tor was here</span></a></li>
 					</ul>
 				</div>
-				<div class="column active ui-droppable" style="height: 450px; opacity: 1; ">
+				<div class="column active ui-droppable" style="height: 1000px; opacity: 1; ">
 					<ul class="nodes"><li class="node ui-draggable ui-droppable"><a id="node-764" class="" data-id="764" data-children="0"><img src="img/16x16/Planet 16x16.png"><span>Andromeda Xs</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-758" class="" data-id="758" data-children="0"><img src="img/16x16/Planet 16x16.png"><span>For ordering</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-767" class="" data-id="767" data-children="0"><img src="img/16x16/Globe 16x16.png"><span>Ratlab</span></a></li>
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="actions" style="height: 450px; ">
+		<div class="actions" style="height: 1000px; ">
 			<div class="nodestructure-actions">
 				<div class="heading"><img src="http://ez.raymond.keyteq.no/extension/ezexceed/design/ezexceed/images/kp/48x48/Folder.png" alt=""><h3>Folder</h3><h2>«sdafas Functiontest»</h2><div class="meta">
 					<ul>

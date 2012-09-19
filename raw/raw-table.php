@@ -11,7 +11,7 @@
         <div class="sort-by">
             <h2>Sort by</h2>
             <div class="btn-group" data-toggle="buttons-radio">
-                <button type="button" class="btn">Date</button>
+                <button type="button" class="btn active">Date</button>
                 <button type="button" class="btn">Author</button>
                 <button type="button" class="btn">Content type</button>
             </div>

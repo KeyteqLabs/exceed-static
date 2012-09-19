@@ -9,7 +9,8 @@
     height: 35px;
     margin-right: 220px; }
     .eze .eze-table .eze-table-actions .batch .btn {
-      float: left; }
+      float: left;
+      margin-right: 5px; }
     .eze .eze-table .eze-table-actions .check-all {
       float: left;
       margin: 9px 5px 0 5px; }
@@ -94,7 +95,7 @@
           -webkit-transform: translateZ(0);
           background: white; }
           .eze .eze-table .eze-table-content ul li.item .check input {
-            margin: -1px 0 0 3px; }
+            margin: -2px 0 0 3px; }
         .eze .eze-table .eze-table-content ul li.item .thumb {
           margin: 0 10px 0 0;
           width: 110px;
@@ -1388,6 +1389,9 @@
     border-color: transparent; }
   .eze .popover {
     z-index: 60000; }
+  .eze .btn .caret {
+    margin-left: 5px;
+    border-top: 4px solid #666666; }
   .eze .btn-mini {
     font-size: 11px; }
   .eze .btn {
