@@ -4,7 +4,7 @@
 		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Landing page</small> Object name is short</div></li>
 	</ul>
 
-<button class="btn btn-primary">Add content to this block…</button>
+<button class="btn">Add content to this block…</button>
 
 <h2>Queued up content</h2>
 	<ul class="eze-items">

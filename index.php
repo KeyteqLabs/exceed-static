@@ -54,7 +54,7 @@
             <section class="eze-modal-content">
                 <?php include_once('raw/raw-stack.php'); ?>
 
-                <section class="stack-item move-in last" style="top:124px">
+                <section class="stack-item move-in last" style="top:62px">
                     <header>
                         <h1>
                             <div class="iconwrap"><img class="large" src="img/32x32/Documents 32x32.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
