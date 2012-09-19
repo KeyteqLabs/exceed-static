@@ -9,19 +9,19 @@
     height: 35px;
     margin-right: 220px; }
     .eze .eze-table .eze-table-actions .batch .btn {
+      float: left; }
+    .eze .eze-table .eze-table-actions .check-all {
       float: left;
-      margin-right: 5px; }
-    .eze .eze-table .eze-table-actions input {
-      float: left;
-      margin: 9px 5px 0 0; }
+      margin: 9px 5px 0 5px; }
     .eze .eze-table .eze-table-actions .sort-by {
       float: right;
       margin-right: 0; }
       .eze .eze-table .eze-table-actions .sort-by h2 {
         float: left;
         font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-        margin: 7px 10px 0 0;
-        display: inline; }
+        margin: 8px 10px 0 0;
+        display: inline;
+        color: #555555; }
       .eze .eze-table .eze-table-actions .sort-by .btn-group {
         float: left; }
       .eze .eze-table .eze-table-actions .sort-by img {
@@ -84,6 +84,7 @@
           background: #fafafa; }
         .eze .eze-table .eze-table-content ul li.item .check {
           float: left;
+          display: inline-block;
           width: 19px;
           height: 19px;
           padding: 0;
@@ -93,7 +94,7 @@
           -webkit-transform: translateZ(0);
           background: white; }
           .eze .eze-table .eze-table-content ul li.item .check input {
-            margin: 0 0 0 3px; }
+            margin: -1px 0 0 3px; }
         .eze .eze-table .eze-table-content ul li.item .thumb {
           margin: 0 10px 0 0;
           width: 110px;
@@ -799,17 +800,17 @@
         margin: -1px 5px 0 5px; }
       .eze .eze-items li .wrap input[type="checkbox"] {
         margin: 2px 0 0 10px; }
-      .eze .eze-items li .wrap input[type="text"], .eze .eze-items li .wrap input[type="email"] {
+      .eze .eze-items li .wrap input[type="text"], .eze .eze-items li .wrap input[type="email"], .eze .eze-items li .wrap input[type="time"], .eze .eze-items li .wrap input[type="date"], .eze .eze-items li .wrap input[type="datetime"] {
         width: 130px;
         height: 22px;
         padding: 0 3px;
         margin: -1px 5px 0 5px;
         line-height: 22px; }
-      .eze .eze-items li .wrap .activate-time, .eze .eze-items li .wrap .activate-date {
-        text-align: center;
+      .eze .eze-items li .wrap input.activate-time, .eze .eze-items li .wrap input.activate-date {
+        text-align: right;
         width: 35px; }
-      .eze .eze-items li .wrap .activate-date {
-        width: 75px; }
+      .eze .eze-items li .wrap input.activate-date {
+        width: 90px; }
       .eze .eze-items li .wrap .right-align {
         position: absolute;
         right: 0;
@@ -1462,6 +1463,8 @@
     width: auto; }
   .eze input, .eze textarea, .eze select {
     height: auto; }
+  .eze label input, .eze label textarea, .eze label select {
+    display: auto; }
   .eze li {
     line-height: normal;
     position: static; }

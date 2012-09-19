@@ -3,7 +3,7 @@
 <section class="eze-table">
     <h1>All content <button class="btn btn-primary" id="example" rel="popover" data-placement="bottom" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Create new…</button></h1>
     <section class="eze-table-actions">
-        <input type="checkbox" />
+        <input type="checkbox" class="check-all" />
         <div class="batch">
             <button class="btn disabled">Publish selected</button>
             <button class="btn disabled">Delete selected</button>
