@@ -129,7 +129,7 @@
         <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
         <script type="text/javascript">
             $(function(){$(".chzn-select").chosen({disable_search_threshold: 3});});
-            $('#example').popover('hide')
+            $('#example').popover('hide');
         </script>
 
         <!-- Scroll Pane, shoud use ::-webkit-scrollbar for modern browsers http://www.webkit.org/blog/363/styling-scrollbars/ 
