@@ -9,7 +9,7 @@
                 <button class="btn">@me</button>
             </div>
             <div class="input-append">
-                <input id="appendedInputButton" size="16" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
+                <input class="write-post" id="appendedInputButton" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
             </div>
                 <ol class="eze-comments">
                     <li class="clearfix">

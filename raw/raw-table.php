@@ -1,7 +1,7 @@
 
 
 <section class="eze-table">
-    <h1>All content <button class="btn btn-primary" id="example" rel="popover" data-placement="bottom" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Create new…</button></h1>
+    <h1>All content <button class="btn btn-primary" id="example" rel="popover" data-placement="bottom" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Create new <span class="caret"></span></button></h1>
     <section class="eze-table-actions">
         <input type="checkbox" class="check-all" />
         <div class="batch">
@@ -23,7 +23,7 @@
     <section class="eze-filters-wrap">
         <form class="form-search">
             <div class="input-prepend">
-                <span class="add-on"><i class="icon-search"></i></span><input type="text" placeholder="Type to search" class="input-medium">
+                <span class="add-on"><i class="icon-search"></i></span><input type="text" placeholder="Type to search">
             </div>
         <div class="eze-filters">
             <p class="description">Last edit date</p><select class="chzn-select"><option>All time</option><option>Last week</option><option>Last month</option></select>
@@ -47,7 +47,7 @@
                 <li class="item clearfix">
                     <label class="check"><input type="checkbox"></label>
                     <div class="thumb">
-                        <img class="class-icon" src="img/32x32/Globe alt 32x32.png" alt="" />
+                        <img class="class-icon" src="img/48x48/Globe alt 48x48.png" alt="" />
                     </div>
                     <h2><a href="#">Grillsandwich with chicken timian and a mix of greens</a></h2>
                     <p>

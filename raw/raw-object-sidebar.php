@@ -26,7 +26,7 @@
 		<h1>Activity</h1>
 			<p class="description">Comments on this content</p>
 			<div class="input-append">
-                <input class="span2" id="appendedInputButton" size="16" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
+                <input class="write-post" id="appendedInputButton" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
 			</div>
                 <ol class="eze-comments">
                     <li class="clearfix">
@@ -106,6 +106,10 @@
 		<h1>Content under this page</h1>
 			<p class="description">Edit and sort content under this page</p>
 			<select class="chzn-select"><option>Sort manually</option><option>2</option></select>
+            <div class="pull-right btn-group order">
+                <button type="button" class="btn btn-small asc active" data-value="1"  disabled="">↑</button>
+                <button type="button" class="btn btn-small desc" data-value="0">↓</button>
+            </div>
 			<ul class="eze-items">
 				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
