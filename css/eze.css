@@ -723,7 +723,7 @@
     overflow: hidden;
     border-radius: 4px;
     margin: 0;
-    background: url("../images/legacy-sprite.png") -572px 0 no-repeat; }
+    background: url("../images/legacy-sprite.png") -570px -40px no-repeat; }
     .eze .kp-edit-block-box ul li {
       display: none;
       opacity: 0;
@@ -739,10 +739,10 @@
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px; }
       .eze .kp-edit-block-box ul li a {
-        font: normal 12px/18px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font: normal 12px/24px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
         background: #222222;
         border-bottom: 1px solid #333333;
-        color: #ffa200;
+        color: #ff9c00;
         text-decoration: none;
         display: block;
         padding: 3px 15px 3px 6px;
@@ -883,6 +883,11 @@
           margin: -1px 0 0 0;
           border-radius: 0;
           border-left: 1px solid #d0d0d0; }
+          .eze .eze-items li .wrap .right-align .btn:hover {
+            background: white; }
+        .eze .eze-items li .wrap .right-align .btn:last-child {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px; }
     .eze .eze-items li select, .eze .eze-items li .chzn-container {
       width: 110px;
       margin: 5px 5px 0 0;

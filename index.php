@@ -63,11 +63,11 @@
                         
                         <!--<div class="eze-autosave saving">
                             <p>Saving…</p>
-                            <button class="btn disabled">Go back</button>
+                            <button class="go-back disabled">Go back</button>
                         </div>-->
                         <div class="eze-autosave">
                             <p>All changes saved</p>
-                            <button class="btn">Go back</button>
+                            <button class="go-back">Go back</button>
                         </div>
 
 
