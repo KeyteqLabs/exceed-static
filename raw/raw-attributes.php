@@ -16,7 +16,7 @@
 
 	<div class="eze-object-attribute-wrap">
 
-		<section class="eze-object-attribute eze-string">
+		<section class="eze-object-attribute ezstring">
 			<span class="label label-required">Required</span>
 			<!-- <div class="alert fade in"><button type="button" class="close" data-dismiss="alert">×</button><strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.</div>-->
 			<div class="language"><img class="flag" src="http://ezexceed.no/extension/ezexceed/design/ezexceed/images/flags/eng-US.gif"> English (American)</div>
@@ -25,7 +25,7 @@
 				<input type="text" class="span3" placeholder="Type something…">
 		</section>
 
-		<section class="eze-object-attribute eze-select last">
+		<section class="eze-object-attribute ezselection last">
 			<div class="language"><img class="flag" src="http://ezexceed.no/extension/ezexceed/design/ezexceed/images/flags/eng-US.gif"> English (American)</div>
 			<label class="heading">Select something</label>
 				<span class="help-block description">Example block-level help text here.</span>
@@ -36,7 +36,7 @@
 
 	<div class="eze-object-attribute-wrap">
 
-		<section class="eze-object-attribute eze-checkbox">
+		<section class="eze-object-attribute ezboolean">
 			<label class="heading">Hypermedia</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<label class="checkbox">
@@ -44,7 +44,7 @@
   				</label>
 		</section>
 
-		<section class="eze-object-attribute eze-date last">
+		<section class="eze-object-attribute ezdate last">
 			<label class="heading">Pick a date</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
@@ -56,14 +56,14 @@
 
 	<div class="eze-object-attribute-wrap">
 
-		<section class="eze-object-attribute eze-image">
+		<section class="eze-object-attribute ezimage">
 			<span class="label label-required">Required</span>
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<button href="#" class="btn">Upload new image</button>
 		</section>
 
-		<section class="eze-object-attribute eze-dam last">
+		<section class="eze-object-attribute keymedia last">
 			<label class="heading">DAM Asset</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<button href="#" class="btn">Upload new image</button><button href="#" class="btn">Browse media library</button>
@@ -73,14 +73,14 @@
 
 	<div class="eze-object-attribute-wrap">
 
-		<section class="eze-object-attribute eze-image">
+		<section class="eze-object-attribute ezimage">
 			<span class="label label-required">Required</span>
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="close">&times;</button><button class="btn btn-inverse edit-image">Edit image</button></div>
 		</section>
 
-		<section class="eze-object-attribute eze-dam last">
+		<section class="eze-object-attribute keymedia last">
 			<label class="heading">DAM Asset</label>
 				<span class="help-block description">Example block-level help text here.</span>
 				<div href="#" class="thumbnail"><img src="images/300x100.gif" alt=""><button class="close">&times;</button><button class="btn btn-inverse edit-image">Scale variants</button></div>

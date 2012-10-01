@@ -1268,33 +1268,33 @@
       margin: 0 0 10px 0; }
       .eze .eze-object-attributes .eze-object-attribute .language img {
         margin: -3px 3px 0 0; }
-  .eze .eze-object-attributes .eze-string input, .eze .eze-object-attributes .eze-date input {
+  .eze .eze-object-attributes .ezstring input, .eze .eze-object-attributes .eze-date input {
     box-sizing: border-box;
     height: auto;
     width: 100%; }
-  .eze .eze-object-attributes .eze-select select {
+  .eze .eze-object-attributes .ezselection select {
     width: 100%; }
   .eze .eze-object-attributes .eze-date .input-append {
     margin-right: 26px; }
   .eze .eze-object-attributes .eze-date .icon-calendar {
     font-size: 16px;
     vertical-align: 0; }
-  .eze .eze-object-attributes .eze-image .btn, .eze .eze-object-attributes .eze-dam .btn {
+  .eze .eze-object-attributes .ezimage .btn, .eze .eze-object-attributes .keymedia .btn {
     margin: 0 5px 5px 0; }
-  .eze .eze-object-attributes .eze-image .thumbnail, .eze .eze-object-attributes .eze-dam .thumbnail {
+  .eze .eze-object-attributes .ezimage .thumbnail, .eze .eze-object-attributes .keymedia .thumbnail {
     position: relative;
     margin: 0 0 10px 0;
     background: white; }
-    .eze .eze-object-attributes .eze-image .thumbnail .edit-image, .eze .eze-object-attributes .eze-dam .thumbnail .edit-image {
+    .eze .eze-object-attributes .ezimage .thumbnail .edit-image, .eze .eze-object-attributes .keymedia .thumbnail .edit-image {
       position: absolute;
       bottom: 10px;
       left: 10px; }
-    .eze .eze-object-attributes .eze-image .thumbnail .close, .eze .eze-object-attributes .eze-dam .thumbnail .close {
+    .eze .eze-object-attributes .ezimage .thumbnail .close, .eze .eze-object-attributes .keymedia .thumbnail .close {
       position: absolute;
       top: 0;
       right: 0;
       padding: 2px 8px 8px 8px; }
-    .eze .eze-object-attributes .eze-image .thumbnail:hover .close, .eze .eze-object-attributes .eze-dam .thumbnail:hover .close {
+    .eze .eze-object-attributes .ezimage .thumbnail:hover .close, .eze .eze-object-attributes .keymedia .thumbnail:hover .close {
       -webkit-transition: opacity 0.2s ease-out;
       -moz-transition: opacity 0.2s ease-out;
       -o-transition: opacity 0.2s ease-out;
@@ -1302,25 +1302,25 @@
       opacity: 1;
       background: white;
       border-bottom-left-radius: 4px; }
-  .eze .eze-object-attributes .eze-image .add-tag, .eze .eze-object-attributes .eze-dam .add-tag {
+  .eze .eze-object-attributes .ezimage .add-tag, .eze .eze-object-attributes .keymedia .add-tag {
     position: relative; }
-    .eze .eze-object-attributes .eze-image .add-tag .btn, .eze .eze-object-attributes .eze-dam .add-tag .btn {
+    .eze .eze-object-attributes .ezimage .add-tag .btn, .eze .eze-object-attributes .keymedia .add-tag .btn {
       position: absolute;
       right: -2px;
       margin: 0;
       z-index: 2; }
-    .eze .eze-object-attributes .eze-image .add-tag input, .eze .eze-object-attributes .eze-dam .add-tag input {
+    .eze .eze-object-attributes .ezimage .add-tag input, .eze .eze-object-attributes .keymedia .add-tag input {
       box-sizing: border-box;
       height: auto;
       width: 100%; }
-  .eze .eze-object-attributes .eze-image .tags .label, .eze .eze-object-attributes .eze-dam .tags .label {
+  .eze .eze-object-attributes .ezimage .tags .label, .eze .eze-object-attributes .keymedia .tags .label {
     padding: 2px 6px;
     font-size: 11px;
     display: block;
     float: left;
     margin: 0 5px 5px 0;
     background: #666666; }
-  .eze .eze-object-attributes .eze-image .tags .close, .eze .eze-object-attributes .eze-dam .tags .close {
+  .eze .eze-object-attributes .ezimage .tags .close, .eze .eze-object-attributes .keymedia .tags .close {
     font-weight: 100;
     font-size: 14px;
     float: none;
