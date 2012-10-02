@@ -1376,7 +1376,7 @@
     .eze .eze-object-sidebar .eze-container:first-child {
       border-top: 0;
       padding-top: 0; }
-    .eze .eze-object-sidebar .eze-container.last {
+    .eze .eze-object-sidebar .eze-container:last-child {
       border-bottom: 0; }
     .eze .eze-object-sidebar .eze-container h1 {
       font: normal 15px/15px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;

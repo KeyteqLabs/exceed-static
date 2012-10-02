@@ -119,7 +119,7 @@
 			</ul>
 	</section>
 
-	<section class="eze-container last">
+	<section class="eze-container">
 		<h1>Settings</h1>
 			<h2>Use this page as section front page</h2>
 				<p class="description">This page and its content will be used as a front page for this topic, with article listings and sections.</p>
