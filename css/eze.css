@@ -1464,6 +1464,8 @@
   .eze .btn {
     padding: 3px 10px 2px 10px;
     border: 1px solid #bbbbbb; }
+  .eze .input-append .btn {
+    border-radius: 0 3px 3px 0; }
   .eze .remove-btn {
     padding: 3px 8px; }
   .eze .btn-primary {
