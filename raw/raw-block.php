@@ -8,8 +8,8 @@
 
 <h2>Queued up content</h2>
 	<ul class="eze-items">
-		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short <div class="right-align">Activate at <input class="activate-date" type="date" placeholder="16/10/2012"> <input class="activate-time" type="time" placeholder="13:34"></div></div></li>
-		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short <div class="right-align">Activate at <input class="activate-date" type="date" placeholder="16/10/2012"> <input class="activate-time" type="time" placeholder="13:34"></div></div></li>
+		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short <div class="right-align">Activate at <input class="activate-date datepicker" type="date" placeholder="16/10/2012"> <input class="activate-time" type="time" placeholder="13:34"></div></div></li>
+		<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" /><small>Front page</small> Object name is short <div class="right-align">Activate at <input class="activate-date datepicker" type="date" placeholder="16/10/2012"> <input class="activate-time" type="time" placeholder="13:34"></div></div></li>
 	</ul>
 
 <h2>Custom attributes</h2>

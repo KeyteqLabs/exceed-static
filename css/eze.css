@@ -1559,7 +1559,7 @@
 body {
   margin-left: 63px; }
 
-#ezieMainContainer {
+#ezieMainContainer, .ui-datepicker {
   z-index: 80000 !important; }
 
 .eze {

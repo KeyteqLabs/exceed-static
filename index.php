@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/eze.css" />
         <link rel="stylesheet" href="css/lib/font-awesome.css">
         <link rel="stylesheet" href="css/lib/chosen.css">
+        <link rel="stylesheet" href="css/lib/custom-theme/jquery-ui-1.8.24.custom.css">
 
         
         <style type="text/css">
@@ -60,7 +61,6 @@
                             <div class="iconwrap"><img class="large" src="img/32x32/Documents 32x32.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
                             Fifth and last level
                         </h1>
-                        
                         <!--<div class="eze-autosave saving">
                             <p>Saving…</p>
                             <button class="go-back disabled">Go back</button>
@@ -122,15 +122,21 @@
         <?php } ?>
 
         <?php include_once('raw/raw-modal-single-edit.php'); ?>
-        <script type="text/javascript" src="js/jquery-latest.min.js "></script>
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js "></script>
         <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.24.custom.min.js"></script>
         <script type="text/javascript">
             $(function(){$(".chzn-select").chosen({disable_search_threshold: 3});});
             $('#example').popover('hide');
         </script>
+            <script>
+    $(function() {
+        $( ".datepicker" ).datepicker();
+    });
+    </script>
 
         <!-- Scroll Pane, shoud use ::-webkit-scrollbar for modern browsers http://www.webkit.org/blog/363/styling-scrollbars/ 
         <script type="text/javascript">$(function(){$('.scroll-pane').jScrollPane();});</script>
