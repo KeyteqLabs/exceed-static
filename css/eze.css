@@ -1540,7 +1540,7 @@
   .eze input, .eze textarea, .eze select {
     height: auto; }
   .eze label input, .eze label textarea, .eze label select {
-    display: auto; }
+    display: inline; }
   .eze li {
     line-height: normal;
     position: static; }
