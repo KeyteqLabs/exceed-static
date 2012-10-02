@@ -26,7 +26,7 @@
 		<h1>Activity</h1>
 			<p class="description">Comments on this content</p>
 			<div class="input-append">
-                <input class="write-post" id="appendedInputButton" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
+                <input class="write-post autocomplete" id="appendedInputButton" type="text" placeholder="Write message…"><button class="btn" type="button">Share</button>
 			</div>
                 <ol class="eze-comments">
                     <li class="clearfix">

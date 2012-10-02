@@ -131,11 +131,36 @@
         <script type="text/javascript">
             $(function(){$(".chzn-select").chosen({disable_search_threshold: 3});});
             $('#example').popover('hide');
-        </script>
-            <script>
-    $(function() {
-        $( ".datepicker" ).datepicker();
-    });
+            $(function() {$( ".datepicker" ).datepicker();});
+            $(function() {
+                var availableTags = [
+                    "ActionScript",
+                    "AppleScript",
+                    "Asp",
+                    "BASIC",
+                    "C",
+                    "C++",
+                    "Clojure",
+                    "COBOL",
+                    "ColdFusion",
+                    "Erlang",
+                    "Fortran",
+                    "Groovy",
+                    "Haskell",
+                    "Java",
+                    "JavaScript",
+                    "Lisp",
+                    "Perl",
+                    "PHP",
+                    "Python",
+                    "Ruby",
+                    "Scala",
+                    "Scheme"
+                ];
+                $( ".autocomplete" ).autocomplete({
+                    source: availableTags
+                });
+            });
     </script>
 
         <!-- Scroll Pane, shoud use ::-webkit-scrollbar for modern browsers http://www.webkit.org/blog/363/styling-scrollbars/ 
