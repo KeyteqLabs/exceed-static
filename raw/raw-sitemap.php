@@ -37,7 +37,7 @@
 					</ul>
 				</div>
 			</div>
-			<ul class="action-buttons">
+			<!--<ul class="action-buttons">
 				<li><button href="/Functiontest" class="btn show">View</button></li>
 				<li><button class="btn edit">Edit</button></li>
 				<li><button class="btn copy">Copy</button></li>
@@ -50,6 +50,30 @@
 							</ul>
 					</div>
 				</li>
+			</ul>-->
+			<ul class="action-buttons">
+				<li><button class="btn edit">Place the content on this page</button></li>
+				<li><div class="well well-small">The content is placed on this page
+					<div class="btn-group">
+						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Remove from this page<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Yes, remove it</a></li>
+								<li><a href="#">No, keep it</a></li>
+							</ul>
+					</div>
+				</div></li>
+			</ul>
+			<ul class="action-buttons">
+				<li><button class="btn edit">Add this content to the block</button></li>
+				<li><div class="well well-small">This content is already added
+					<div class="btn-group">
+						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Remove from the block<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Yes, remove it</a></li>
+								<li><a href="#">No, keep it</a></li>
+							</ul>
+					</div>
+				</div></li>
 			</ul>
 		</div>
 	</div>
