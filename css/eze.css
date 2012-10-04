@@ -1561,7 +1561,8 @@
     min-height: 10px; }
 
 body {
-  margin-left: 63px; }
+  margin-left: 63px;
+  overflow-x: hidden; }
 
 #ezieMainContainer, .ui-widget {
   z-index: 80000 !important; }
