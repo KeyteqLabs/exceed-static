@@ -75,6 +75,15 @@
 					</div>
 				</div></li>
 			</ul>
+			<ul class="action-buttons">
+				<li>
+					<div class="btn-group" data-toggle="buttons-radio">
+				<button type="button" class="btn active">Visible</button>
+				<button type="button" class="btn">Hidden</button>
+			</div>
+				</li>
+			
+			<ul>
 		</div>
 	</div>
 </div>
