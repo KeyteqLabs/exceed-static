@@ -961,7 +961,7 @@
         font-size: 11px; }
       .eze .eze-comments li p.post-actions {
         font-size: 11px;
-        margin: 5px 0 -18px 40px; }
+        margin: 5px 0 0 40px; }
         .eze .eze-comments li p.post-actions a {
           color: #d67f00;
           text-decoration: underline; }
@@ -976,7 +976,7 @@
         .eze .eze-comments li .eze-replies li .post-actions {
           margin: 0 0 0 40px; }
         .eze .eze-comments li .eze-replies li:last-child .post-actions {
-          margin-bottom: -18px; }
+          margin-bottom: -10px; }
     .eze .eze-comments li .add-comment-button {
       float: right; }
     .eze .eze-comments li .add-comment {

@@ -52,6 +52,7 @@
                     <li class="clearfix">
                         <img class="user-image" src="img/default-user.jpeg">
                         <p><span class="date"><strong>Jon Helge Stensrud</strong> 35 days ago</span><br>Hello world</p>
+                        <p class="post-actions"><a href="#">Like</a> 10 people like this</p>
 
                             <ol class="eze-replies">
                                 <li class="sub-comment">
