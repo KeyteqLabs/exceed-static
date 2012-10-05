@@ -108,10 +108,13 @@
           background-image: -moz-linear-gradient(top, #ffecd5, #ffdab2);
           background-image: -ms-linear-gradient(top, #ffecd5, #ffdab2);
           background-image: -o-linear-gradient(top, #ffecd5, #ffdab2);
-          background-image: linear-gradient(top, #ffecd5, #ffdab2); }
+          background-image: linear-gradient(top, #ffecd5, #ffdab2);
+          overflow: hidden; }
           .eze .eze-table .eze-table-content ul li.item .thumb img {
             float: left;
-            height: 90px; }
+            height: 90px;
+            max-height: none;
+            max-width: none; }
             .eze .eze-table .eze-table-content ul li.item .thumb img.class-icon {
               margin: 21px 0 0 31px;
               height: auto;
