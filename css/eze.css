@@ -10,13 +10,14 @@
     margin-right: 220px; }
     .eze .eze-table .eze-table-actions .batch .btn {
       float: left;
-      margin-right: 5px; }
+      margin: 0 5px 10px 0; }
     .eze .eze-table .eze-table-actions .check-all {
       float: left;
       margin: 9px 5px 0 5px; }
     .eze .eze-table .eze-table-actions .sort-by {
       float: right;
-      margin-right: 0; }
+      position: relative;
+      z-index: 1; }
       .eze .eze-table .eze-table-actions .sort-by h2 {
         float: left;
         font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
