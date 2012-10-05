@@ -80,7 +80,8 @@
         background: white;
         border-bottom: 1px solid white;
         padding: 0 0 0 0;
-        margin: 0 1px; }
+        margin: 0 1px;
+        position: relative; }
         .eze .eze-table .eze-table-content ul li.item:nth-child(2n), .eze .eze-table .eze-table-content ul li.item:nth-child(2n) .check {
           background: #fafafa; }
         .eze .eze-table .eze-table-content ul li.item .check {
@@ -130,6 +131,10 @@
             margin-top: -2px; }
           .eze .eze-table .eze-table-content ul li.item p .other-locations {
             border-bottom: 1px dashed black; }
+        .eze .eze-table .eze-table-content ul li.item .actions {
+          position: absolute;
+          top: 35px;
+          right: 35px; }
       .eze .eze-table .eze-table-content ul li.publishing {
         -moz-animation: table-publish 0.3s ease 1 normal;
         -webkit-animation: table-publish 0.3s ease 1 normal;

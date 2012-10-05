@@ -51,9 +51,12 @@
                     </div>
                     <h2><a href="#">Grillsandwich with chicken timian and a mix of greens</a></h2>
                     <p>
-                        <span class="label label-success">Published</span> 13:30 by Trude Henrichsen, in Norwegian and English<br />
-                        <img src="img/16x16/Globe alt 16x16.png" alt="" /> World news article, published in /presse/nyheter/flere-vil-spise-sunt/ and <span class="other-locations" title="first tooltip">3 other locations</span>
+                        <!--<span class="label label-success">Published</span> 13:30 by Trude Henrichsen, in Norwegian and English<br /> -->
+                        <img src="img/16x16/Globe alt 16x16.png" alt="" /> World news article<!--, published in /presse/nyheter/flere-vil-spise-sunt/ and <span class="other-locations" title="first tooltip">3 other locations</span>-->
                     </p>
+                    <div class="actions">
+                        <button class="btn">Relate this content</button>
+                    </div>
                 </li>
             <?php } ?>
             </ul>
