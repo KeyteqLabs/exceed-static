@@ -606,7 +606,9 @@
             left: 6px;
             top: 50%;
             bottom: 50%;
-            margin-top: -8px; }
+            margin-top: -8px;
+            height: 16px;
+            width: 16px; }
           .eze .finder .kp-finder-content .column li a .has-children-arrow {
             display: block;
             height: 16px;
@@ -622,6 +624,11 @@
             transition: all 0.1s ease-out;
             opacity: 0.7;
             background: transparent url("../images/legacy-sprite.png") -136px -22px no-repeat; }
+            @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+              .eze .finder .kp-finder-content .column li a .has-children-arrow {
+                background: transparent url("../images/legacy-sprite.png") -65px -55px no-repeat;
+                -webkit-background-size: 300px 80px;
+                background-size: 300px 80px; } }
         .eze .finder .kp-finder-content .column li.active a, .eze .finder .kp-finder-content .column li.active a:hover, .eze .finder .kp-finder-content .column li.dragover a {
           background: #ffa500;
           border-color: #ffa500; }
@@ -656,6 +663,9 @@
       .eze .finder .actions .heading h3 {
         font: normal 11px/11px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin: 5px 0; }
+      .eze .finder .actions .heading img {
+        height: 48px;
+        width: 48px; }
     .eze .finder .actions .meta {
       font-weight: bold;
       text-align: left; }
