@@ -635,6 +635,9 @@
           .eze .finder .kp-finder-content .column li.active a .has-children-arrow, .eze .finder .kp-finder-content .column li.active a:hover .has-children-arrow, .eze .finder .kp-finder-content .column li.dragover a .has-children-arrow {
             opacity: 1;
             background-color: #ffa500; }
+        .eze .finder .kp-finder-content .column li.hidden-object {
+          opacity: 0.5;
+          filter: alpha(opacity=50); }
         .eze .finder .kp-finder-content .column li.dragged {
           z-index: 999; }
         .eze .finder .kp-finder-content .column li.clipboard a {
