@@ -134,8 +134,8 @@
             border-bottom: 1px dashed black; }
         .eze .eze-table .eze-table-content ul li.item .actions {
           position: absolute;
-          top: 35px;
-          right: 35px; }
+          top: 30px;
+          right: 10px; }
       .eze .eze-table .eze-table-content ul li.publishing {
         -moz-animation: table-publish 0.3s ease 1 normal;
         -webkit-animation: table-publish 0.3s ease 1 normal;
@@ -1459,6 +1459,10 @@
     -webkit-animation: fade-in 0.5s ease 1 normal; }
   .eze .popover.right .arrow {
     border-right-color: #fafafa; }
+  .eze .option-controller label {
+    margin: 0 5px 0 0; }
+  .eze .option-controller input {
+    margin: 0 5px 0 0; }
   .eze .nav-pills.inverted li a {
     background: transparent;
     border: 1px solid #cccccc;

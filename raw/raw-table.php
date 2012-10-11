@@ -45,7 +45,7 @@
             <ul class="items">
             <?php foreach (range(1, 2) as $index) { ?>
                 <li class="item clearfix">
-                    <label class="check"><input type="checkbox"></label>
+                    <!-- <label class="check"><input type="checkbox"></label> -->
                     <div class="thumb">
                         <img class="class-icon" src="img/48x48/Globe alt 48x48.png" alt="" />
                     </div>
@@ -55,7 +55,9 @@
                         <img src="img/16x16/Globe alt 16x16.png" alt="" /> World news article<!--, published in /presse/nyheter/flere-vil-spise-sunt/ and <span class="other-locations" title="first tooltip">3 other locations</span>-->
                     </p>
                     <div class="actions">
-                        <button class="btn">Relate this content</button>
+                        <div class="well well-small option-controller">
+                            <label><input type="checkbox" /> Relate this content</label>
+                        </div>
                     </div>
                 </li>
             <?php } ?>
