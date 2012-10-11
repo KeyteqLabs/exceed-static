@@ -419,9 +419,13 @@
     min-width: 650px;
     max-width: 1100px; }
     .eze .stack-item header h1 {
-      display: inline;
+      display: inline-block;
       font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-      margin: 0; }
+      margin: 0;
+      width: 60%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap; }
       .eze .stack-item header h1 .iconwrap {
         float: left;
         width: 16px;
