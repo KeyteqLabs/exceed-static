@@ -123,15 +123,21 @@
               opacity: 0.8; }
         .eze .eze-table .eze-table-content ul li.item h2 {
           font: normal 18px/18px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-          margin: 10px 0 8px 0;
+          margin: 15px 0 8px 0;
           display: inline-block; }
+          .eze .eze-table .eze-table-content ul li.item h2 a {
+            border-bottom: 1px solid #e07a00;
+            color: #e07a00; }
         .eze .eze-table .eze-table-content ul li.item p {
           width: 100%;
           font: normal 12px/22px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
           .eze .eze-table .eze-table-content ul li.item p img {
             margin-top: -2px; }
           .eze .eze-table .eze-table-content ul li.item p .other-locations {
-            border-bottom: 1px dashed black; }
+            border-bottom: 1px dashed black;
+            margin-right: 5px; }
+          .eze .eze-table .eze-table-content ul li.item p a {
+            text-decoration: underline; }
         .eze .eze-table .eze-table-content ul li.item .actions {
           position: absolute;
           top: 30px;
