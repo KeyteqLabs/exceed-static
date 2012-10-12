@@ -8,15 +8,24 @@
             <button class="btn disabled">Publish selected</button>
             <button class="btn disabled">Delete selected</button>
         </div>
-        <div class="sort-by">
-            <h2>Sort by</h2>
-            <div class="btn-group" data-toggle="buttons-radio">
-                <button type="button" class="btn active">Date</button>
-                <button type="button" class="btn">Author</button>
-                <button type="button" class="btn">Content type</button>
+        <div class="table-toggles">
+            <div class="sort-by">
+                <h2>Sort by</h2>
+                <div class="btn-group" data-toggle="buttons-radio">
+                    <button type="button" class="btn active">Date</button>
+                    <button type="button" class="btn">Author</button>
+                    <button type="button" class="btn">Content type</button>
+                </div>
+                <!-- <img class="active" src="img/24x24/Ordered list 24x24b.png" alt="" />
+                <img src="img/24x24/Thumbnails 24x24.png" alt="" /> -->
             </div>
-            <!-- <img class="active" src="img/24x24/Ordered list 24x24b.png" alt="" />
-            <img src="img/24x24/Thumbnails 24x24.png" alt="" /> -->
+            <div class="show-content-toggle">
+                <h2>Show</h2>
+                <div class="btn-group" data-toggle="buttons-radio">
+                    <button type="button" class="btn active">Published</button>
+                    <button type="button" class="btn">My drafts</button>
+                </div>
+            </div>
         </div>
     </section>
 

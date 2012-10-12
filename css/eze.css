@@ -14,24 +14,28 @@
     .eze .eze-table .eze-table-actions .check-all {
       float: left;
       margin: 9px 5px 0 5px; }
-    .eze .eze-table .eze-table-actions .sort-by {
+    .eze .eze-table .eze-table-actions .table-toggles {
       float: right;
       position: relative;
       z-index: 1; }
-      .eze .eze-table .eze-table-actions .sort-by h2 {
+      .eze .eze-table .eze-table-actions .table-toggles .sort-by, .eze .eze-table .eze-table-actions .table-toggles .show-content-toggle {
+        float: right; }
+      .eze .eze-table .eze-table-actions .table-toggles h2 {
         float: left;
         font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
         margin: 8px 10px 0 0;
         display: inline;
         color: #555555; }
-      .eze .eze-table .eze-table-actions .sort-by .btn-group {
+      .eze .eze-table .eze-table-actions .table-toggles .btn-group {
         float: left; }
-      .eze .eze-table .eze-table-actions .sort-by img {
+      .eze .eze-table .eze-table-actions .table-toggles img {
         float: left;
         display: inline;
         opacity: 0.5; }
-        .eze .eze-table .eze-table-actions .sort-by img.active {
+        .eze .eze-table .eze-table-actions .table-toggles img.active {
           opacity: 1; }
+    .eze .eze-table .eze-table-actions .show-content-toggle {
+      margin-right: 10px; }
   .eze .eze-table .eze-table-content {
     position: absolute;
     top: 84px;
