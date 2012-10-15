@@ -129,7 +129,7 @@
         <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.8.24.custom.min.js"></script>
         <script type="text/javascript">
-            $(function(){$(".chzn-select").chosen({disable_search_threshold: 3});});
+            $(function(){$(".chzn-select").chosen({disable_search_threshold: 20});});
             $('#example').popover('hide');
             $(function() {$( ".datepicker" ).datepicker();});
             $(function() {

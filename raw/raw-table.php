@@ -48,6 +48,7 @@
     </section>
 
     <section class="eze-table-content">
+        <div class="loading-wrap"><img src="images/loader.gif" height="32px" width="32px" /></div>
         <div class="eze-inner">
         <div>
             <h2 class="group-header">Today</h2>
