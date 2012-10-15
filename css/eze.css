@@ -318,7 +318,7 @@
     background-position: -448px 0; }
   .eze #eze-toolbar .eze-more {
     background-position: -512px 0; }
-  .eze #eze-toolbar .eze-devices {
+  .eze #eze-toolbar .eze-preview {
     background-position: -576px 0; }
   .eze #eze-toolbar .eze-publish {
     background-position: -640px 0; }
@@ -343,10 +343,17 @@
   .eze .popover h2 {
     font: normal 16px/16px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
     margin: 0 0 10px 0; }
+  .eze .popover h4 {
+    font: bold 14px/14px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    margin: 5px 0 10px 0; }
   .eze .popover .eze-autosave {
     position: absolute;
     top: 6px;
     right: 0; }
+  .eze .popover input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 4px 12px 8px; }
 .eze .eze-activity-modal {
   width: 420px; }
   .eze .eze-activity-modal .btn-group {
@@ -410,6 +417,12 @@
   letter-spacing: 1px; }
 .eze .eze-stack-content h2 {
   font: bold 14px/14px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+.eze .semi-direct {
+  width: 620px; }
+  .eze .semi-direct form {
+    margin: 0; }
+  .eze .semi-direct .heading, .eze .semi-direct .label-required {
+    display: none; }
 
 .eze .stack-item {
   position: absolute;
@@ -1472,6 +1485,8 @@
     cursor: pointer; }
   .eze .hide {
     display: none !important; }
+  .eze .oe-window {
+    border: 1px solid #eeeeee; }
   .eze .tab-content .tab-pane {
     -moz-animation: fade-in 0.5s ease 1 normal;
     -webkit-animation: fade-in 0.5s ease 1 normal; }

@@ -1,4 +1,4 @@
-<div class="modal">
+<div class="popover semi-direct" style="z-index:40000;display:block;top:300px;left:400px">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 		<h3>Edit text</h3>

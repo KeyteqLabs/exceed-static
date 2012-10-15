@@ -13,7 +13,7 @@
         </li>
         <li><a href="?publish"><b class="eze-publish"></b><!--<span class="status-icon changed"></span> -->Publish</a></li>
         <li><a href="?activity"><b class="eze-activity"></b>Activity</a></li>
-        <li><a href="?devices"><b class="eze-devices"></b>Devices</a></li>
+        <li><a href="?preview"><b class="eze-preview"></b>Preview</a></li>
         <li><a href="?view=sitemap"><b class="eze-sitemap"></b>Sitemap</a></li>
         <li><a href="?view=layout"><b class="eze-layout"></b>Zones</a></li>
         <!--
