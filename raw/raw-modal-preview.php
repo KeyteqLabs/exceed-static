@@ -1,10 +1,10 @@
-<div class="popover right eze-devices-modal" style="top: 309px; left: 69px; z-index: 75000; display: block;">
+<div class="popover right eze-preview-modal" style="top: 309px; left: 69px; z-index: 75000; display: block;">
 	<div class="arrow"></div>
 	<div class="popover-inner">
 		<h3 class="popover-title">Preview</h3>
 		<div class="popover-content">
 			<h4>Preview URL</h4>
-			<input type="text" disabled="disabled" value="http://example.org/32r2fwf43f3f363f32r" />
+			<input type="text" class="preview-url" disabled="disabled" value="http://example.org/32r2fwf43f3f363f32r" />
 			<h4>Send preview to devices</h4>
 			<table class="table">
 				<tbody>

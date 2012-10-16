@@ -361,10 +361,6 @@
     position: absolute;
     top: 6px;
     right: 0; }
-  .eze .popover input[type="text"] {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 14px 4px 12px 8px; }
 .eze .eze-activity-modal {
   width: 420px; }
   .eze .eze-activity-modal .btn-group {
@@ -374,23 +370,25 @@
   .eze .eze-activity-modal .eze-comments {
     background: white;
     border: 1px solid #cccccc; }
-.eze .eze-devices-modal {
+.eze .eze-preview-modal {
   width: 420px; }
-  .eze .eze-devices-modal .table {
+  .eze .eze-preview-modal .table {
     margin: 0; }
-    .eze .eze-devices-modal .table tr:first-child td {
+    .eze .eze-preview-modal .table tr:first-child td {
       border-top: 0; }
-    .eze .eze-devices-modal .table td {
+    .eze .eze-preview-modal .table td {
       padding: 8px 8px 8px 0; }
-    .eze .eze-devices-modal .table p, .eze .eze-devices-modal .table label {
+    .eze .eze-preview-modal .table p, .eze .eze-preview-modal .table label {
       margin: 4px 0 0 0; }
-    .eze .eze-devices-modal .table p {
+    .eze .eze-preview-modal .table p {
       width: 150px;
       margin: 0;
       display: block;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
+  .eze .eze-preview-modal .preview-url {
+    width: 380px; }
 .eze .eze-publish-modal {
   width: 420px; }
   .eze .eze-publish-modal .publish-info {
