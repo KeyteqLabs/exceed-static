@@ -1221,6 +1221,13 @@
           font-size: 11px; }
       .keymedia-thumbs .item .pick:hover img {
         opacity: 1; }
+      .keymedia-thumbs .item .pick .share {
+        background: #44b6eb;
+        font-size: 11px;
+        margin: 0 0 0 5px;
+        border-radius: 4px;
+        padding: 2px 4px;
+        color: white; }
   .keymedia-thumbs .more-hits {
     clear: both; }
 
