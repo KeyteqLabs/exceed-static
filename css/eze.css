@@ -1228,8 +1228,8 @@
         border-radius: 4px;
         padding: 2px 4px;
         color: white; }
-  .keymedia-thumbs .more-hits {
-    clear: both; }
+  .keymedia-thumbs .btn.load-more {
+    padding: 10px; }
 
 .keymedia-crop .nav-pills.inverted li {
   margin-right: 10px; }

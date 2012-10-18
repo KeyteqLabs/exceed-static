@@ -1,6 +1,7 @@
 <form class="form-search">
   <input type="text" class="input-long">
   <button type="submit" class="btn">Search for media</button>
+  <button type="submit" class="btn">Upload new media</button>
 </form>
 
 <div class="keymedia-thumbs">
@@ -173,5 +174,5 @@
             <p class="meta">Photo – Belly of the Whale.jpg<br><span class="details">761 x 600</span></p>
         </a>
     </div>
-
+<button class="btn btn-large btn-block load-more" type="button">Show more</button>
 </div>
