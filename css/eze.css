@@ -1269,9 +1269,10 @@
     border-style: dotted; }
   .keymedia-crop .nav-pills.inverted li small {
     font: normal 10px/10px "HelveticaNeue", Helvetica, Arial, sans-serif; }
-  .keymedia-crop .nav-pills.inverted li.cropped a {
+  .keymedia-crop .nav-pills.inverted li.cropped a, .keymedia-crop .nav-pills.inverted li.cropped a:hover {
     background: white;
-    color: black; }
+    color: black;
+    border-color: white; }
 
 .keymedia-crop-container img {
   max-height: none;
