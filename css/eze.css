@@ -1272,18 +1272,11 @@
   .keymedia-crop .nav-pills.inverted li.cropped a {
     background: white;
     color: black; }
-.keymedia-crop .keymedia-crop-container {
-  position: absolute;
-  top: 70px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px; }
-  .keymedia-crop .keymedia-crop-container img {
-    max-height: 100%;
-    max-width: 100%;
-    border: 1px solid white; }
-  .keymedia-crop .keymedia-crop-container .jcrop-holder img {
-    max-width: none; }
+
+.keymedia-crop-container img {
+  max-height: none;
+  max-width: none;
+  border: 1px solid white; }
 
 .eze .eze-object-translations {
   background: white;
