@@ -109,7 +109,7 @@
 			<p><button href="#" class="btn">Add relations to other content…</button></p>
 	</section>
 	
-	<section class="eze-object-attribute full-width">
+	<section class="eze-object-attribute ezauthor full-width">
 		<label class="heading">Authors</label>
 			<span class="help-block description">Example block-level help text here.</span>
 			<ul class="eze-items">

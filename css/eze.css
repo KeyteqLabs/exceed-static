@@ -943,7 +943,7 @@
       .eze .eze-items li .wrap input[type="text"], .eze .eze-items li .wrap input[type="email"], .eze .eze-items li .wrap input[type="time"], .eze .eze-items li .wrap input[type="date"], .eze .eze-items li .wrap input[type="datetime"] {
         width: 130px;
         height: 22px;
-        padding: 0 3px;
+        padding: 0 3px 0 7px;
         margin: -1px 5px 0 5px;
         line-height: 22px; }
       .eze .eze-items li .wrap input.activate-time, .eze .eze-items li .wrap input.activate-date {
@@ -1329,14 +1329,14 @@
   border-right: 1px solid #cccccc; }
   .eze .eze-object-attributes .eze-object-attribute-wrap {
     float: left;
-    width: 100%;
-    border-top: 1px solid #eeeeee; }
+    width: 100%; }
   .eze .eze-object-attributes .eze-object-attribute {
     width: 50%;
     float: left;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 15px;
+    border-top: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee; }
     .eze .eze-object-attributes .eze-object-attribute .label-required {
       float: right;
@@ -1344,7 +1344,6 @@
       border-radius: 0;
       background: #eeeeee; }
     .eze .eze-object-attributes .eze-object-attribute.full-width {
-      border-top: 1px solid #eeeeee;
       width: 100%; }
     .eze .eze-object-attributes .eze-object-attribute:first-child {
       margin-right: -1px;
@@ -1376,6 +1375,14 @@
   .eze .eze-object-attributes .eze-date .icon-calendar {
     font-size: 16px;
     vertical-align: 0; }
+  .eze .eze-object-attributes .ezauthor .eze-items li .wrap input[type="text"] {
+    width: 33%; }
+  .eze .eze-object-attributes .ezauthor .eze-items li .wrap img {
+    margin-left: 10px; }
+  .eze .eze-object-attributes .ezgmaplocation .find-address {
+    margin-left: 10px; }
+  .eze .eze-object-attributes .ezgmaplocation .pull-right {
+    margin-bottom: 15px; }
   .eze .eze-object-attributes .ezimage .btn, .eze .eze-object-attributes .keymedia .btn {
     margin: 0 5px 5px 0; }
   .eze .eze-object-attributes .ezimage .thumbnail, .eze .eze-object-attributes .keymedia .thumbnail {
