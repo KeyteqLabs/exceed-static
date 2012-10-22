@@ -52,23 +52,23 @@
 				border: 0
 				border-left: 1px solid rgba(255,255,255,0.5)
 
-			.close-all
-				height: 30px
-				color: #bd5900
-				@include gradient(#ffe2b6, #ffc368)
-				box-shadow: -1px 0 0 0 #ffb647
-				font-size: 11px
+		&.first .go-back
+			height: 30px
+			color: #bd5900
+			@include gradient(#ffe2b6, #ffc368)
+			box-shadow: -1px 0 0 0 #ffb647
+			font-size: 11px
 
-				span
-					font-size: 16px
-					display: none
+			span
+				font-size: 16px
+				display: none
 
-			.go-back
-				@include gradient(#ffd185, #ff8602)
-				height: 44px
-				color: #4c3312
-				font-size: 12px
-				padding: 0 20px
+		&.last .go-back
+			@include gradient(#ffd185, #ff8602)
+			height: 44px
+			color: #4c3312
+			font-size: 12px
+			padding: 0 20px
 
 		&:nth-last-child(2) header
 			@include gradient(#ffc785, #ffb365)
