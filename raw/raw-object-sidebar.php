@@ -14,8 +14,8 @@
 			<p class="description">Show this content on these pages</p>
 
 			<ul class="eze-items">
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Home 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is really long<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><img src="img/16x16/Home 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn radio-btn" href=""><input type="radio" value=""> Main</a><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><img src="img/16x16/Document 16x16.png" />Object name is really long<div class="right-align"><a class="btn btn-mini edit-btn radio-btn" href=""><input type="radio" value=""> Main</a><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 			</ul>
 
 		<button class="btn">Add to page…</button>
