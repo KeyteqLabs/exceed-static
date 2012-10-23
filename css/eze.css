@@ -784,9 +784,7 @@
   background-image: -ms-linear-gradient(top, #5c5c5c, #020202);
   background-image: -o-linear-gradient(top, #5c5c5c, #020202);
   background-image: linear-gradient(top, #5c5c5c, #020202);
-  -webkit-box-shadow: 0 0 5px black, 0 1px 0 rgba(255, 255, 255, 0.2) inset;
-  -moz-box-shadow: 0 0 5px black, 0 1px 0 rgba(255, 255, 255, 0.2) inset;
-  box-shadow: 0 0 5px black, 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   -webkit-transition: opacity 0.2s ease-out;
   -moz-transition: opacity 0.2s ease-out;
   -o-transition: opacity 0.2s ease-out;
@@ -795,7 +793,8 @@
     width: auto;
     height: auto;
     opacity: 1;
-    z-index: 101; }
+    z-index: 101;
+    background: black; }
     .eze .kp-edit-block-box.active ul {
       width: auto;
       height: auto; }
@@ -815,6 +814,7 @@
     overflow: hidden;
     border-radius: 4px;
     margin: 0;
+    cursor: pointer;
     background: url("../images/legacy-sprite.png") -570px -40px no-repeat; }
     .eze .kp-edit-block-box ul li {
       display: none;
@@ -826,24 +826,36 @@
       transition: all 0.3s ease-out; }
       .eze .kp-edit-block-box ul li:first-child a {
         border-top-left-radius: 4px;
-        border-top-right-radius: 4px; }
+        border-top-right-radius: 4px;
+        box-shadow: none;
+        border: 0; }
       .eze .kp-edit-block-box ul li:last-child a {
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px; }
       .eze .kp-edit-block-box ul li a {
-        font: normal 12px/24px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        background: #222222;
-        border-bottom: 1px solid #333333;
-        color: #ff9c00;
+        font: normal 12px/38px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: #2b2b2b;
+        border-top: 1px solid black;
+        box-shadow: inset 0 1px 0 0 #414141;
+        color: white;
         text-decoration: none;
         display: block;
-        padding: 3px 15px 3px 6px;
-        -webkit-transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -o-transition: all 0.2s ease-out;
-        transition: all 0.2s ease-out; }
+        padding: 0 40px 0 0;
+        height: 35px; }
+        .eze .kp-edit-block-box ul li a strong {
+          margin-right: 5px; }
+        .eze .kp-edit-block-box ul li a img {
+          margin: -1px 8px 0 8px; }
         .eze .kp-edit-block-box ul li a:hover {
-          background: black; }
+          background-color: #555555;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#555555), to(#2d2d2d));
+          background-image: -webkit-linear-gradient(top, #555555, #2d2d2d);
+          background-image: -moz-linear-gradient(top, #555555, #2d2d2d);
+          background-image: -ms-linear-gradient(top, #555555, #2d2d2d);
+          background-image: -o-linear-gradient(top, #555555, #2d2d2d);
+          background-image: linear-gradient(top, #555555, #2d2d2d);
+          cursor: pointer;
+          box-shadow: inset 0 1px 0 0 #676767; }
 
 .attribute-direct-edit {
   border: 1px solid white;
@@ -872,7 +884,8 @@
     display: block;
     border-radius: 4px;
     background: url("../images/legacy-sprite.png") -562px -25px no-repeat;
-    margin: 7px 0 0 5px; }
+    margin: 7px 0 0 5px;
+    cursor: pointer; }
 
 .eze .eze-autosave {
   position: relative;
