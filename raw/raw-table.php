@@ -48,7 +48,7 @@
     </section>
 
     <section class="eze-table-content">
-        <div class="loading-wrap"><img src="images/loader.gif" height="32px" width="32px" /></div>
+        <div class="loading-wrap hide"><img src="images/loader.gif" height="32px" width="32px" /></div>
         <div class="eze-inner">
         <div>
             <h2 class="group-header">Today</h2>
@@ -59,7 +59,7 @@
                     <div class="thumb">
                         <img class="class-icon" src="img/48x48/Globe alt 48x48.png" alt="" />
                     </div>
-                    <h2><a href="#">Grillsandwich with chicken timian and a mix of greens</a></h2>
+                    <h2><a href="#">Grillsandwich with chicken timian and a mix of greens and really really long stuff over here hrer heeeere.</a></h2>
                     <p>
                         <!--<span class="label label-success">Published</span> 13:30 by Trude Henrichsen, in Norwegian and English<br /> -->
                         <img src="img/16x16/Globe alt 16x16.png" alt="" /> World news article<!--, published in /presse/nyheter/flere-vil-spise-sunt/ and <span class="other-locations" title="first tooltip">3 other locations</span>-->
