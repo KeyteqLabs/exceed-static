@@ -1,6 +1,6 @@
 <nav id="eze-toolbar">
     <ul>
-        <li><a href="?dashboard"><b class="eze-settings"></b>Username</a></li>
+        <li><a href="?dashboard"><b class="eze-settings"></b><span class="title">Usernameislongreally</span></a></li>
         <li><a href="?addcontent"><b class="eze-create"></b>Create</a></li>
         <li class="active"><a href="?view=attributes"><b class="eze-document"></b>Edit</a></li>
         <li><a href="?view=table"><b class="eze-search"></b>Find</a>

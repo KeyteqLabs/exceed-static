@@ -287,6 +287,13 @@
         text-decoration: none;
         position: relative;
         cursor: pointer; }
+        .eze #eze-toolbar ul li a .title {
+          width: 100%;
+          display: block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          text-align: center; }
       .eze #eze-toolbar ul li div.slide-in {
         position: absolute;
         top: 0;
