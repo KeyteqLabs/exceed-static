@@ -34,6 +34,7 @@
 					<ul>
 						<li><span>Author</span>Raymond Julin</li>
 						<li><span>Modified</span>08/03/2012 03:42 pm</li>
+						<li><span>Status</span><i class="status-icon published"></i> Published</li>
 					</ul>
 				</div>
 			</div>
