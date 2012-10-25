@@ -774,9 +774,11 @@
         font: normal 11px/18px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
         display: block;
         width: 100%; }
-    .eze .finder .actions .action-buttons li {
+    .eze .finder .actions .action-buttons > li {
       float: left;
       margin: 0 5px 10px 0; }
+    .eze .finder .actions .btn-group.open .dropdown-menu {
+      width: 220px; }
   @media screen and (max-width: 1024px) {
     .eze .finder .kp-finder-content ul li a {
       height: 32px; } }
@@ -1610,6 +1612,8 @@
   .eze .btn .caret {
     margin-left: 5px;
     border-top: 4px solid #666666; }
+  .eze .btn-group.open .dropdown-menu p {
+    padding: 10px; }
   .eze .btn-mini {
     font-size: 11px; }
   .eze .btn {

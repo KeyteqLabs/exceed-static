@@ -38,7 +38,7 @@
 					</ul>
 				</div>
 			</div>
-			<!--<ul class="action-buttons">
+			<ul class="action-buttons">
 				<li><button href="/Functiontest" class="btn show">View</button></li>
 				<li><button class="btn edit">Edit</button></li>
 				<li><button class="btn copy">Copy</button></li>
@@ -46,12 +46,15 @@
 					<div class="btn-group">
 						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Remove<span class="caret"></span></a>
 							<ul class="dropdown-menu">
+								<li><p>This is the last location for this content. Removing it from this location will also delete the content.</p></li>
+								<li class="divider"></li>
 								<li><a href="#">Yes, remove it</a></li>
 								<li><a href="#">No, keep it</a></li>
 							</ul>
 					</div>
 				</li>
-			</ul>-->
+			</ul>
+			
 			<ul class="action-buttons">
 				<li><button class="btn edit">Place the content on this page</button></li>
 				<li><div class="well well-small">The content is placed on this page
