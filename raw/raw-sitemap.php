@@ -53,8 +53,13 @@
 							</ul>
 					</div>
 				</li>
+				<li>
+					<div class="well well-small option-controller">
+                            <label><input type="checkbox" /> Hide this content</label>
+                        </div>
+				</li>
 			</ul>
-			
+			<!--
 			<ul class="action-buttons">
 				<li><button class="btn edit">Place the content on this page</button></li>
 				<li><div class="well well-small">The content is placed on this page
@@ -78,17 +83,7 @@
 							</ul>
 					</div>
 				</div></li>
-			</ul>
-			<ul class="action-buttons">
-				<li>
-					<div class="well well-small option-controller">
-                            <label><input type="checkbox" /> Hide this content</label>
-                        </div>
-				</li>
-			
-			<ul>
-				<img src="images/loader.gif" class="icon-32" />
-				<img src="images/loader.gif" class="icon-16" />
+			</ul>-->
 		</div>
 	</div>
 </div>
