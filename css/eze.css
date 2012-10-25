@@ -484,7 +484,7 @@
   .eze .stack-item header {
     background: #ffd5a1;
     height: 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffd6a1;
     position: fixed;
     z-index: 100;
     right: 44px;
@@ -512,10 +512,14 @@
       float: right;
       padding: 0 15px;
       border: 0;
-      border-left: 1px solid rgba(255, 255, 255, 0.5); }
+      height: 30px;
+      color: #4e2900;
+      font-size: 12px; }
+      .eze .stack-item header .close-all img, .eze .stack-item header .go-back img {
+        margin: -2px 2px 0 0;
+        height: 9px;
+        width: 9px; }
   .eze .stack-item.first .go-back {
-    height: 30px;
-    color: #bd5900;
     background-color: #ffe2b6;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe2b6), to(#ffc368));
     background-image: -webkit-linear-gradient(top, #ffe2b6, #ffc368);
@@ -523,47 +527,54 @@
     background-image: -ms-linear-gradient(top, #ffe2b6, #ffc368);
     background-image: -o-linear-gradient(top, #ffe2b6, #ffc368);
     background-image: linear-gradient(top, #ffe2b6, #ffc368);
-    box-shadow: -1px 0 0 0 #ffb647;
-    font-size: 11px; }
+    background: none; }
     .eze .stack-item.first .go-back span {
       font-size: 16px;
       display: none; }
   .eze .stack-item.last .go-back {
-    background-color: #ffd185;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd185), to(#ff8602));
-    background-image: -webkit-linear-gradient(top, #ffd185, #ff8602);
-    background-image: -moz-linear-gradient(top, #ffd185, #ff8602);
-    background-image: -ms-linear-gradient(top, #ffd185, #ff8602);
-    background-image: -o-linear-gradient(top, #ffd185, #ff8602);
-    background-image: linear-gradient(top, #ffd185, #ff8602);
+    background-color: #ff9100;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9100), to(#ff5b00));
+    background-image: -webkit-linear-gradient(top, #ff9100, #ff5b00);
+    background-image: -moz-linear-gradient(top, #ff9100, #ff5b00);
+    background-image: -ms-linear-gradient(top, #ff9100, #ff5b00);
+    background-image: -o-linear-gradient(top, #ff9100, #ff5b00);
+    background-image: linear-gradient(top, #ff9100, #ff5b00);
     height: 44px;
     color: #4c3312;
-    font-size: 12px;
-    padding: 0 20px; }
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.4);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4); }
+    .eze .stack-item.last .go-back img {
+      margin: -3px 3px 0 0;
+      height: 14px;
+      width: 12px;
+      -webkit-transition: margin 0.2s ease-out;
+      -moz-transition: margin 0.2s ease-out;
+      -o-transition: margin 0.2s ease-out;
+      transition: margin 0.2s ease-out; }
+    .eze .stack-item.last .go-back:hover img {
+      margin: -10px 3px 0 0; }
   .eze .stack-item:nth-last-child(2) header {
-    background-color: #ffc785;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc785), to(#ffb365));
-    background-image: -webkit-linear-gradient(top, #ffc785, #ffb365);
-    background-image: -moz-linear-gradient(top, #ffc785, #ffb365);
-    background-image: -ms-linear-gradient(top, #ffc785, #ffb365);
-    background-image: -o-linear-gradient(top, #ffc785, #ffb365);
-    background-image: linear-gradient(top, #ffc785, #ffb365);
-    background: #ffad33; }
+    background: #ff9c00;
+    border-bottom: 1px solid #ffce80; }
   .eze .stack-item:nth-last-child(3) header {
-    background: #ffc266; }
+    background: #ffac42; }
   .eze .stack-item.first header button, .eze .stack-item.last header button {
     display: block; }
   .eze .stack-item.last header {
     height: 44px;
     right: 44px;
     max-width: 1100px;
-    background-color: #ff9f00;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9f00), to(#ff8500));
-    background-image: -webkit-linear-gradient(top, #ff9f00, #ff8500);
-    background-image: -moz-linear-gradient(top, #ff9f00, #ff8500);
-    background-image: -ms-linear-gradient(top, #ff9f00, #ff8500);
-    background-image: -o-linear-gradient(top, #ff9f00, #ff8500);
-    background-image: linear-gradient(top, #ff9f00, #ff8500);
+    background-color: #ff9100;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9100), to(#ff7b00));
+    background-image: -webkit-linear-gradient(top, #ff9100, #ff7b00);
+    background-image: -moz-linear-gradient(top, #ff9100, #ff7b00);
+    background-image: -ms-linear-gradient(top, #ff9100, #ff7b00);
+    background-image: -o-linear-gradient(top, #ff9100, #ff7b00);
+    background-image: linear-gradient(top, #ff9100, #ff7b00);
     border-bottom: 0;
     box-shadow: 0 2px 2px 0 rgba(198, 93, 0, 0.6), inset 0 -1px 0 0 rgba(255, 255, 255, 0.4); }
     .eze .stack-item.last header h1 {
@@ -584,8 +595,10 @@
     float: right;
     height: 44px; }
     .eze .stack-item .eze-autosave p {
-      line-height: 44px;
-      margin: 0 20px; }
+      margin: 0 20px;
+      color: #4e2900;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+      font: bold 14px/45px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
   .eze .stack-item .eze-stack-content {
     display: none;
     padding: 15px;
@@ -901,9 +914,8 @@
   font: normal 12px/28px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 27px;
   border-radius: 2px; }
-  .eze .eze-autosave.saving {
-    -moz-animation: autosave-highlight 1.5s linear infinite normal;
-    -webkit-animation: autosave-highlight 1.5s linear infinite normal; }
+  .eze .eze-autosave.saving img {
+    margin: 0 5px 0 0; }
   .eze .eze-autosave p {
     float: left;
     margin: 0 10px 0; }
@@ -1636,6 +1648,12 @@
     color: black; }
     .eze a:hover {
       text-decoration: none; }
+  .eze .icon-16 {
+    height: 16px;
+    width: 16px; }
+  .eze .icon-32 {
+    height: 32px;
+    width: 32px; }
   .eze select, .eze .chzn-container {
     margin-bottom: 10px;
     height: 25px;

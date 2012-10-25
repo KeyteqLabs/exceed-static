@@ -84,8 +84,8 @@
 				</li>
 			
 			<ul>
-				<img src="images/loader.gif" height="32px" width="32px" />
-				<img src="images/loader.gif" height="16px" width="16px" />
+				<img src="images/loader.gif" class="icon-32" />
+				<img src="images/loader.gif" class="icon-16" />
 		</div>
 	</div>
 </div>

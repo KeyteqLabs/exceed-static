@@ -17,7 +17,7 @@
 		header
 			background: #ffd5a1
 			height: 30px
-			border-bottom: 1px solid #fff
+			border-bottom: 1px solid #ffd6a1
 			position: fixed
 			z-index: 100
 			right: 44px
@@ -50,32 +50,49 @@
 				float: right
 				padding: 0 15px
 				border: 0
-				border-left: 1px solid rgba(255,255,255,0.5)
+				height: 30px
+				color: #4e2900
+				font-size: 12px
+
+				img
+					margin: -2px 2px 0 0
+					height: 9px
+					width: 9px
 
 		&.first .go-back
-			height: 30px
-			color: #bd5900
 			@include gradient(#ffe2b6, #ffc368)
-			box-shadow: -1px 0 0 0 #ffb647
-			font-size: 11px
+			background: none
 
 			span
 				font-size: 16px
 				display: none
 
 		&.last .go-back
-			@include gradient(#ffd185, #ff8602)
+			@include gradient(#ff9100, #ff5b00)
 			height: 44px
 			color: #4c3312
-			font-size: 12px
+			font-size: 16px
+			font-weight: bold
 			padding: 0 20px
+			border-left: 1px solid rgba(255,255,255,0.5)
+			box-shadow: inset 0 -1px 0 0 rgba(255,255,255,0.4)
+			text-shadow: 0 1px 0 rgba(255,255,255,0.4)
+
+			img
+				margin: -3px 3px 0 0
+				height: 14px
+				width: 12px
+				@include transition(margin, 0.2s)
+
+			&:hover img
+				margin: -10px 3px 0 0
 
 		&:nth-last-child(2) header
-			@include gradient(#ffc785, #ffb365)
-			background: #ffad33
+			background: #ff9c00
+			border-bottom: 1px solid #ffce80
 
 		&:nth-last-child(3) header
-			background: #ffc266
+			background: #ffac42
 
 		&.first header button, &.last header button
 			display: block
@@ -84,7 +101,7 @@
 			height: 44px
 			right: 44px
 			max-width: 1100px
-			@include gradient(#ff9f00, #ff8500)
+			@include gradient(#ff9100, #ff7b00)
 			border-bottom: 0
 			box-shadow: 0 2px 2px 0 rgba(198, 93, 0, 0.6), inset 0 -1px 0 0 rgba(255,255,255,0.4)
 
@@ -112,8 +129,10 @@
 			height: 44px
 
 			p
-				line-height: 44px
 				margin: 0 20px
+				color: #4e2900
+				text-shadow: 0 1px 0 rgba(255,255,255,0.4)
+				font: bold 14px/45px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif 
 
 		// Stack content
 

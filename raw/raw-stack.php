@@ -1,7 +1,7 @@
 <section class="stack-item first" style="top:0px">
     <header>
         <h1><div class="iconwrap"><img class="large" src="img/32x32/Documents 32x32.png" /><img class="small" src="img/32x32/Documents 32x32.png" /></div>First level</h1>
-        <button class="close-all go-back">Close all <span>&times;</span></button>
+        <button class="close-all go-back focus"><img src="images/icons/stack-close.png" /> Close all <span>&times;</span></button>
     </header>
 	<section class="eze-stack-content">Content here</section>
 </section>

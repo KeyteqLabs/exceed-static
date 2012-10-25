@@ -61,13 +61,13 @@
                             <div class="iconwrap"><img class="large" src="img/128x128/Documents 128x128.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
                             Fifth and last level
                         </h1>
-                        <!--<div class="eze-autosave saving">
-                            <p>Saving…</p>
+                        <!-- <div class="eze-autosave saving">
+                            <p><img src="images/loader.gif" class="icon-16" /> Saving…</p>
                             <button class="go-back disabled">Go back</button>
-                        </div>-->
+                        </div> -->
                         <div class="eze-autosave">
-                            <p>All changes saved</p>
-                            <button class="go-back">Go back</button>
+                            <p>√ All changes saved</p>
+                            <button class="go-back"><img src="images/icons/stack-go-back.png" /> Go back</button>
                         </div>
 
 
