@@ -749,12 +749,13 @@
     padding: 0 10px;
     margin-left: -2px; }
     .eze .finder .actions .heading {
-      text-align: center;
       margin-top: 20px; }
       .eze .finder .actions .heading h2 {
-        font: normal 14px/22px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
+        font: normal 14px/22px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+        text-align: center; }
       .eze .finder .actions .heading h3 {
         font: normal 11px/11px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
         margin: 5px 0; }
       .eze .finder .actions .heading img {
         height: 48px;
