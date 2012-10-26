@@ -428,6 +428,8 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
+  .eze .eze-preview-modal .get-app {
+    margin: 10px 0 0 0; }
   .eze .eze-preview-modal .preview-url {
     width: 380px; }
 .eze .eze-publish-modal {

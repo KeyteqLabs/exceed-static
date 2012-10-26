@@ -3,7 +3,6 @@
 	<div class="popover-inner">
 		<h3 class="popover-title">Preview</h3>
 		<div class="popover-content">
-			<h4>Preview URL</h4>
 			<p>Use this address to preview this page.</p>
 			<input type="text" class="preview-url" disabled="disabled" value="http://example.org/32r2fwf43f3f363f32r" />
 			<h4>Send preview to devices</h4>
@@ -26,7 +25,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<p class="get-app"><button class="btn btn-primary">Get Exceed from the Apple App Store</button></p>
+			<p class="get-app"><button class="btn btn-primary">Get the app from the App Store</button></p>
 		</div>
 	</div>
 </div>
