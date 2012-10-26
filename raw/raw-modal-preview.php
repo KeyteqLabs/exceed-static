@@ -26,6 +26,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<p class="get-app"><button class="btn btn-primary">Get Exceed from the Apple App Store</button></p>
 		</div>
 	</div>
 </div>

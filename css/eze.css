@@ -528,9 +528,6 @@
     background-image: -o-linear-gradient(top, #ffe2b6, #ffc368);
     background-image: linear-gradient(top, #ffe2b6, #ffc368);
     background: none; }
-    .eze .stack-item.first .go-back span {
-      font-size: 16px;
-      display: none; }
   .eze .stack-item.last .go-back {
     background-color: #ff9100;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9100), to(#ff5b00));
