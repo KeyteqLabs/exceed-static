@@ -7,7 +7,7 @@
 			<div class="kp-columns" style="width: 423px; ">
 				<div class="column ui-droppable" style="height: 1000px; opacity: 1; ">
 					<ul class="nodes">
-						<li class="node ui-draggable ui-droppable"><a id="node-602" class="" data-id="602" data-children="1"><img src="img/32x32/Layout 32x32.png"><span>eZ Exceeds</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i></a></li>
+						<li class="node empty-node ui-draggable ui-droppable"><a id="node-602" class="" data-id="602" data-children="1"><img src="img/32x32/Layout 32x32.png"><span>eZ Exceeds</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-468" class="" data-id="468" data-children="6"><img src="img/32x32/Folder 32x32.png"><span>Lab rats</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-600" class="" data-id="600" data-children="1"><img src="img/32x32/Layout 32x32.png"><span>raymondjulin.com</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>
 						<li class="node ui-draggable active ui-droppable"><a id="node-747" class="" data-id="747" data-children="5"><img src="img/32x32/Folder 32x32.png"><span>sdafas Functiontest</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i> </a></li>

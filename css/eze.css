@@ -730,6 +730,9 @@
           filter: alpha(opacity=50); }
         .eze .finder .kp-finder-content .column li.dragged {
           z-index: 999; }
+        .eze .finder .kp-finder-content .column li.empty-node .has-children-arrow {
+          opacity: 0.2;
+          filter: alpha(opacity=50); }
         .eze .finder .kp-finder-content .column li.clipboard a {
           color: rgba(0, 0, 0, 0.3); }
           .eze .finder .kp-finder-content .column li.clipboard a img {
