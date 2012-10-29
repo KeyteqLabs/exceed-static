@@ -132,8 +132,9 @@
 
 		.ezauthor
 			.eze-items li .wrap
-				input[type="text"]
+				input[type="text"], input[type="email"]
 					width: 33%
+					line-height: 25px
 				img
 					margin-left: 10px
 
@@ -144,6 +145,10 @@
 			.pull-right
 				margin-bottom: 15px
 
+			.map
+				border: 1px solid #888
+				background: #fff
+
 		.ezimage, .keymedia
 
 			.btn
@@ -153,6 +158,10 @@
 				position: relative
 				margin: 0 0 10px 0
 				background: #fff
+				float: left
+
+				img
+					border-radius: 2px
 				
 				.edit-image
 					position: absolute
@@ -170,6 +179,9 @@
 					opacity: 1
 					background: #fff
 					border-bottom-left-radius: 4px
+
+			.add-tag, input
+				clear: both
 
 			.add-tag
 				position: relative

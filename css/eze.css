@@ -510,14 +510,14 @@
           display: none; }
     .eze .stack-item header button {
       display: none; }
-    .eze .stack-item header .close-all, .eze .stack-item header .go-back {
+    .eze .stack-item header .close-stack, .eze .stack-item header .go-back {
       float: right;
       padding: 0 15px;
       border: 0;
       height: 30px;
       color: #4e2900;
       font-size: 12px; }
-      .eze .stack-item header .close-all img, .eze .stack-item header .go-back img {
+      .eze .stack-item header .close-stack img, .eze .stack-item header .go-back img {
         margin: -2px 2px 0 0;
         height: 9px;
         width: 9px; }
@@ -556,6 +556,12 @@
       transition: margin 0.2s ease-out; }
     .eze .stack-item.last .go-back:hover img {
       margin: -10px 3px 0 0; }
+  .eze .stack-item.last .close-stack {
+    font-size: 12px; }
+    .eze .stack-item.last .close-stack img {
+      height: 9px;
+      width: 9px;
+      margin: -3px 5px 0 0; }
   .eze .stack-item:nth-last-child(2) header {
     background: #ff9c00;
     border-bottom: 1px solid #ffce80; }
@@ -1423,20 +1429,27 @@
   .eze .eze-object-attributes .eze-date .icon-calendar {
     font-size: 16px;
     vertical-align: 0; }
-  .eze .eze-object-attributes .ezauthor .eze-items li .wrap input[type="text"] {
-    width: 33%; }
+  .eze .eze-object-attributes .ezauthor .eze-items li .wrap input[type="text"], .eze .eze-object-attributes .ezauthor .eze-items li .wrap input[type="email"] {
+    width: 33%;
+    line-height: 25px; }
   .eze .eze-object-attributes .ezauthor .eze-items li .wrap img {
     margin-left: 10px; }
   .eze .eze-object-attributes .ezgmaplocation .find-address {
     margin-left: 10px; }
   .eze .eze-object-attributes .ezgmaplocation .pull-right {
     margin-bottom: 15px; }
+  .eze .eze-object-attributes .ezgmaplocation .map {
+    border: 1px solid #888888;
+    background: white; }
   .eze .eze-object-attributes .ezimage .btn, .eze .eze-object-attributes .keymedia .btn {
     margin: 0 5px 5px 0; }
   .eze .eze-object-attributes .ezimage .thumbnail, .eze .eze-object-attributes .keymedia .thumbnail {
     position: relative;
     margin: 0 0 10px 0;
-    background: white; }
+    background: white;
+    float: left; }
+    .eze .eze-object-attributes .ezimage .thumbnail img, .eze .eze-object-attributes .keymedia .thumbnail img {
+      border-radius: 2px; }
     .eze .eze-object-attributes .ezimage .thumbnail .edit-image, .eze .eze-object-attributes .keymedia .thumbnail .edit-image {
       position: absolute;
       bottom: 10px;
@@ -1454,6 +1467,8 @@
       opacity: 1;
       background: white;
       border-bottom-left-radius: 4px; }
+  .eze .eze-object-attributes .ezimage .add-tag, .eze .eze-object-attributes .ezimage input, .eze .eze-object-attributes .keymedia .add-tag, .eze .eze-object-attributes .keymedia input {
+    clear: both; }
   .eze .eze-object-attributes .ezimage .add-tag, .eze .eze-object-attributes .keymedia .add-tag {
     position: relative; }
     .eze .eze-object-attributes .ezimage .add-tag .btn, .eze .eze-object-attributes .keymedia .add-tag .btn {
@@ -1583,7 +1598,7 @@
   .eze .hide {
     display: none !important; }
   .eze .oe-window {
-    border: 1px solid #eeeeee; }
+    border: 1px solid #cccccc; }
   .eze .tab-content .tab-pane {
     -moz-animation: fade-in 0.5s ease 1 normal;
     -webkit-animation: fade-in 0.5s ease 1 normal; }
@@ -1641,6 +1656,9 @@
       background: #ff9c00;
       color: #332100;
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+    .eze .btn-primary.disabled, .eze .btn-primary[disabled] {
+      background: #ff9c00;
+      color: #332100; }
   .eze .btn-inverse {
     border: 1px solid black; }
   .eze .label, .eze .badge {
@@ -1650,6 +1668,26 @@
     .eze .label.label-required {
       color: #777777;
       background: #cccccc; }
+  .eze textarea:focus,
+  .eze input[type="text"]:focus,
+  .eze input[type="password"]:focus,
+  .eze input[type="datetime"]:focus,
+  .eze input[type="datetime-local"]:focus,
+  .eze input[type="date"]:focus,
+  .eze input[type="month"]:focus,
+  .eze input[type="time"]:focus,
+  .eze input[type="week"]:focus,
+  .eze input[type="number"]:focus,
+  .eze input[type="email"]:focus,
+  .eze input[type="url"]:focus,
+  .eze input[type="search"]:focus,
+  .eze input[type="tel"]:focus,
+  .eze input[type="color"]:focus,
+  .eze .uneditable-input:focus {
+    border-color: rgba(236, 173, 82, 0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 173, 82, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 173, 82, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(236, 173, 82, 0.6); }
   .eze small {
     font-size: 90%; }
   .eze a {
