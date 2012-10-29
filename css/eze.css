@@ -1456,8 +1456,8 @@
       left: 10px; }
     .eze .eze-object-attributes .ezimage .thumbnail .close, .eze .eze-object-attributes .keymedia .thumbnail .close {
       position: absolute;
-      top: 0;
-      right: 0;
+      top: 1px;
+      right: 1px;
       padding: 2px 8px 8px 8px; }
     .eze .eze-object-attributes .ezimage .thumbnail:hover .close, .eze .eze-object-attributes .keymedia .thumbnail:hover .close {
       -webkit-transition: opacity 0.2s ease-out;
