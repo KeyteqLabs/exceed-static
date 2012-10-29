@@ -77,7 +77,10 @@
 			<span class="label label-required">Required</span>
 			<label class="heading">Regular Image</label>
 				<span class="help-block description">Example block-level help text here.</span>
-				<div href="#" class="thumbnail"><img src="images/300x100.gif" height="100px" width="100px" alt="Test"><button class="close">&times;</button><button class="btn btn-inverse edit-image">Edit image</button></div>
+				<div href="#" class="thumbnail">
+					<!--<img src="images/300x100.gif" height="100px" width="100px" alt="Test"><button class="close">&times;</button><button class="btn btn-inverse edit-image">Edit image</button>-->
+					<img src="images/loader.gif" class="icon-32" />
+				</div>
 				<input name="ContentObjectAttribute_data_imagealttext_1622" type="text" placeholder="Add image description" value="">
 		</section>
 
