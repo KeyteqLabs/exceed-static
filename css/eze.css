@@ -443,6 +443,12 @@
   width: 605px; }
 .eze .eze-dashboard-modal {
   width: 605px; }
+  .eze .eze-dashboard-modal .form-inline input {
+    width: 180px; }
+  .eze .eze-dashboard-modal .well {
+    margin-top: 10px; }
+    .eze .eze-dashboard-modal .well input {
+      width: 100px; }
   .eze .eze-dashboard-modal h2 img {
     margin: -2px 5px 0 0; }
   .eze .eze-dashboard-modal .eze-items {
