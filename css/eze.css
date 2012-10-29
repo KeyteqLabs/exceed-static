@@ -1458,7 +1458,9 @@
     background: white;
     float: left; }
     .eze .eze-object-attributes .ezimage .thumbnail img, .eze .eze-object-attributes .keymedia .thumbnail img {
-      border-radius: 2px; }
+      border-radius: 2px;
+      min-height: 80px;
+      min-width: 120px; }
     .eze .eze-object-attributes .ezimage .thumbnail .edit-image, .eze .eze-object-attributes .keymedia .thumbnail .edit-image {
       position: absolute;
       bottom: 10px;
