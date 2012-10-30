@@ -6,6 +6,7 @@
   float: none;
   font-style: normal;
   font-weight: normal;
+  filter: none;
   height: auto;
   left: auto;
   letter-spacing: normal;
@@ -532,15 +533,8 @@
         height: 9px;
         width: 9px; }
   .eze .stack-item.first .go-back {
-    background-color: #ffe2b6;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe2b6), to(#ffc368));
-    background-image: -webkit-linear-gradient(top, #ffe2b6, #ffc368);
-    background-image: -moz-linear-gradient(top, #ffe2b6, #ffc368);
-    background-image: -ms-linear-gradient(top, #ffe2b6, #ffc368);
-    background-image: -o-linear-gradient(top, #ffe2b6, #ffc368);
-    background-image: linear-gradient(top, #ffe2b6, #ffc368);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffe2b6, endColorstr=#ffc368);
-    background: none; }
+    background: none;
+    filter: none; }
   .eze .stack-item.last .go-back {
     background-color: #ff9100;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9100), to(#ff5b00));
@@ -1482,6 +1476,9 @@
       border-radius: 2px;
       min-height: 80px;
       min-width: 120px; }
+      .eze .eze-object-attributes .ezimage .thumbnail img.icon-32, .eze .eze-object-attributes .keymedia .thumbnail img.icon-32 {
+        min-height: 0;
+        min-width: 0; }
     .eze .eze-object-attributes .ezimage .thumbnail .edit-image, .eze .eze-object-attributes .keymedia .thumbnail .edit-image {
       position: absolute;
       bottom: 10px;
@@ -1642,6 +1639,8 @@
     margin: 0 5px 0 0; }
   .eze .option-controller input {
     margin: 0 5px 0 0; }
+  .eze img {
+    max-width: 0; }
   .eze .nav-pills.inverted li a {
     background: transparent;
     border: 1px solid #cccccc;
