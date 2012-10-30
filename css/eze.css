@@ -635,7 +635,7 @@
     .eze .stack-item .eze-stack-content.dark {
       background: #222222;
       color: white; }
-    .eze .stack-item .eze-stack-content .eze-loader {
+    .eze .stack-item .eze-stack-content > .eze-loader {
       margin: 60px auto 0 auto;
       display: block; }
   .eze .stack-item.last .eze-stack-content {
