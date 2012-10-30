@@ -58,7 +58,7 @@
                 <section class="stack-item move-in last" style="top:62px">
                     <header>
                         <h1>
-                            <div class="iconwrap"><img class="large" src="img/128x128/Documents 128x128.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
+                            <div class="iconwrap"><img class="large icon-32" src="img/128x128/Documents 128x128.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
                             Fifth and last level
                         </h1>
                         <!--<div class="eze-autosave saving">
