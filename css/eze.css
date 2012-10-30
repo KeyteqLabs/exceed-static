@@ -674,6 +674,96 @@
     float: left;
     overflow-x: auto;
     overflow-y: hidden; }
+    .eze .finder .kp-columns-wrapper .column {
+      float: left;
+      border-right: 1px solid #d3d3d3;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch; }
+    .eze .finder .kp-columns-wrapper li.node {
+      background-image: none;
+      display: block;
+      cursor: pointer; }
+      .eze .finder .kp-columns-wrapper li.node a {
+        color: black;
+        display: block;
+        height: 24px;
+        min-width: 200px;
+        max-width: 200px;
+        font: normal 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 0 10px 0 0;
+        -webkit-transition: all 0.1s ease-out;
+        -moz-transition: all 0.1s ease-out;
+        -o-transition: all 0.1s ease-out;
+        transition: all 0.1s ease-out;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid #ebebeb;
+        position: relative;
+        margin-top: -1px;
+        -webkit-transform: translate3d(0, 0, 0); }
+        .eze .finder .kp-columns-wrapper li.node a:hover {
+          background: #fafafa;
+          border-color: #cccccc; }
+        .eze .finder .kp-columns-wrapper li.node a .has-children-arrow {
+          background-color: #fafafa; }
+        .eze .finder .kp-columns-wrapper li.node a span {
+          margin-left: 27px;
+          line-height: 24px; }
+        .eze .finder .kp-columns-wrapper li.node a img {
+          position: absolute;
+          left: 6px;
+          top: 50%;
+          bottom: 50%;
+          margin-top: -8px;
+          height: 16px;
+          width: 16px; }
+        .eze .finder .kp-columns-wrapper li.node a .has-children-arrow {
+          display: block;
+          height: 16px;
+          width: 16px;
+          position: absolute;
+          right: 2px;
+          top: 50%;
+          bottom: 50%;
+          margin-top: -8px;
+          -webkit-transition: all 0.1s ease-out;
+          -moz-transition: all 0.1s ease-out;
+          -o-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
+          opacity: 0.7;
+          background: transparent url("../images/legacy-sprite.png") -136px -22px no-repeat; }
+          @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+            .eze .finder .kp-columns-wrapper li.node a .has-children-arrow {
+              background: transparent url("../images/legacy-sprite.png") -65px -55px no-repeat;
+              -webkit-background-size: 300px 80px;
+              background-size: 300px 80px; } }
+      .eze .finder .kp-columns-wrapper li.node.active a, .eze .finder .kp-columns-wrapper li.node.active a:hover, .eze .finder .kp-columns-wrapper li.node.dragover a {
+        background: #ffa500;
+        border-color: #ffa500; }
+        .eze .finder .kp-columns-wrapper li.node.active a .has-children-arrow, .eze .finder .kp-columns-wrapper li.node.active a:hover .has-children-arrow, .eze .finder .kp-columns-wrapper li.node.dragover a .has-children-arrow {
+          opacity: 1;
+          background-color: #ffa500; }
+      .eze .finder .kp-columns-wrapper li.node.hidden-object {
+        opacity: 0.5;
+        filter: alpha(opacity=50); }
+      .eze .finder .kp-columns-wrapper li.node.dragged {
+        z-index: 999; }
+      .eze .finder .kp-columns-wrapper li.node.empty-node .has-children-arrow {
+        opacity: 0.2;
+        filter: alpha(opacity=50); }
+      .eze .finder .kp-columns-wrapper li.node.clipboard a {
+        color: rgba(0, 0, 0, 0.3); }
+        .eze .finder .kp-columns-wrapper li.node.clipboard a img {
+          opacity: 0.3; }
+      .eze .finder .kp-columns-wrapper li.node.ui-draggable-dragging a {
+        background: #ffc27f;
+        opacity: 0.8;
+        border-color: #ffc27f; }
+        .eze .finder .kp-columns-wrapper li.node.ui-draggable-dragging a .has-children-arrow {
+          background-color: #ffc27f;
+          opacity: 0.8; }
   .eze .finder .kp-finder-content {
     clear: both;
     float: left;
@@ -682,96 +772,6 @@
     .eze .finder .kp-finder-content ul {
       margin: 0;
       list-style: none; }
-    .eze .finder .kp-finder-content .column {
-      float: left;
-      border-right: 1px solid #d3d3d3;
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch; }
-      .eze .finder .kp-finder-content .column li {
-        background-image: none;
-        display: block;
-        cursor: pointer; }
-        .eze .finder .kp-finder-content .column li a {
-          color: black;
-          display: block;
-          height: 24px;
-          min-width: 200px;
-          max-width: 200px;
-          font: normal 12px/12px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-          padding: 0 10px 0 0;
-          -webkit-transition: all 0.1s ease-out;
-          -moz-transition: all 0.1s ease-out;
-          -o-transition: all 0.1s ease-out;
-          transition: all 0.1s ease-out;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
-          border-top: 1px solid transparent;
-          border-bottom: 1px solid #ebebeb;
-          position: relative;
-          margin-top: -1px;
-          -webkit-transform: translate3d(0, 0, 0); }
-          .eze .finder .kp-finder-content .column li a:hover {
-            background: #fafafa;
-            border-color: #cccccc; }
-          .eze .finder .kp-finder-content .column li a .has-children-arrow {
-            background-color: #fafafa; }
-          .eze .finder .kp-finder-content .column li a span {
-            margin-left: 27px;
-            line-height: 24px; }
-          .eze .finder .kp-finder-content .column li a img {
-            position: absolute;
-            left: 6px;
-            top: 50%;
-            bottom: 50%;
-            margin-top: -8px;
-            height: 16px;
-            width: 16px; }
-          .eze .finder .kp-finder-content .column li a .has-children-arrow {
-            display: block;
-            height: 16px;
-            width: 16px;
-            position: absolute;
-            right: 2px;
-            top: 50%;
-            bottom: 50%;
-            margin-top: -8px;
-            -webkit-transition: all 0.1s ease-out;
-            -moz-transition: all 0.1s ease-out;
-            -o-transition: all 0.1s ease-out;
-            transition: all 0.1s ease-out;
-            opacity: 0.7;
-            background: transparent url("../images/legacy-sprite.png") -136px -22px no-repeat; }
-            @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-              .eze .finder .kp-finder-content .column li a .has-children-arrow {
-                background: transparent url("../images/legacy-sprite.png") -65px -55px no-repeat;
-                -webkit-background-size: 300px 80px;
-                background-size: 300px 80px; } }
-        .eze .finder .kp-finder-content .column li.active a, .eze .finder .kp-finder-content .column li.active a:hover, .eze .finder .kp-finder-content .column li.dragover a {
-          background: #ffa500;
-          border-color: #ffa500; }
-          .eze .finder .kp-finder-content .column li.active a .has-children-arrow, .eze .finder .kp-finder-content .column li.active a:hover .has-children-arrow, .eze .finder .kp-finder-content .column li.dragover a .has-children-arrow {
-            opacity: 1;
-            background-color: #ffa500; }
-        .eze .finder .kp-finder-content .column li.hidden-object {
-          opacity: 0.5;
-          filter: alpha(opacity=50); }
-        .eze .finder .kp-finder-content .column li.dragged {
-          z-index: 999; }
-        .eze .finder .kp-finder-content .column li.empty-node .has-children-arrow {
-          opacity: 0.2;
-          filter: alpha(opacity=50); }
-        .eze .finder .kp-finder-content .column li.clipboard a {
-          color: rgba(0, 0, 0, 0.3); }
-          .eze .finder .kp-finder-content .column li.clipboard a img {
-            opacity: 0.3; }
-        .eze .finder .kp-finder-content .column li.ui-draggable-dragging a {
-          background: #ffc27f;
-          opacity: 0.8;
-          border-color: #ffc27f; }
-          .eze .finder .kp-finder-content .column li.ui-draggable-dragging a .has-children-arrow {
-            background-color: #ffc27f;
-            opacity: 0.8; }
   .eze .finder .actions {
     width: 242px;
     border-right: 1px solid #e0e0e0;
