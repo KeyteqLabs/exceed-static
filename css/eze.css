@@ -1551,7 +1551,8 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
-    padding: 15px 5px 10px 5px;
+    height: 25px;
+    padding: 0 5px 0 5px;
     width: 100%; }
   .eze .eze-object-attributes .ezmatrix p {
     float: right;
