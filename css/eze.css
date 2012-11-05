@@ -1536,30 +1536,30 @@
     color: white; }
   .eze .eze-object-attributes .ezimage input {
     float: left; }
-  .eze .eze-object-attributes .eze-matrix table {
+  .eze .eze-object-attributes .ezmatrix table {
     margin: 0 0 10px 0; }
-  .eze .eze-object-attributes .eze-matrix th {
+  .eze .eze-object-attributes .ezmatrix th {
     font: bold 11px/16px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; }
-    .eze .eze-object-attributes .eze-matrix th input[type="checkbox"] {
+    .eze .eze-object-attributes .ezmatrix th input[type="checkbox"] {
       margin: 5px 5px 2px 5px; }
-  .eze .eze-object-attributes .eze-matrix td {
+  .eze .eze-object-attributes .ezmatrix td {
     padding: 0; }
-    .eze .eze-object-attributes .eze-matrix td input[type="checkbox"] {
+    .eze .eze-object-attributes .ezmatrix td input[type="checkbox"] {
       margin: 7px 10px 5px 10px; }
-  .eze .eze-object-attributes .eze-matrix input[type="text"] {
+  .eze .eze-object-attributes .ezmatrix input[type="text"] {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     border: 0;
     padding: 15px 5px 10px 5px;
     width: 100%; }
-  .eze .eze-object-attributes .eze-matrix p {
+  .eze .eze-object-attributes .ezmatrix p {
     float: right;
     margin: 0; }
-    .eze .eze-object-attributes .eze-matrix p .btn {
+    .eze .eze-object-attributes .ezmatrix p .btn {
       float: right;
       margin-left: 5px; }
-    .eze .eze-object-attributes .eze-matrix p select {
+    .eze .eze-object-attributes .ezmatrix p select {
       width: 50px; }
 .eze .eze-object-sidebar {
   background: #eeeeee;

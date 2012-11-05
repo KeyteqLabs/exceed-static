@@ -127,7 +127,7 @@
 
 
 
-	<section class="eze-object-attribute eze-matrix full-width">
+	<section class="eze-object-attribute ezmatrix full-width">
 		<label class="heading">Matrix</label>
 			<span class="help-block description">Enter text into the matrix.</span>
 			<table class="table table-bordered table-striped table-condensed">
