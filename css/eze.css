@@ -1649,7 +1649,7 @@
   .eze .option-controller input {
     margin: 0 5px 0 0; }
   .eze img {
-    max-width: 0; }
+    max-width: auto; }
   .eze .nav-pills.inverted li a {
     background: transparent;
     border: 1px solid #cccccc;
