@@ -693,6 +693,11 @@
     .eze .finder .breadcrumbs p {
       margin: 0;
       font: normal 11px/18px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .eze .finder .error {
+    background: #ec0d0d;
+    text-align: center;
+    color: white;
+    padding: 5px 0; }
   .eze .finder .kp-columns-wrapper {
     float: left;
     overflow-x: auto;
