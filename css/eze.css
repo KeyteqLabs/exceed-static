@@ -243,7 +243,7 @@
   bottom: 0;
   background: #141414;
   background: rgba(0, 0, 0, 0.8);
-  z-index: 60000;
+  z-index: 6000000;
   color: white;
   padding: 20px 0 0 20px;
   overflow-y: scroll;
@@ -262,7 +262,7 @@
   left: 0;
   width: 63px;
   border-right: 1px solid black;
-  z-index: 70000;
+  z-index: 7000000;
   background-color: #1b1b1b;
   background-image: -o-linear-gradient(left, #1b1b1b 0%, #1e1e1e 100%);
   background-image: -moz-linear-gradient(left, #1b1b1b 0%, #1e1e1e 100%);
@@ -471,7 +471,7 @@
   right: 0;
   left: 64px;
   background: rgba(0, 0, 0, 0.2);
-  z-index: 50000;
+  z-index: 5000000;
   overflow: hidden; }
   .eze .eze-bigmodal .eze-modal-content {
     background: #fafafa;
@@ -1673,7 +1673,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffbb00, endColorstr=#ff8d00);
     border-color: transparent; }
   .eze .popover {
-    z-index: 60000; }
+    z-index: 6000000; }
   .eze .btn .caret {
     margin-left: 5px;
     border-top: 4px solid #666666; }
@@ -2174,7 +2174,7 @@ body {
   overflow-x: hidden; }
 
 #ezieMainContainer, .ui-widget {
-  z-index: 80000 !important; }
+  z-index: 8000000 !important; }
 
 .eze {
   text-rendering: optimizeLegibility;
