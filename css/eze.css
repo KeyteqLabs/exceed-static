@@ -1098,7 +1098,10 @@
     height: 24px;
     font: normal 12px/26px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-radius: 4px;
-    padding: 0 15px 0 5px; }
+    padding: 0 15px 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
     .eze .eze-content-types li img {
       margin: -4px 4px 0 0;
       vertical-align: middle; }
