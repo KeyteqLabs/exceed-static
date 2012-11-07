@@ -38,6 +38,9 @@
   .eze .eze-table .eze-table-actions {
     height: 35px;
     margin-right: 220px; }
+    @media screen and (max-width: 1070px) {
+      .eze .eze-table .eze-table-actions {
+        margin-right: 0; } }
     .eze .eze-table .eze-table-actions .batch .btn {
       float: left;
       margin: 0 5px 10px 0; }
@@ -48,12 +51,25 @@
       float: right;
       position: relative;
       z-index: 1; }
+      @media screen and (max-width: 1070px) {
+        .eze .eze-table .eze-table-actions .table-toggles {
+          float: left;
+          clear: both;
+          margin-top: -5px; } }
       .eze .eze-table .eze-table-actions .table-toggles .sort-by, .eze .eze-table .eze-table-actions .table-toggles .show-content-toggle {
-        float: right; }
+        float: right;
+        margin-bottom: 5px; }
+        @media screen and (max-width: 1070px) {
+          .eze .eze-table .eze-table-actions .table-toggles .sort-by, .eze .eze-table .eze-table-actions .table-toggles .show-content-toggle {
+            clear: none; } }
+        @media screen and (max-width: 825px) {
+          .eze .eze-table .eze-table-actions .table-toggles .sort-by, .eze .eze-table .eze-table-actions .table-toggles .show-content-toggle {
+            float: left;
+            clear: both; } }
       .eze .eze-table .eze-table-actions .table-toggles h2 {
         float: left;
         font: bold 12px/12px "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-        margin: 8px 10px 0 0;
+        margin: 8px 10px 0 10px;
         display: inline;
         color: #555555; }
       .eze .eze-table .eze-table-actions .table-toggles .btn-group {
@@ -65,7 +81,7 @@
         .eze .eze-table .eze-table-actions .table-toggles img.active {
           opacity: 1; }
     .eze .eze-table .eze-table-actions .show-content-toggle {
-      margin-right: 10px; }
+      margin-right: 0; }
   .eze .eze-table .eze-table-content {
     position: absolute;
     top: 84px;
@@ -78,6 +94,12 @@
     border: 1px solid #e4e3e3;
     -webkit-overflow-scrolling: touch;
     -webkit-transform: translateZ(0); }
+    @media screen and (max-width: 1070px) {
+      .eze .eze-table .eze-table-content {
+        top: 111px; } }
+    @media screen and (max-width: 825px) {
+      .eze .eze-table .eze-table-content {
+        top: 143px; } }
     .eze .eze-table .eze-table-content .loading-wrap {
       position: absolute;
       top: 0;
@@ -172,7 +194,8 @@
           font: normal 18px/24px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
           margin: 15px 0 3px 0;
           display: inline-block;
-          width: 65%; }
+          width: 65%;
+          overflow: hidden; }
           .eze .eze-table .eze-table-content ul li.item h2 a {
             border-bottom: 1px solid #e07a00;
             color: #e07a00; }
@@ -513,7 +536,7 @@
       display: inline-block;
       font: normal 12px/32px "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
       margin: 0;
-      width: 60%;
+      width: 50%;
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap; }
