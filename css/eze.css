@@ -1671,6 +1671,11 @@
     display: none !important; }
   .eze .oe-window {
     border: 1px solid #cccccc; }
+    .eze .oe-window textarea.box {
+      width: 100%;
+      padding: 0;
+      border: 0;
+      font-family: monospace; }
   .eze .tab-content .tab-pane {
     -moz-animation: fade-in 0.5s ease 1 normal;
     -webkit-animation: fade-in 0.5s ease 1 normal; }
