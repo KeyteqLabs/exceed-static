@@ -1,4 +1,4 @@
-<div class="popover right eze-dashboard-modal" style="top: 20px; left: 69px; z-index: 75000; display: block;">
+<div class="popover right eze-dashboard-modal" style="top: 20px; left: 69px; z-index: 7500000; display: block;">
 	<div class="arrow"></div>
 	<div class="popover-inner">
 		<h3 class="popover-title">Your profile</h3>

@@ -1,4 +1,4 @@
-<div class="popover right eze-publish-modal" style="top: 146px; left: 69px; z-index: 75000; display: block;">
+<div class="popover right eze-publish-modal" style="top: 146px; left: 69px; z-index: 7500000; display: block;">
 	<div class="arrow"></div>
 	<div class="popover-inner">
 		<h3 class="popover-title">Publish this content</h3>
