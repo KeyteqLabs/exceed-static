@@ -792,6 +792,9 @@
         .eze .finder .kp-columns-wrapper li.node.ui-draggable-dragging a .has-children-arrow {
           background-color: #ffc27f;
           opacity: 0.8; }
+    .eze .finder .kp-columns-wrapper .dnd .nodes .no-drop {
+      opacity: 0.5;
+      filter: alpha(opacity=50); }
   .eze .finder .kp-finder-content {
     clear: both;
     float: left;
