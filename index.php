@@ -13,7 +13,7 @@
 		<![endif]-->
 
         <link rel="stylesheet" href="css/lib/bootstrap.min.css">
-        <link rel="stylesheet" href="css/eze.css" />
+        <link rel="stylesheet" href="../extension/ezexceed/design/ezexceed/stylesheets/eze.css" />
         <link rel="stylesheet" href="css/lib/font-awesome.css">
         <link rel="stylesheet" href="css/lib/chosen.css">
         <link rel="stylesheet" href="css/lib/custom-theme/jquery-ui-1.8.24.custom.css">

@@ -14,9 +14,21 @@
 			<p class="description">Show this content on these pages</p>
 
 			<ul class="eze-items">
-				<li><div class="wrap"><img src="img/16x16/Home 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn radio-btn" href=""><input type="radio" value=""> Main</a><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><img src="img/16x16/Home 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn radio-btn" href=""><input type="radio" value=""> Main</a><a class="btn btn-mini edit-btn" href="">Edit</a>
+                    <a class="btn btn-mini edit-btn" href="">x</a>
+
+                <ul class="dropdown-menu">
+                    <li><p>This location is the last one of «City Shopping» Removing this location will delete «City Shopping»</p></li>
+                    <li class="divider"></li>
+                    <li><a class="eze-confirm-action">Yes, remove it</a></li>
+                    <li><a>No, keep it</a></li>
+                </ul>
+
+                </div></div></li>
 				<li><div class="wrap"><img src="img/16x16/Document 16x16.png" />Object name is really long<div class="right-align"><a class="btn btn-mini edit-btn radio-btn" href=""><input type="radio" value=""> Main</a><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 			</ul>
+
+
 
 		<button class="btn">Add to page…</button>
 
@@ -104,13 +116,43 @@
 	</section>
 
 	<section class="eze-container">
+
+        <div class="options-menu">
+            <ul class="kp-edit-block-elements">
+            </ul>
+        </div>
+
+        <div class="options-menu active">
+            <ul class="kp-edit-block-elements">
+                <li>
+                    <a class="item" data-object-id="57" data-zone-index="0" data-block-id="4efd68496edd8184aade729b4d2ee17b" data-language="eng-US" data-block-name="Main Story">
+                        <img src="/extension/ezexceed/design/ezexceed/images/kp/16x16/white/Radio-checked.png" class="icon-16" alt="">
+                        <strong>Show</strong> subcontent below «Front page»
+                    </a>
+                </li>
+                <li>
+                    <a class="item" data-object-id="57" data-zone-index="0" data-block-id="4efd68496edd8184aade729b4d2ee17b" data-language="eng-US" data-block-name="Main Story">
+                        <img src="/extension/ezexceed/design/ezexceed/images/kp/16x16/white/Radio-unchecked.png" class="icon-16" alt="">
+                        <strong>Show</strong> subcontent below «Selected Features, this name can be really long yo»
+                    </a>
+                </li>
+                <li class="seperator"></li>
+                <li class="sort-options">
+                    <select class="chzn-select">
+                        <option value="9">Sort alphabetically</option>
+                        <option value="8" selected="">Sort manually</option>
+                        <option value="2">Sort by published date</option>
+                    </select>
+                    <div class="pull-right btn-group order">
+                        <button type="button" class="btn btn-small asc active" data-value="1">↑</button>
+                        <button type="button" class="btn btn-small desc" data-value="0">↓</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
 		<h1>Content under this page</h1>
 			<p class="description">Edit and sort content under this page</p>
-			<select class="chzn-select"><option>Sort manually</option><option>2</option></select>
-            <div class="pull-right btn-group order">
-                <button type="button" class="btn btn-small asc active" data-value="1"  disabled="">↑</button>
-                <button type="button" class="btn btn-small desc" data-value="0">↓</button>
-            </div>
 			<ul class="eze-items">
 				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" />Object name is short<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
