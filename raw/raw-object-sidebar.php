@@ -6,6 +6,7 @@
             <time datetime="02.08.2012">02/08/2012 14:11</time>
         </p>
         <a class="btn btn-primary">Publish now</a>
+        <p class="revert"><a href="#">Revert all changes…</a></p>
 	</section>
 
 
