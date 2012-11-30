@@ -46,9 +46,9 @@
 					<div class="btn-group">
 						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Remove<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><p>This is the last location for this content. Removing it from this location will also delete the content.</p></li>
+								<li><p>Removing «City Shopping» will also remove all sub-content items. <span class="danger">6 sub-content items will be deleted </span>because they don't exist anywhere else.</p></li>
 								<li class="divider"></li>
-								<li><a href="#">Yes, remove it</a></li>
+								<li><a href="#">Yes, remove content</a></li>
 								<li><a href="#">No, keep it</a></li>
 							</ul>
 					</div>
