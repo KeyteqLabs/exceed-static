@@ -20,7 +20,7 @@
 
         
         <style type="text/css">
-            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 110px; background: #000;z-index: 99999; border-top-left-radius: 4px; border-bottom-left-radius: 4px }
+            .switcher { position: absolute; margin: 0; list-style: none; bottom: 50px; right: 0; width: 110px; background: #000;z-index: 9999999; border-top-left-radius: 4px; border-bottom-left-radius: 4px }
             .switcher li a { color: #fff; font-size: 11px; display: block; padding: 2px 10px}
             .switcher li a:hover { background: #fafafa; color: #000 } .switcher li a:active { background: cyan; }
         </style>
@@ -34,6 +34,7 @@
             <li><a href="?view=block">Block Settings</a></li>
             <li><a href="?view=keymedia-browse">KeyMedia Browse</a></li>
             <li><a href="?view=keymedia-crop">KeyMedia Crop</a></li>
+            <li><a href="?logged-out">Logged out</a></li>
             <!--<li><a href="?dashboard">Dashboard</a></li>
             <li><a href="?view=attributes">Object edit</a></li>
             <li><a href="?view=table">Data table</a></li>
@@ -118,6 +119,8 @@
                     include_once('raw/raw-modal-preview.php');
                 if (isset($_GET['dashboard']))
                     include_once('raw/raw-modal-dashboard.php');
+                if (isset($_GET['logged-out']))
+                    include_once('raw/raw-logged-out.php');
             ?>
         <?php } ?>
 
