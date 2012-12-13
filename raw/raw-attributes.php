@@ -34,6 +34,18 @@
 		
 	</div>
 
+	<section class="eze-object-attribute full-width">
+		<label class="heading">Related content</label>
+			<span class="help-block description">Example block-level help text here.</span>
+			<ul class="eze-items">
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
+			</ul>
+			<p><button href="#" class="btn">Add relations to other content…</button></p>
+	</section>
+
 	<div class="eze-object-attribute-wrap">
 
 		<section class="eze-object-attribute ezboolean">
@@ -100,18 +112,6 @@
 
 	<div data-toggle="collapse" class="attr-group" data-target="#group"><i class="icon-caret-right"></i>Open attribute group</div>
 	<div id="group" class="collapse">
-
-	<section class="eze-object-attribute full-width">
-		<label class="heading">Related content</label>
-			<span class="help-block description">Example block-level help text here.</span>
-			<ul class="eze-items">
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-				<li><div class="wrap"><span class="reorder"></span><img src="img/16x16/Document 16x16.png" /><small>Class</small> Object name<div class="right-align"><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
-			</ul>
-			<p><button href="#" class="btn">Add relations to other content…</button></p>
-	</section>
 	
 	<section class="eze-object-attribute ezauthor full-width">
 		<label class="heading">Authors</label>

@@ -18,22 +18,46 @@
 		    <div class="tab-pane active" id="tab1">
 
 				<ul class="eze-items with-dropdown">
-
 					<li><div class="wrap"><span class="reorder"></span><input type="text" class="name" placeholder="Type a name"><span class="title" title="2 Item Manual">2 Item (Manual)</span><div class="right-align"><select class="chzn-select"><option>View</option><option>View</option><option>View</option></select><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 					<li><div class="wrap"><span class="reorder"></span><input type="text" class="name" placeholder="Type a name"><span class="title" title="2 Item Manual">Facebook Feed</span><div class="right-align"><select class="chzn-select"><option>View</option></select><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 					<li><div class="wrap"><span class="reorder"></span><input type="text" class="name" placeholder="Type a name"><span class="title" title="2 Item Manual">Twitter Feed</span><div class="right-align"><select class="chzn-select"><option>View</option></select><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 					<li><div class="wrap"><span class="reorder"></span><input type="text" class="name" placeholder="Type a name"><span class="title" title="2 Item Manual">Article List is really really really really really really really really longish</span><div class="right-align"><select class="chzn-select"><option>View</option></select><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></div></li>
 				</ul>
 
-				<form class="add-new"><select class="chzn-select"><option>Hero Article</option></select><button type="submit" class="btn">Add new block</button></form>
+				<form class="add-new"><select class="select2"><option>Hero Article</option><option>Hero Article</option><option>Hero Article</option></select><button type="submit" class="btn">Add new block</button></form>
 
 		    </div>
-		    <div class="tab-pane" id="tab2">
-		    	<ul class="eze-items">
+			<div class="tab-pane" id="tab2">
+				<ul class="eze-items">
 					<li><div class="wrap"><p><i class="icon-reorder"></i><input type="text" class="name" placeholder="Type a name"><span title="Centerpiece">Centerpiece</span></p><select class="chzn-select"><option>Set overflow</option></select><a class="btn btn-mini edit-btn" href="">Edit</a><a class="btn btn-mini remove-btn" href="">x</a></div></li>
 				</ul>
-		    </div>
-		    <div class="tab-pane" id="tab3"><p>No content is added</p></div>
-		    <div class="tab-pane" id="tab4"><p>No content is added</p></div>
-		  </div>
+			</div>
+			<div class="tab-pane" id="tab3"><p>No content is added</p></div>
+			<div class="tab-pane" id="tab4"><p>No content is added</p></div>
+		</div>
+
+<br /><br /><br /><br />
+
+<ul class="eze-items with-dropdown">
+	<li>
+		<div class="wrap">
+			<span class="reorder"></span>
+			<img src="img/16x16/Home 16x16.png" />
+			<!--<small>Class</small> 
+			Object name -->
+			<input type="text" class="name" placeholder="Type a name">
+			<div class="right-align">
+				Activate at 
+					<input class="activate-date datepicker" type="date">
+					<input class="activate-time timepicker" type="time">
+				<select class="select2"><option>View</option></select>
+				<select class="select2"><option>Set overflow</option><option>Set overflow</option><option>Set overflow</option></select>
+				<a class="btn btn-mini edit-btn radio-btn" href=""><input type="radio" value=""> Main</a>
+				<a class="btn btn-mini edit-btn" href="">Edit</a>
+				<a class="btn btn-mini remove-btn" href="">x</a>
+			</div>
+		</div>
+	</li>
+</ul>
+
 </section>
