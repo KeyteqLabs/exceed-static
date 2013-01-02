@@ -15,8 +15,9 @@
         <link rel="stylesheet" href="css/lib/bootstrap.min.css">
         <link rel="stylesheet" href="../extension/ezexceed/design/ezexceed/stylesheets/eze.css" />
         <link rel="stylesheet" href="css/lib/font-awesome.css">
-        <link rel="stylesheet" href="css/lib/chosen.css">
+        <link rel="stylesheet" href="css/lib/select2/select2.css">
         <link rel="stylesheet" href="css/lib/custom-theme/jquery-ui-1.8.24.custom.css">
+        <link rel="stylesheet" href="css/lib/jquery.timepicker.css">
 
         
         <style type="text/css">
@@ -35,6 +36,7 @@
             <li><a href="?view=keymedia-browse">KeyMedia Browse</a></li>
             <li><a href="?view=keymedia-crop">KeyMedia Crop</a></li>
             <li><a href="?logged-out">Logged out</a></li>
+            <li><a href="?refresh">Refresh!</a></li>
             <!--<li><a href="?dashboard">Dashboard</a></li>
             <li><a href="?view=attributes">Object edit</a></li>
             <li><a href="?view=table">Data table</a></li>
@@ -49,6 +51,7 @@
 
         <?php if (!isset($_GET['notoolbar'])) include_once('raw/raw-toolbar.php'); ?> 
         <?php if (!isset($_GET['nopencils'])) include_once('raw/raw-pencils.php'); ?>
+        <?php if (!isset($_GET['nopencils'])) include_once('raw/raw-timeline.php'); ?>
         <?php 
             if (!isset($_GET['nostack'])) {
         ?>
@@ -59,18 +62,14 @@
                 <section class="stack-item move-in last" style="top:62px">
                     <header>
                         <h1>
-                            <div class="iconwrap"><img class="large icon-32" src="img/128x128/Documents 128x128.png" /><img class="small" src="img/16x16/Layout 16x16.png" /></div>
+                            <div class="iconwrap"><img class="icon-32" src="img/128x128/Documents 128x128.png" /><img class="icon-16" src="img/16x16/Layout 16x16.png" /></div>
                             Fifth and last level
-                        </h1>
+                        </h1><div class="eze-autosave"><p>√ All changes saved</p><button class="go-back"><img src="images/icons/stack-go-back.png" /> Go back</button></div>
                         <!--<div class="eze-autosave saving">
                             <p><img src="images/stack-loader.gif" class="icon-16" /> Saving…</p>
                             <button class="go-back disabled">Go back</button>
                         </div>-->
-                        <div class="eze-autosave">
-                            <p>√ All changes saved</p>
-                            <button class="go-back"><img src="images/icons/stack-go-back.png" /> Go back</button>
-                        </div>
-
+                        
 
                     </header>
                     <section class="eze-stack-content">
@@ -122,17 +121,23 @@
                 if (isset($_GET['logged-out']))
                     include_once('raw/raw-logged-out.php');
             ?>
-        <?php } ?>
+            <?php } ?>
 
         <?php include_once('raw/raw-modal-single-edit.php'); ?>
+            <?php 
+            if (isset($_GET['refresh']))
+                include_once('raw/raw-refresh.php');
+            ?>
         <script type="text/javascript" src="js/jquery-1.8.2.min.js "></script>
         <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="js/select2.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.8.24.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.timepicker.js"></script>
         <script type="text/javascript">
-            $(function(){$(".chzn-select").chosen({disable_search_threshold: 20});});
+        $(document).ready(function() { $(".select2").select2(); });
+        $(document).ready(function(){$('input.timepicker').timepicker({});});
             $('#example').popover('hide');
             $(function() {$( ".datepicker" ).datepicker();});
             $(function() {
