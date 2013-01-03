@@ -1,11 +1,15 @@
-<div class="popover right eze-preview-modal" style="top: 309px; left: 69px; z-index: 7500000; display: block;">
+<div class="popover right eze-preview-modal" style="top: 190px; left: 69px; z-index: 7500000; display: block;">
 	<div class="arrow"></div>
 	<div class="popover-inner">
 		<h3 class="popover-title">Preview</h3>
 		<div class="popover-content">
-			<p>Use this address to preview this page.</p>
+			<h4>Preview the future with Timeline</h4>
+			<button class="btn">Turn on timeline</button>
+			<hr />
+			<h4>Preview this page on a URL</h4>
 			<input type="text" class="preview-url" disabled="disabled" value="http://example.org/32r2fwf43f3f363f32r" />
-			<h4>Send preview to devices</h4>
+			<hr />
+			<h4>Send a preview to devices</h4>
 			<table class="table">
 				<tbody>
 					<tr>
@@ -28,7 +32,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<p class="get-app"><button class="btn btn-primary">Get the app from the App Store</button></p>
+			<!--<p class="get-app"><button class="btn btn-primary">Get the app from the App Store</button></p> -->
 		</div>
 	</div>
 </div>
