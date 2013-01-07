@@ -4,6 +4,7 @@
 			<ul>
 				<li class="active">Content</li>
 				<li>Media</li>
+				<li class="search"><input type="text" placeholder="Type to search…" /></li>
 			</ul>
 		</nav>
 		<span class="gfx"></span>
