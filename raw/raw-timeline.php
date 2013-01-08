@@ -4,8 +4,10 @@
 
 	<div class="timewrap">
 		<span class="gfx"></span>
-		<div class="drag"></div>
-		<div class="drag ghost"></div>
+		<div class="dragwrap">
+			<div class="drag"></div>
+			<div class="drag ghost"></div>
+		</div>
 		<ul>
 			<li class="even">7:00</li>
 			<li>8:00</li>
