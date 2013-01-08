@@ -4,7 +4,7 @@
 	<div class="error"></div>     
 	<div class="kp-finder-content">
 		<div class="kp-columns-wrapper" style="max-width: 1145px; height: 1000px; ">
-			<div class="kp-columns" style="width: 423px; ">
+			<div class="kp-columns" style="width: 460px; ">
 				<div class="column ui-droppable" style="height: 1000px; opacity: 1; ">
 					<ul class="nodes">
 						<li class="node empty-node ui-draggable ui-droppable"><a id="node-602" class="" data-id="602" data-children="1"><img src="img/32x32/Layout 32x32.png"><span>eZ Exceeds</span><i class="has-children-arrow kp-icon16 arrow-right-icon"></i></a></li>
@@ -16,14 +16,44 @@
 						<li class="node ui-draggable ui-droppable"><a id="node-775" class="" data-id="775" data-children="0"><img src="img/32x32/Picture 32x32.png"><span>pai-med-falukorv377.jpg</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-774" class="" data-id="774" data-children="0"><img src="img/32x32/User 32x32.png"><span>Restored object</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="node ui-draggable ui-droppable"><a id="node-759" class="" data-id="759" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Tor was here</span></a></li>
+						<li class="upload"><button>Upload</button></li>
 					</ul>
 				</div>
-				<div class="column active ui-droppable" style="height: 1000px; opacity: 1; ">
+				<div class="column ui-droppable" style="height: 1000px; opacity: 1;">
 					<ul class="nodes"><li class="node ui-draggable ui-droppable"><a id="node-764" class="" data-id="764" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>Andromeda Xs</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-758" class="" data-id="758" data-children="0"><img src="img/32x32/Planet 32x32.png"><span>For ordering</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-767" class="" data-id="767" data-children="0"><img src="img/32x32/Globe 32x32.png"><span>Ratlab</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-761" class="" data-id="761" data-children="0"><img src="img/32x32/3d 32x32.png"><span>Restored babeh!</span></a></li>
 						<li class="node ui-draggable ui-droppable"><a id="node-749" class="" data-id="749" data-children="0"><img src="img/32x32/3d 32x32.png"><span>Test of attributes</span></a></li>
+						<li class="upload"><button><img src="images/loader.gif" class="icon-16"></button></li>
 					</ul>
 				</div>
 			</div>
