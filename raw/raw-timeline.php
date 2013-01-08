@@ -1,3 +1,8 @@
+<section class="eze-fadeout"></section>
+<section class="eze-page-loader">
+	<img src="images/loader-white.gif" class="icon-64">
+	<h2>Loading future…</h2>
+</section>
 <section id="ezflow-timeline">
 	<div class="wrapper"></div>
 	<input class="datepicker" type="text" value="21. desember 2012" />
