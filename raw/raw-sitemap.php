@@ -1,5 +1,18 @@
 <div class="finder" style="overflow: hidden">
-	<div class="breadcrumbs"><p>Forsiden › sdafas Functiontest</p></div>
+	<div class="breadcrumbs">
+		<div class="btn-group">
+			<a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
+			Content
+			<span class="caret"></span>
+			</a>
+				<ul class="dropdown-menu">
+					<li class="active"><a href="#">Content</a></li>
+					<li><a href="#">Media</a></li>
+					<li><a href="#">Files</a></li>
+				</ul>
+		</div>
+		<p>Frontpage › Sub page › Test page</p>
+	</div>
 	<div style="clear:both;"></div>
 	<div class="error"></div>     
 	<div class="kp-finder-content">
